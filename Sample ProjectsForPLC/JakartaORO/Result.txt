@@ -1,0 +1,117 @@
+examples		0.0		0.09037037037037036
+
+examples.awk		0.0		0.04
+
+org.apache.oro.io		0.25		0.18666666666666665
+
+org.apache.oro.text.awk		0.11437908496732024		0.5796825396825396
+
+org.apache.oro.text		0.08333333333333333		0.5155555555555555
+
+org.apache.oro.text.perl		0.0		0.227010582010582
+
+org.apache.oro.text.regex		0.2777777777777778		0.6154761904761904
+
+org.apache.oro.util		0.42857142857142855		0.0
+
+tools		NaN		0.22306637806637805
+
+Suggestions to reduce coupling:
+Shift printList from Class filter to Class oroToApache
+Shift _isWordCharacter from Class OpCode to Class Perl5Matcher
+Shift __match from Class Perl5Matcher to Class AwkCompiler
+Shift _parse from Class AwkCompiler to Class Perl5Compiler
+Shift compile from Class Perl5Compiler to Class oroToApache
+Shift matchesPrefix from Class Perl5Matcher to Class oroToApache
+Shift matches from Class Perl5Matcher to Class oroToApache
+Shift contains from Class Perl5Matcher to Class oroToApache
+Shift __streamMatchPrefix from Class AwkMatcher to Class Perl5Matcher
+Shift _search from Class AwkMatcher to Class Perl5Matcher
+Shift getMatch from Class Perl5Matcher to Class oroToApache
+Shift _incrementMatchBeginOffset from Class AwkMatchResult to Class Perl5Matcher
+Shift length from Class Perl5MatchResult to Class Perl5Compiler
+Shift groups from Class Perl5MatchResult to Class MatcherDemoApplet
+Shift group from Class Perl5MatchResult to Class Perl5Util
+Shift begin from Class Perl5MatchResult to Class Perl5Substitution
+Shift end from Class Perl5MatchResult to Class Perl5Substitution
+Shift beginOffset from Class Perl5MatchResult to Class Perl5Util
+Shift endOffset from Class Perl5MatchResult to Class Util
+Shift toString from Class StringSubstitution to Class Util
+Shift _createNewState from Class AwkPattern to Class AwkMatcher
+Shift _getStateArray from Class AwkPattern to Class AwkMatcher
+Shift getPattern from Class Perl5Pattern to Class RegexFilenameFilter
+Shift getOptions from Class Perl5Pattern to Class PatternCache
+Shift _reallocate from Class AwkStreamInput to Class AwkMatcher
+Shift _followPosition from Class SyntaxNode to Class SyntaxTree
+Shift _clone from Class TokenNode to Class AwkCompiler
+Shift _addToken from Class CharacterClassNode to Class AwkCompiler
+Shift _addTokenRange from Class CharacterClassNode to Class AwkCompiler
+Shift _matches from Class TokenNode to Class AwkPattern
+Shift _computeFollowPositions from Class SyntaxTree to Class AwkCompiler
+Shift createFastMap from Class SyntaxTree to Class AwkPattern
+Shift processMatch from Class MatchAction to Class MatchActionProcessor
+Shift addPattern from Class PatternCache to Class Perl5Pattern
+Shift size from Class GenericCache to Class AwkPattern
+Shift addAction from Class MatchActionProcessor to Class oroToApache
+Shift setFieldSeparator from Class MatchActionProcessor to Class oroToApache
+Shift processMatches from Class MatchActionProcessor to Class oroToApache
+Shift __parseMatchExpression from Class Perl5Util to Class PatternMatcherInput
+Shift match from Class PatternMatcherInput to Class oroToApache
+Shift substitute from Class Util to Class oroToApache
+Shift split from Class Util to Class oroToApache
+Shift _getValue from Class CharStringPointer to Class Perl5Compiler
+Shift _getValueRelative from Class CharStringPointer to Class Perl5Compiler
+Shift _getLength from Class CharStringPointer to Class Perl5Compiler
+Shift _getOffset from Class CharStringPointer to Class Perl5Compiler
+Shift _setOffset from Class CharStringPointer to Class Perl5Compiler
+Shift _isAtEnd from Class CharStringPointer to Class Perl5Compiler
+Shift _increment from Class CharStringPointer to Class Perl5Compiler
+Shift _decrement from Class CharStringPointer to Class Perl5Compiler
+Shift _postIncrement from Class CharStringPointer to Class Perl5Compiler
+Shift _toString from Class CharStringPointer to Class Perl5Compiler
+Shift _getArg1 from Class OpCode to Class Perl5Matcher
+Shift _getArg2 from Class OpCode to Class Perl5Matcher
+Shift _getOperand from Class OpCode to Class Perl5Matcher
+Shift _isInArray from Class OpCode to Class Perl5Compiler
+Shift _getNextOperator from Class OpCode to Class Perl5Matcher
+Shift _getNext from Class OpCode to Class Perl5Compiler
+Shift charAt from Class PatternMatcherInput to Class Perl5Util
+Shift getBuffer from Class PatternMatcherInput to Class Perl5Matcher
+Shift endOfInput from Class PatternMatcherInput to Class oroToApache
+Shift getBeginOffset from Class PatternMatcherInput to Class Perl5Matcher
+Shift getCurrentOffset from Class PatternMatcherInput to Class Perl5Matcher
+Shift setCurrentOffset from Class PatternMatcherInput to Class oroToApache
+Shift setMatchOffsets from Class PatternMatcherInput to Class Perl5Matcher
+Shift getMatchEndOffset from Class PatternMatcherInput to Class Perl5Matcher
+Shift __parseSubs from Class Perl5Substitution to Class StringSubstitution
+Shift _finalInterpolatedSub from Class Perl5Substitution to Class Substitution
+Shift appendSubstitution from Class Substitution to Class Util
+Shift addElement from Class GenericCache to Class AwkPattern
+Shift getElement from Class GenericCache to Class PatternCache
+Shift __moveToFront from Class CacheLRU to Class GenericCache
+Shift printList from Package examples to Package tools
+Shift __match from Package org.apache.oro.text.regex to Package org.apache.oro.text.awk
+Shift _parse from Package org.apache.oro.text.awk to Package org.apache.oro.text.regex
+Shift compile from Package org.apache.oro.text.regex to Package tools
+Shift matchesPrefix from Package org.apache.oro.text.regex to Package tools
+Shift matches from Package org.apache.oro.text.regex to Package tools
+Shift contains from Package org.apache.oro.text.regex to Package tools
+Shift __streamMatchPrefix from Package org.apache.oro.text.awk to Package org.apache.oro.text.regex
+Shift _search from Package org.apache.oro.text.awk to Package org.apache.oro.text.regex
+Shift getMatch from Package org.apache.oro.text.regex to Package tools
+Shift _incrementMatchBeginOffset from Package org.apache.oro.text.awk to Package org.apache.oro.text.regex
+Shift getPattern from Package org.apache.oro.text.regex to Package org.apache.oro.io
+Shift getOptions from Package org.apache.oro.text.regex to Package org.apache.oro.text
+Shift addPattern from Package org.apache.oro.text to Package org.apache.oro.text.regex
+Shift size from Package org.apache.oro.util to Package org.apache.oro.text.awk
+Shift addAction from Package org.apache.oro.text to Package tools
+Shift setFieldSeparator from Package org.apache.oro.text to Package tools
+Shift processMatches from Package org.apache.oro.text to Package tools
+Shift __parseMatchExpression from Package org.apache.oro.text.perl to Package org.apache.oro.text.regex
+Shift match from Package org.apache.oro.text.regex to Package tools
+Shift substitute from Package org.apache.oro.text.regex to Package tools
+Shift split from Package org.apache.oro.text.regex to Package tools
+Shift charAt from Package org.apache.oro.text.regex to Package org.apache.oro.text.perl
+Shift endOfInput from Package org.apache.oro.text.regex to Package tools
+Shift addElement from Package org.apache.oro.util to Package org.apache.oro.text.awk
+Shift getElement from Package org.apache.oro.util to Package org.apache.oro.text

@@ -1,0 +1,36 @@
+Mon May 17 15:16:35 MDT 2004  [debug] AvalonLogSystem initialized using logfile 'velocity.log'
+Mon May 17 15:16:35 MDT 2004   [info] ************************************************************** 
+Mon May 17 15:16:35 MDT 2004   [info] Starting Jakarta Velocity v1.3
+Mon May 17 15:16:35 MDT 2004   [info] RuntimeInstance initializing.
+Mon May 17 15:16:35 MDT 2004   [info] Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+Mon May 17 15:16:35 MDT 2004   [info] Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Mon May 17 15:16:35 MDT 2004   [info] Using logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Mon May 17 15:16:35 MDT 2004   [info] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+Mon May 17 15:16:35 MDT 2004   [info] Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Mon May 17 15:16:35 MDT 2004   [info] FileResourceLoader : initialization starting.
+Mon May 17 15:16:35 MDT 2004   [info] FileResourceLoader : adding path 'D:\Project\workzen.xgen'
+Mon May 17 15:16:35 MDT 2004   [info] FileResourceLoader : initialization complete.
+Mon May 17 15:16:35 MDT 2004   [info] Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Mon May 17 15:16:35 MDT 2004   [info] ClasspathResourceLoader : initialization starting.
+Mon May 17 15:16:35 MDT 2004   [info] ClasspathResourceLoader : initialization complete.
+Mon May 17 15:16:35 MDT 2004   [info] ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+Mon May 17 15:16:35 MDT 2004   [info] Default ResourceManager initialization complete.
+Mon May 17 15:16:35 MDT 2004   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+Mon May 17 15:16:35 MDT 2004   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+Mon May 17 15:16:35 MDT 2004   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+Mon May 17 15:16:35 MDT 2004   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+Mon May 17 15:16:35 MDT 2004   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+Mon May 17 15:16:35 MDT 2004   [info] Created: 20 parsers.
+Mon May 17 15:16:35 MDT 2004   [info] Velocimacro : initialization starting.
+Mon May 17 15:16:35 MDT 2004   [info] Velocimacro : adding VMs from VM library template : VM_global_library.vm
+Mon May 17 15:16:35 MDT 2004  [error] ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+Mon May 17 15:16:35 MDT 2004   [info] Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+Mon May 17 15:16:35 MDT 2004   [info] Velocimacro :  VM library template macro registration complete.
+Mon May 17 15:16:35 MDT 2004   [info] Velocimacro : allowInline = true : VMs can be defined inline in templates
+Mon May 17 15:16:35 MDT 2004   [info] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+Mon May 17 15:16:35 MDT 2004   [info] Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+Mon May 17 15:16:35 MDT 2004   [info] Velocimacro : messages on  : VM system will output logging messages
+Mon May 17 15:16:35 MDT 2004   [info] Velocimacro : autoload off  : VM system will not automatically reload global library macros
+Mon May 17 15:16:35 MDT 2004   [info] Velocimacro : initialization complete.
+Mon May 17 15:16:35 MDT 2004   [info] Velocity successfully started.
+Mon May 17 15:16:36 MDT 2004   [info] ResourceManager : found templates/xml/htmlOutput.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader

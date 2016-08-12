@@ -1,0 +1,41 @@
+ew FileWriter(path +"" );
+
+			//byte buf[] = source.getBytes();
+			//byte[] data=new byte[size];
+			fout.write(source);
+
+        fout.flush();
+        fout.close();
+t=new FileWriter(path +"" );
+
+			//byte buf[] = source.getBytes();
+			//byte[] data=new byte[size];
+			fout.write(source);
+
+
+        fout.flush();
+        fout.close();
+
+                   System.out.println("hi hello");
+                   if(clipbase.getValueAt(k, 0)!=null || !(clipbase.getValueAt(k, 0).equals("")))
+                   {
+                   source=source + (String)clipbase.getValueAt(k, 0);
+                   source=source + "\n";
+               }
+        }
+                  System.out.println(source);
+
+                  byte buf[] = source.getBytes();
+                  FileDialog f=new FileDialog(this,"Save as...",1);
+                    String pa
+xitActionPerformed(java.awt.event.ActionEvent evt) {                                     
+      
+       System.exit(0);
+    
+    }                                    
+
+    private void saveActionPerformed(java.awt.event.ActionEvent evt) {                                     
+     
+        
+              
+                  String source="";

@@ -1,0 +1,2553 @@
+coupling due to link   --- 0.1
+org.apache.ecs org.apache.ecs.wml
+Doctype Alignment 2 20
+ 
+coupling due to link   --- 0.13333333333333333
+org.apache.ecs org.apache.ecs.xml
+Document XMLDocument 2 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs org.apache.ecs.xml
+ElementContainer XMLDocument 1 15
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.examples org.apache.ecs
+HtmlTree Filter 1 5
+coupling due to link   --- 0.058823529411764705
+org.apache.ecs.examples org.apache.ecs.storage
+HtmlTree Array 1 17
+coupling due to link   --- 0.08333333333333333
+org.apache.ecs.examples org.apache.ecs
+HtmlTree StringElement 1 12
+coupling due to link   --- 0.13333333333333333
+org.apache.ecs.examples org.apache.ecs.xml
+HtmlTree XMLDocument 2 15
+ 
+coupling due to link   --- 1.0
+org.apache.ecs.factory org.apache.ecs.wml
+DOMFactory WMLOutRenderer 1 1
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.factory org.apache.ecs.xml
+DOMFactory XMLDocument 1 15
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.filter org.apache.ecs
+CharacterFilter Filter 1 5
+ 
+coupling due to link   --- 0.2727272727272727
+org.apache.ecs org.apache.ecs.storage
+Filter Hash 3 11
+ 
+coupling due to link   --- 0.13333333333333333
+org.apache.ecs org.apache.ecs.xml
+FrameSetDocument XMLDocument 2 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Abbr GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+Abbr XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Acronym GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+Acronym XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Address GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+Address XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Applet GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Area GenericElement 1 62
+coupling due to link   --- 0.09375
+org.apache.ecs.html org.apache.ecs.xhtml
+Area area 3 32
+coupling due to link   --- 0.041666666666666664
+org.apache.ecs.html org.apache.ecs.xhtml
+Area link 1 24
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Base GenericElement 1 62
+coupling due to link   --- 0.041666666666666664
+org.apache.ecs.html org.apache.ecs.xhtml
+Base link 1 24
+coupling due to link   --- 0.09090909090909091
+org.apache.ecs.html org.apache.ecs.xml
+Base PI 1 11
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+BaseFont GenericElement 1 62
+coupling due to link   --- 0.11764705882352941
+org.apache.ecs.html org.apache.ecs.xhtml
+BaseFont font 2 17
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.html org.apache.ecs.xhtml
+BaseFont select 1 37
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Bdo GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Blink GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+Blink XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+BlockQuote GenericElement 1 62
+coupling due to link   --- 0.04
+org.apache.ecs.html org.apache.ecs.xhtml
+BlockQuote q 1 25
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+BlockQuote XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Body GenericElement 1 62
+coupling due to link   --- 0.04
+org.apache.ecs.html org.apache.ecs.xhtml
+Body tr 1 25
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Button GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Caption GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Center GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+Center XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Cite GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+Cite XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Code GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+Code XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Col GenericElement 1 62
+ 
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.html org.apache.ecs
+ColGroup GenericElement 2 62
+ 
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.html org.apache.ecs
+DD GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+DD XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Del GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Dfn GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+Dfn XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+DL GenericElement 1 62
+ 
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.html org.apache.ecs
+DT GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+DT XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+FieldSet GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+FieldSet XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Font GenericElement 1 62
+coupling due to link   --- 0.11764705882352941
+org.apache.ecs.html org.apache.ecs.xhtml
+Font font 2 17
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.html org.apache.ecs.xhtml
+Font select 1 37
+ 
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.html org.apache.ecs
+Frame GenericElement 2 62
+coupling due to link   --- 0.05555555555555555
+org.apache.ecs.html org.apache.ecs.xhtml
+Frame script 1 18
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.html org.apache.ecs.xhtml
+Frame textarea 1 37
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+Frame XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+FrameSet GenericElement 1 62
+coupling due to link   --- 0.05405405405405406
+org.apache.ecs.html org.apache.ecs.xhtml
+FrameSet textarea 2 37
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+FrameSet XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+H1 GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+H1 XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+H2 GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+H2 XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+H3 GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+H3 XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+H4 GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+H4 XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+H5 GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+H5 XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+H6 GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+H6 XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+HR GenericElement 1 62
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.html org.apache.ecs.xhtml
+HR select 1 37
+coupling due to link   --- 0.038461538461538464
+org.apache.ecs.html org.apache.ecs.xhtml
+HR thead 1 26
+coupling due to link   --- 0.04
+org.apache.ecs.html org.apache.ecs.xhtml
+HR tr 1 25
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Html GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+Html XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+IFrame GenericElement 1 62
+coupling due to link   --- 0.05555555555555555
+org.apache.ecs.html org.apache.ecs.xhtml
+IFrame script 1 18
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.html org.apache.ecs.xhtml
+IFrame textarea 1 37
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+IFrame XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+IMG GenericElement 1 62
+coupling due to link   --- 0.05555555555555555
+org.apache.ecs.html org.apache.ecs.xhtml
+IMG script 1 18
+coupling due to link   --- 0.027777777777777776
+org.apache.ecs.html org.apache.ecs.xhtml
+IMG table 1 36
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.html org.apache.ecs.xhtml
+IMG textarea 1 37
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Ins GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Kbd GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+Kbd XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Label GenericElement 1 62
+coupling due to link   --- 0.043478260869565216
+org.apache.ecs.html org.apache.ecs.xhtml
+Label label 1 23
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Legend GenericElement 1 62
+coupling due to link   --- 0.045454545454545456
+org.apache.ecs.html org.apache.ecs.xhtml
+Legend legend 1 22
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+Legend XMLDocument 1 15
+ 
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.html org.apache.ecs
+LI GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+LI XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Map GenericElement 1 62
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.html org.apache.ecs.xhtml
+Map textarea 1 37
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+Map XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+NOBR GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+NOBR XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+NoFrames GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+NoFrames XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+NoScript GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+NoScript XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+ObjectElement GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+OL GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+OL XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+OptGroup GenericElement 1 62
+coupling due to link   --- 0.029411764705882353
+org.apache.ecs.html org.apache.ecs.xhtml
+OptGroup option 1 34
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.html org.apache.ecs.xhtml
+OptGroup textarea 1 37
+ 
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.html org.apache.ecs
+PRE GenericElement 2 62
+coupling due to link   --- 0.038461538461538464
+org.apache.ecs.html org.apache.ecs.xhtml
+PRE thead 1 26
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+PRE XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Q GenericElement 1 62
+coupling due to link   --- 0.04
+org.apache.ecs.html org.apache.ecs.xhtml
+Q q 1 25
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+Q XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+S GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+S XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Samp GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+Samp XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Span GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+Span XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Strike GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+Strike XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Style GenericElement 1 62
+coupling due to link   --- 0.08333333333333333
+org.apache.ecs.html org.apache.ecs.xhtml
+Style style 1 12
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+Style XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Sub GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+Sub XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+Sup GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+Sup XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+TBody GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+TextArea GenericElement 1 62
+coupling due to link   --- 0.08108108108108109
+org.apache.ecs.html org.apache.ecs.xhtml
+TextArea textarea 3 37
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+TFoot GenericElement 1 62
+ 
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.html org.apache.ecs
+TH GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+TH XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+THead GenericElement 1 62
+ 
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.html org.apache.ecs
+TR GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+TR XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+TT GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+TT XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.html org.apache.ecs
+UL GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html org.apache.ecs.xml
+UL XMLDocument 1 15
+ 
+coupling due to link   --- 0.14285714285714285
+org.apache.ecs.html2ecs org.apache.ecs.filter
+Html2Ecs StringFilter 1 7
+coupling due to link   --- 0.4
+org.apache.ecs.html2ecs org.apache.ecs
+Html2Ecs Filter 2 5
+coupling due to link   --- 0.18181818181818182
+org.apache.ecs.html2ecs org.apache.ecs.storage
+Html2Ecs Hash 2 11
+coupling due to link   --- 0.08333333333333333
+org.apache.ecs.html2ecs org.apache.ecs
+Html2Ecs StringElement 1 12
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.html2ecs org.apache.ecs.xml
+Html2Ecs XMLDocument 1 15
+ 
+coupling due to link   --- 0.09090909090909091
+org.apache.ecs org.apache.ecs.storage
+HtmlColor Hash 1 11
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.jsp org.apache.ecs
+jsp_expression Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.jsp org.apache.ecs
+jsp_expression GenericElement 1 62
+ 
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.jsp org.apache.ecs.xhtml
+jsp_getProperty textarea 1 37
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.jsp org.apache.ecs
+jsp_include Filter 1 5
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.jsp org.apache.ecs
+jsp_page Filter 1 5
+coupling due to link   --- 0.041666666666666664
+org.apache.ecs.jsp org.apache.ecs.xhtml
+jsp_page link 1 24
+coupling due to link   --- 0.05555555555555555
+org.apache.ecs.jsp org.apache.ecs.xhtml
+jsp_page script 1 18
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.jsp org.apache.ecs
+jsp_scriptlet Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.jsp org.apache.ecs
+jsp_scriptlet GenericElement 2 62
+ 
+coupling due to link   --- 0.09090909090909091
+org.apache.ecs.jsp org.apache.ecs.xhtml
+jsp_setProperty param 1 11
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.jsp org.apache.ecs.xhtml
+jsp_setProperty textarea 1 37
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.jsp org.apache.ecs
+jsp_useBean Filter 1 5
+coupling due to link   --- 0.16666666666666666
+org.apache.ecs.jsp org.apache.ecs.vxml
+jsp_useBean Menu 1 6
+coupling due to link   --- 0.14285714285714285
+org.apache.ecs.jsp org.apache.ecs.vxml
+jsp_useBean Value 1 7
+coupling due to link   --- 0.0625
+org.apache.ecs.jsp org.apache.ecs.wml
+jsp_useBean Optgroup 1 16
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.jsp org.apache.ecs
+tsx_dbconnect Filter 1 5
+coupling due to link   --- 0.0625
+org.apache.ecs.jsp org.apache.ecs.wml
+tsx_dbconnect Optgroup 1 16
+ 
+coupling due to link   --- 0.0625
+org.apache.ecs.jsp org.apache.ecs.wml
+tsx_dbmodify Optgroup 1 16
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.jsp org.apache.ecs
+tsx_dbquery Filter 1 5
+coupling due to link   --- 0.0625
+org.apache.ecs.jsp org.apache.ecs.wml
+tsx_dbquery Optgroup 1 16
+ 
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.jsp org.apache.ecs.xhtml
+tsx_getProperty textarea 1 37
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.jsp org.apache.ecs
+tsx_repeat Filter 1 5
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.jsp org.apache.ecs
+tsx_setProperty Filter 1 5
+coupling due to link   --- 0.09090909090909091
+org.apache.ecs.jsp org.apache.ecs.xhtml
+tsx_setProperty param 1 11
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.jsp org.apache.ecs.xhtml
+tsx_setProperty textarea 1 37
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Author GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.rtf org.apache.ecs.xml
+Author XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+BackGroundColor GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Bold GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.rtf org.apache.ecs.xml
+Bold XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+BorderBottom GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+BorderLeft GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+BorderRight GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+BorderTop GenericElement 1 62
+coupling due to link   --- 0.05
+org.apache.ecs.rtf org.apache.ecs.wml
+BorderTop Alignment 1 20
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Category GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.rtf org.apache.ecs.xml
+Category XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Cell GenericElement 1 62
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.rtf org.apache.ecs
+CellDef Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+CellDef GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Centered GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+ColorGroup GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.rtf org.apache.ecs.xml
+ColorGroup XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+ColorTbl GenericElement 1 62
+ 
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.rtf org.apache.ecs
+Comment GenericElement 2 62
+coupling due to link   --- 0.05
+org.apache.ecs.rtf org.apache.ecs.wml
+Comment Alignment 1 20
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.rtf org.apache.ecs.xml
+Comment XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Doccomm GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.rtf org.apache.ecs.xml
+Doccomm XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+FieldResult GenericElement 1 62
+coupling due to link   --- 0.05
+org.apache.ecs.rtf org.apache.ecs.wml
+FieldResult Alignment 1 20
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+FieldType GenericElement 1 62
+coupling due to link   --- 0.05
+org.apache.ecs.rtf org.apache.ecs.wml
+FieldType Alignment 1 20
+ 
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.rtf org.apache.ecs
+FontSize GenericElement 2 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Footer GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+ForeGroundColor GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Header GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Indent GenericElement 1 62
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.rtf org.apache.ecs.xhtml
+Indent select 1 37
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Info GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.rtf org.apache.ecs.xml
+Info XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Justified GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Keywords GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.rtf org.apache.ecs.xml
+Keywords XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Left GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Manager GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.rtf org.apache.ecs.xml
+Manager XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Operator GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.rtf org.apache.ecs.xml
+Operator XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+PageBreak GenericElement 1 62
+coupling due to link   --- 0.05
+org.apache.ecs.rtf org.apache.ecs.wml
+PageBreak Alignment 1 20
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+PageNumber GenericElement 1 62
+coupling due to link   --- 0.05
+org.apache.ecs.rtf org.apache.ecs.wml
+PageNumber Alignment 1 20
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Paragraph GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.rtf org.apache.ecs.xml
+Paragraph XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Right GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Row GenericElement 1 62
+coupling due to link   --- 0.05
+org.apache.ecs.rtf org.apache.ecs.wml
+Row Alignment 1 20
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+RTF GenericElement 1 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.rtf org.apache.ecs.xml
+RTFDocument XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+RTFElement GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Subject GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.rtf org.apache.ecs.xml
+Subject XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+TableDef GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+TableHeader GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Title GenericElement 1 62
+coupling due to link   --- 0.1
+org.apache.ecs.rtf org.apache.ecs.wml
+Title Alignment 2 20
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.rtf org.apache.ecs.xml
+Title XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.rtf org.apache.ecs
+Version GenericElement 1 62
+coupling due to link   --- 0.09090909090909091
+org.apache.ecs.rtf org.apache.ecs.xml
+Version PI 1 11
+ 
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.storage org.apache.ecs.xhtml
+Array select 1 37
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.storage org.apache.ecs.xml
+Array XMLDocument 1 15
+ 
+coupling due to link   --- 0.0625
+org.apache.ecs.storage org.apache.ecs.rtf
+Hash RTFDocument 1 16
+coupling due to link   --- 0.05
+org.apache.ecs.storage org.apache.ecs.wml
+Hash Alignment 1 20
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs org.apache.ecs.xml
+StringElement XMLDocument 1 15
+ 
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Assign textarea 1 37
+ 
+coupling due to link   --- 0.05555555555555555
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Audio script 1 18
+ 
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Block textarea 1 37
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Break Filter 1 5
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Break select 1 37
+ 
+coupling due to link   --- 0.018867924528301886
+org.apache.ecs.vxml org.apache.ecs.wml
+Choice Option 1 53
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Div Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.vxml org.apache.ecs
+Div GenericElement 1 62
+coupling due to link   --- 0.08333333333333333
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Div style 1 12
+ 
+coupling due to link   --- 0.05555555555555555
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Dtmf script 1 18
+coupling due to link   --- 0.08333333333333333
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Dtmf style 1 12
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Emp Filter 1 5
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.vxml org.apache.ecs.xml
+Emp XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.vxml org.apache.ecs.xml
+Error XMLDocument 1 15
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Field Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.vxml org.apache.ecs
+Field GenericElement 1 62
+coupling due to link   --- 0.05
+org.apache.ecs.vxml org.apache.ecs.wml
+Field Alignment 1 20
+coupling due to link   --- 0.08333333333333333
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Field style 1 12
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Field textarea 1 37
+ 
+coupling due to link   --- 0.25
+org.apache.ecs.vxml org.apache.ecs.wml
+Filled PSingle 1 4
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Form Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.vxml org.apache.ecs
+Form GenericElement 1 62
+coupling due to link   --- 0.0625
+org.apache.ecs.vxml org.apache.ecs.wml
+Form Optgroup 1 16
+coupling due to link   --- 0.058823529411764705
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Form form 2 34
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.vxml org.apache.ecs.xml
+Form XMLDocument 1 15
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Goto Filter 1 5
+ 
+coupling due to link   --- 0.05555555555555555
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Grammar script 1 18
+coupling due to link   --- 0.08333333333333333
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Grammar style 1 12
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.vxml org.apache.ecs.xml
+Help XMLDocument 1 15
+ 
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Initial textarea 1 37
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Link Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.vxml org.apache.ecs
+Link GenericElement 1 62
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Menu Filter 1 5
+coupling due to link   --- 0.0625
+org.apache.ecs.vxml org.apache.ecs.wml
+Menu Optgroup 1 16
+coupling due to link   --- 0.018867924528301886
+org.apache.ecs.vxml org.apache.ecs.wml
+Menu Option 1 53
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.vxml org.apache.ecs.xml
+Noinput XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.vxml org.apache.ecs.xml
+Nomatch XMLDocument 1 15
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Object Filter 1 5
+coupling due to link   --- 0.043478260869565216
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Object object 2 46
+coupling due to link   --- 0.08333333333333333
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Object style 1 12
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Object textarea 1 37
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Param Filter 1 5
+coupling due to link   --- 0.05
+org.apache.ecs.vxml org.apache.ecs.wml
+Param Alignment 1 20
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Prompt Filter 1 5
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.vxml org.apache.ecs.xml
+Prompt XMLDocument 1 15
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Property Filter 1 5
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Pros Filter 1 5
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Record Filter 1 5
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Record textarea 1 37
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Sayas Filter 1 5
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.vxml org.apache.ecs.xml
+Sayas XMLDocument 1 15
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Script Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.vxml org.apache.ecs
+Script GenericElement 1 62
+coupling due to link   --- 0.05
+org.apache.ecs.vxml org.apache.ecs.wml
+Script Alignment 1 20
+coupling due to link   --- 0.041666666666666664
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Script link 1 24
+coupling due to link   --- 0.1111111111111111
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Script script 2 18
+coupling due to link   --- 0.08333333333333333
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Script style 1 12
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.vxml org.apache.ecs.xml
+Script XMLDocument 1 15
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Subdialog Filter 1 5
+coupling due to link   --- 0.029411764705882353
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Subdialog form 1 34
+coupling due to link   --- 0.05555555555555555
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Subdialog script 1 18
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Subdialog textarea 1 37
+ 
+coupling due to link   --- 0.4
+org.apache.ecs.vxml org.apache.ecs
+Submit Filter 2 5
+coupling due to link   --- 0.08333333333333333
+org.apache.ecs.vxml org.apache.ecs
+Submit StringElement 1 12
+coupling due to link   --- 0.05
+org.apache.ecs.vxml org.apache.ecs.wml
+Submit Alignment 1 20
+coupling due to link   --- 0.029411764705882353
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Submit form 1 34
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.vxml org.apache.ecs.xml
+Submit XMLDocument 1 15
+ 
+coupling due to link   --- 0.05555555555555555
+org.apache.ecs.vxml org.apache.ecs.xhtml
+TestBed1 script 1 18
+coupling due to link   --- 0.08333333333333333
+org.apache.ecs.vxml org.apache.ecs.xhtml
+TestBed1 style 1 12
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.vxml org.apache.ecs.xhtml
+TestBed1 textarea 1 37
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.vxml org.apache.ecs.xml
+TestBed1 XMLDocument 1 15
+ 
+coupling due to link   --- 0.16666666666666666
+org.apache.ecs.vxml org.apache.ecs.html2ecs
+TestBed3 Html2Ecs 1 6
+coupling due to link   --- 1.0
+org.apache.ecs.vxml org.apache.ecs.wml
+TestBed3 WMLOutRenderer 1 1
+coupling due to link   --- 0.021739130434782608
+org.apache.ecs.vxml org.apache.ecs.xhtml
+TestBed3 object 1 46
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.vxml org.apache.ecs.xhtml
+TestBed3 textarea 1 37
+coupling due to link   --- 0.13333333333333333
+org.apache.ecs.vxml org.apache.ecs.xml
+TestBed3 XMLDocument 2 15
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Throw Filter 1 5
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Transfer Filter 1 5
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Transfer textarea 1 37
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Value Filter 1 5
+coupling due to link   --- 0.25
+org.apache.ecs.vxml org.apache.ecs.wml
+Value PSingle 1 4
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Var Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.vxml org.apache.ecs
+Var GenericElement 1 62
+coupling due to link   --- 0.05
+org.apache.ecs.vxml org.apache.ecs.wml
+Var Alignment 1 20
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.vxml org.apache.ecs.xhtml
+Var textarea 1 37
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.vxml org.apache.ecs
+Vxml Filter 1 5
+coupling due to link   --- 0.09090909090909091
+org.apache.ecs.vxml org.apache.ecs.xml
+Vxml PI 1 11
+ 
+coupling due to link   --- 0.058823529411764705
+org.apache.ecs.vxml org.apache.ecs.storage
+VXMLElement Array 1 17
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+A GenericElement 1 62
+coupling due to link   --- 0.041666666666666664
+org.apache.ecs.wml org.apache.ecs.xhtml
+A link 1 24
+ 
+coupling due to link   --- 0.034482758620689655
+org.apache.ecs.wml org.apache.ecs.examples
+Access HtmlTree 1 29
+coupling due to link   --- 0.2
+org.apache.ecs.wml org.apache.ecs
+Access Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+Access GenericElement 1 62
+coupling due to link   --- 0.08333333333333333
+org.apache.ecs.wml org.apache.ecs
+Access StringElement 1 12
+coupling due to link   --- 0.13333333333333333
+org.apache.ecs.wml org.apache.ecs.xml
+Access XMLDocument 2 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.wml org.apache.ecs.xml
+Alignment XMLDocument 1 15
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.wml org.apache.ecs
+Anchor Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+Anchor GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.wml org.apache.ecs.xml
+Anchor XMLDocument 1 15
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.wml org.apache.ecs
+B Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+B GenericElement 1 62
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.wml org.apache.ecs
+Big Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+Big GenericElement 1 62
+ 
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.wml org.apache.ecs
+BR GenericElement 2 62
+coupling due to link   --- 0.1
+org.apache.ecs.wml org.apache.ecs.xhtml
+BR br 1 10
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.wml org.apache.ecs
+Card Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+Card GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+Do GenericElement 1 62
+coupling due to link   --- 0.029411764705882353
+org.apache.ecs.wml org.apache.ecs.xhtml
+Do option 1 34
+coupling due to link   --- 0.08333333333333333
+org.apache.ecs.wml org.apache.ecs.xhtml
+Do style 1 12
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.wml org.apache.ecs
+Em Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+Em GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+Fieldset GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.wml org.apache.ecs.xml
+Fieldset XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+Go GenericElement 1 62
+coupling due to link   --- 0.029411764705882353
+org.apache.ecs.wml org.apache.ecs.xhtml
+Go form 1 34
+coupling due to link   --- 0.041666666666666664
+org.apache.ecs.wml org.apache.ecs.xhtml
+Go link 1 24
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.wml org.apache.ecs.xml
+Go XMLDocument 1 15
+ 
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.wml org.apache.ecs
+GoHref GenericElement 2 62
+coupling due to link   --- 0.041666666666666664
+org.apache.ecs.wml org.apache.ecs.xhtml
+GoHref link 1 24
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+Head GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.wml org.apache.ecs.xml
+Head XMLDocument 1 15
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.wml org.apache.ecs
+I Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+I GenericElement 1 62
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.wml org.apache.ecs
+Img Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.wml org.apache.ecs
+Img GenericElement 2 62
+coupling due to link   --- 0.02040816326530612
+org.apache.ecs.wml org.apache.ecs.xhtml
+Img input 1 49
+coupling due to link   --- 0.05555555555555555
+org.apache.ecs.wml org.apache.ecs.xhtml
+Img script 1 18
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.wml org.apache.ecs
+Input Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.wml org.apache.ecs
+Input GenericElement 2 62
+coupling due to link   --- 0.08333333333333333
+org.apache.ecs.wml org.apache.ecs.xhtml
+Input style 1 12
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.wml org.apache.ecs.xhtml
+Input textarea 1 37
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.wml org.apache.ecs
+Meta Filter 1 5
+ 
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.wml org.apache.ecs
+Noop GenericElement 2 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+Onevent GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.wml org.apache.ecs.xml
+Onevent XMLDocument 1 15
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.wml org.apache.ecs
+Optgroup Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+Optgroup GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.wml org.apache.ecs.xml
+Optgroup XMLDocument 1 15
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.wml org.apache.ecs
+Option Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.wml org.apache.ecs
+Option GenericElement 2 62
+coupling due to link   --- 0.029411764705882353
+org.apache.ecs.wml org.apache.ecs.xhtml
+Option option 1 34
+coupling due to link   --- 0.09090909090909091
+org.apache.ecs.wml org.apache.ecs.xhtml
+Option param 1 11
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.wml org.apache.ecs
+P Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.wml org.apache.ecs
+P GenericElement 2 62
+ 
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.wml org.apache.ecs
+Postfield GenericElement 2 62
+coupling due to link   --- 0.09090909090909091
+org.apache.ecs.wml org.apache.ecs.xhtml
+Postfield param 1 11
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.wml org.apache.ecs.xhtml
+Postfield textarea 1 37
+ 
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.wml org.apache.ecs
+Prev GenericElement 2 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+PrevWithVar GenericElement 1 62
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.wml org.apache.ecs
+PSingle Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.wml org.apache.ecs
+PSingle GenericElement 2 62
+ 
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.wml org.apache.ecs
+Refresh GenericElement 2 62
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.wml org.apache.ecs
+Select Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+Select GenericElement 1 62
+coupling due to link   --- 0.09090909090909091
+org.apache.ecs.wml org.apache.ecs.xhtml
+Select param 1 11
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.wml org.apache.ecs.xhtml
+Select textarea 1 37
+ 
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.wml org.apache.ecs
+SetVar GenericElement 2 62
+coupling due to link   --- 0.09090909090909091
+org.apache.ecs.wml org.apache.ecs.xhtml
+SetVar param 1 11
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.wml org.apache.ecs.xhtml
+SetVar textarea 1 37
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.wml org.apache.ecs
+Small Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+Small GenericElement 1 62
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.wml org.apache.ecs
+Strong Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+Strong GenericElement 1 62
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.wml org.apache.ecs
+Table Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+Table GenericElement 1 62
+coupling due to link   --- 0.02702702702702703
+org.apache.ecs.wml org.apache.ecs.xhtml
+Table textarea 1 37
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+Td GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.wml org.apache.ecs.xml
+Td XMLDocument 1 15
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+Template GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.wml org.apache.ecs.xml
+Template XMLDocument 1 15
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.wml org.apache.ecs
+Timer Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.wml org.apache.ecs
+Timer GenericElement 2 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+Tr GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.wml org.apache.ecs.xml
+Tr XMLDocument 1 15
+ 
+coupling due to link   --- 0.2
+org.apache.ecs.wml org.apache.ecs
+U Filter 1 5
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+U GenericElement 1 62
+ 
+coupling due to link   --- 0.016129032258064516
+org.apache.ecs.wml org.apache.ecs
+WML GenericElement 1 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.wml org.apache.ecs.xml
+WML XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.wml org.apache.ecs.xml
+WMLDocument XMLDocument 1 15
+ 
+coupling due to link   --- 0.08333333333333333
+org.apache.ecs.wml org.apache.ecs
+WMLOutRenderer StringElement 1 12
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.wml org.apache.ecs.xml
+WMLOutRenderer XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+abbr Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+abbr GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+abbr XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+acronym Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+acronym GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+acronym XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+address Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+address GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+address XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+applet Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+applet Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+applet GenericElement 2 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+area Attributes 1 15
+coupling due to link   --- 0.4
+org.apache.ecs.xhtml org.apache.ecs
+area Filter 2 5
+coupling due to link   --- 0.04838709677419355
+org.apache.ecs.xhtml org.apache.ecs
+area GenericElement 3 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+b Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+b GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+b XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+base Attributes 1 15
+coupling due to link   --- 0.04838709677419355
+org.apache.ecs.xhtml org.apache.ecs
+base GenericElement 3 62
+coupling due to link   --- 0.09090909090909091
+org.apache.ecs.xhtml org.apache.ecs.xml
+base PI 1 11
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+basefont Attributes 1 15
+coupling due to link   --- 0.04838709677419355
+org.apache.ecs.xhtml org.apache.ecs
+basefont GenericElement 3 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+bdo Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+bdo GenericElement 2 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+big Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+big GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+big XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+blink Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+blink GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+blink XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+blockquote Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+blockquote GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+blockquote XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+body Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+body Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+body GenericElement 2 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+br Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+br Filter 1 5
+coupling due to link   --- 0.04838709677419355
+org.apache.ecs.xhtml org.apache.ecs
+br GenericElement 3 62
+coupling due to link   --- 0.034482758620689655
+org.apache.ecs.xhtml org.apache.ecs
+br XhtmlFrameSetDocument 1 29
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+button Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+button GenericElement 2 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+caption Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+caption GenericElement 2 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+center Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+center GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+center XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+cite Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+cite GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+cite XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+code Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+code GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+code XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+col Attributes 1 15
+coupling due to link   --- 0.04838709677419355
+org.apache.ecs.xhtml org.apache.ecs
+col GenericElement 3 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+colgroup Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+colgroup GenericElement 2 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+comment Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+comment Filter 1 5
+coupling due to link   --- 0.1774193548387097
+org.apache.ecs.xhtml org.apache.ecs
+comment GenericElement 11 62
+coupling due to link   --- 0.08333333333333333
+org.apache.ecs.xhtml org.apache.ecs
+comment StringElement 1 12
+coupling due to link   --- 0.05
+org.apache.ecs.xhtml org.apache.ecs.wml
+comment Alignment 1 20
+coupling due to link   --- 0.13333333333333333
+org.apache.ecs.xhtml org.apache.ecs.xml
+comment XMLDocument 2 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+dd Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+dd GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+dd XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+del Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+del GenericElement 2 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+dfn Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+dfn GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+dfn XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+div Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+div GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+div XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+dl Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+dl GenericElement 2 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+dt Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+dt GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+dt XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+em Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+em GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+em XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+fieldset Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+fieldset GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+fieldset XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+font Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+font Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+font GenericElement 2 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+form Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+form Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+form GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+form XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+frame Attributes 1 15
+coupling due to link   --- 0.4
+org.apache.ecs.xhtml org.apache.ecs
+frame Filter 2 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+frame GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+frame XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+frameset Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+frameset GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+frameset XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+h1 Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+h1 GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+h1 XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+h2 Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+h2 GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+h2 XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+h3 Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+h3 GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+h3 XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+h4 Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+h4 GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+h4 XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+h5 Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+h5 GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+h5 XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+h6 Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+h6 GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+h6 XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+head Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+head Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+head GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+head XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+hr Attributes 1 15
+coupling due to link   --- 0.4
+org.apache.ecs.xhtml org.apache.ecs
+hr Filter 2 5
+coupling due to link   --- 0.04838709677419355
+org.apache.ecs.xhtml org.apache.ecs
+hr GenericElement 3 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+html Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+html Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+html GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+html XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+i Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+i GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+i XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+iframe Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+iframe Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+iframe GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+iframe XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+img Attributes 1 15
+coupling due to link   --- 0.4
+org.apache.ecs.xhtml org.apache.ecs
+img Filter 2 5
+coupling due to link   --- 0.04838709677419355
+org.apache.ecs.xhtml org.apache.ecs
+img GenericElement 3 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+input Attributes 1 15
+coupling due to link   --- 0.4
+org.apache.ecs.xhtml org.apache.ecs
+input Filter 2 5
+coupling due to link   --- 0.04838709677419355
+org.apache.ecs.xhtml org.apache.ecs
+input GenericElement 3 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+ins Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+ins Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+ins GenericElement 2 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+kbd Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+kbd GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+kbd XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+label Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+label Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+label GenericElement 2 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+legend Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+legend Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+legend GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+legend XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+li Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+li GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+li XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+link Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+link Filter 1 5
+coupling due to link   --- 0.04838709677419355
+org.apache.ecs.xhtml org.apache.ecs
+link GenericElement 3 62
+coupling due to link   --- 0.05
+org.apache.ecs.xhtml org.apache.ecs.wml
+link Alignment 1 20
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+map Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+map GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+map XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+meta Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+meta Filter 1 5
+coupling due to link   --- 0.04838709677419355
+org.apache.ecs.xhtml org.apache.ecs
+meta GenericElement 3 62
+coupling due to link   --- 0.05
+org.apache.ecs.xhtml org.apache.ecs.wml
+meta Alignment 1 20
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+nobr Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+nobr GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+nobr XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+noframes Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+noframes GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+noframes XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+noscript Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+noscript GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+noscript XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+object Attributes 1 15
+coupling due to link   --- 0.4
+org.apache.ecs.xhtml org.apache.ecs
+object Filter 2 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+object GenericElement 2 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+ol Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+ol GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+ol XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+optgroup Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+optgroup GenericElement 2 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+option Attributes 1 15
+coupling due to link   --- 0.4
+org.apache.ecs.xhtml org.apache.ecs
+option Filter 2 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+option GenericElement 2 62
+coupling due to link   --- 0.1
+org.apache.ecs.xhtml org.apache.ecs.wml
+option Alignment 2 20
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+p Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+p GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+p XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+param Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+param Filter 1 5
+coupling due to link   --- 0.04838709677419355
+org.apache.ecs.xhtml org.apache.ecs
+param GenericElement 3 62
+coupling due to link   --- 0.05
+org.apache.ecs.xhtml org.apache.ecs.wml
+param Alignment 1 20
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+pre Attributes 1 15
+coupling due to link   --- 0.04838709677419355
+org.apache.ecs.xhtml org.apache.ecs
+pre GenericElement 3 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+pre XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+q Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+q Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+q GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+q XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+s Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+s GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+s XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+samp Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+samp GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+samp XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+script Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+script Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+script GenericElement 2 62
+coupling due to link   --- 0.05
+org.apache.ecs.xhtml org.apache.ecs.wml
+script Alignment 1 20
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+script XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+select Attributes 1 15
+coupling due to link   --- 0.4
+org.apache.ecs.xhtml org.apache.ecs
+select Filter 2 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+select GenericElement 2 62
+coupling due to link   --- 0.13333333333333333
+org.apache.ecs.xhtml org.apache.ecs.xml
+select XMLDocument 2 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+small Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+small GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+small XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+span Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+span GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+span XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+strike Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+strike GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+strike XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+strong Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+strong GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+strong XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+style Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+style Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+style GenericElement 2 62
+coupling due to link   --- 0.09090909090909091
+org.apache.ecs.xhtml org.apache.ecs.storage
+style Hash 1 11
+coupling due to link   --- 0.05
+org.apache.ecs.xhtml org.apache.ecs.wml
+style Alignment 1 20
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+style XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+sub Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+sub GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+sub XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+sup Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+sup GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+sup XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+table Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+table Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+table GenericElement 2 62
+coupling due to link   --- 0.1
+org.apache.ecs.xhtml org.apache.ecs.wml
+table Alignment 2 20
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+tbody Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+tbody GenericElement 2 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+textarea Attributes 1 15
+coupling due to link   --- 0.045454545454545456
+org.apache.ecs.xhtml org.apache.ecs
+textarea Doctype 1 22
+coupling due to link   --- 0.6
+org.apache.ecs.xhtml org.apache.ecs
+textarea Filter 3 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+textarea GenericElement 2 62
+coupling due to link   --- 0.043478260869565216
+org.apache.ecs.xhtml org.apache.ecs.vxml
+textarea Var 1 23
+coupling due to link   --- 0.05
+org.apache.ecs.xhtml org.apache.ecs.wml
+textarea Alignment 1 20
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+tfoot Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+tfoot GenericElement 2 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+th Attributes 1 15
+coupling due to link   --- 0.4
+org.apache.ecs.xhtml org.apache.ecs
+th Filter 2 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+th GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+th XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+thead Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+thead Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+thead GenericElement 2 62
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+title Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+title GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+title XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+tr Attributes 1 15
+coupling due to link   --- 0.2
+org.apache.ecs.xhtml org.apache.ecs
+tr Filter 1 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+tr GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+tr XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+tt Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+tt GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+tt XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+u Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+u GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+u XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+ul Attributes 1 15
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+ul GenericElement 2 62
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+ul XMLDocument 1 15
+ 
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs
+var Attributes 1 15
+coupling due to link   --- 0.4
+org.apache.ecs.xhtml org.apache.ecs
+var Filter 2 5
+coupling due to link   --- 0.03225806451612903
+org.apache.ecs.xhtml org.apache.ecs
+var GenericElement 2 62
+coupling due to link   --- 0.1
+org.apache.ecs.xhtml org.apache.ecs.wml
+var Alignment 2 20
+coupling due to link   --- 0.06666666666666667
+org.apache.ecs.xhtml org.apache.ecs.xml
+var XMLDocument 1 15
+ 
+coupling due to link   --- 0.13333333333333333
+org.apache.ecs org.apache.ecs.xml
+XhtmlDocument XMLDocument 2 15
+ 
+coupling due to link   --- 0.06896551724137931
+org.apache.ecs org.apache.ecs.examples
+XhtmlFrameSetDocument HtmlTree 2 29
+coupling due to link   --- 0.058823529411764705
+org.apache.ecs org.apache.ecs.storage
+XhtmlFrameSetDocument Array 1 17
+coupling due to link   --- 0.18181818181818182
+org.apache.ecs org.apache.ecs.storage
+XhtmlFrameSetDocument Hash 2 11
+coupling due to link   --- 0.0625
+org.apache.ecs org.apache.ecs.wml
+XhtmlFrameSetDocument Access 1 16
+coupling due to link   --- 0.2
+org.apache.ecs org.apache.ecs.xml
+XhtmlFrameSetDocument XMLDocument 3 15
+ 
+coupling due to link   --- 0.045454545454545456
+org.apache.ecs.xml org.apache.ecs
+PI Doctype 1 22
+coupling due to link   --- 0.4
+org.apache.ecs.xml org.apache.ecs
+PI Filter 2 5
+coupling due to link   --- 0.12903225806451613
+org.apache.ecs.xml org.apache.ecs
+PI GenericElement 8 62
+coupling due to link   --- 0.08333333333333333
+org.apache.ecs.xml org.apache.ecs
+PI StringElement 1 12
+coupling due to link   --- 0.1
+org.apache.ecs.xml org.apache.ecs.wml
+PI Alignment 2 20
+ 
+coupling due to link   --- 0.045454545454545456
+org.apache.ecs.xml org.apache.ecs
+XMLDocument Doctype 1 22
+coupling due to link   --- 0.2
+org.apache.ecs.xml org.apache.ecs
+XMLDocument Filter 1 5
+coupling due to link   --- 0.11290322580645161
+org.apache.ecs.xml org.apache.ecs
+XMLDocument GenericElement 7 62
+coupling due to link   --- 0.11764705882352941
+org.apache.ecs.xml org.apache.ecs.storage
+XMLDocument Array 2 17
+coupling due to link   --- 0.2727272727272727
+org.apache.ecs.xml org.apache.ecs.storage
+XMLDocument Hash 3 11
+coupling due to link   --- 0.08333333333333333
+org.apache.ecs.xml org.apache.ecs
+XMLDocument StringElement 1 12
+coupling due to link   --- 0.3333333333333333
+org.apache.ecs.xml org.apache.ecs.vxml
+XMLDocument VXMLElement 1 3
+coupling due to link   --- 0.15
+org.apache.ecs.xml org.apache.ecs.wml
+XMLDocument Alignment 3 20
+coupling due to link   --- 0.5
+org.apache.ecs.xml org.apache.ecs.wml
+XMLDocument PSingle 2 4
+coupling due to link   --- 0.02040816326530612
+org.apache.ecs.xml org.apache.ecs.xhtml
+XMLDocument input 1 49
+coupling due to link   --- 0.1111111111111111
+org.apache.ecs.xml org.apache.ecs.xhtml
+XMLDocument script 2 18
+coupling due to link   --- 0.08333333333333333
+org.apache.ecs.xml org.apache.ecs.xhtml
+XMLDocument style 1 12
+coupling due to link   --- 0.05405405405405406
+org.apache.ecs.xml org.apache.ecs.xhtml
+XMLDocument textarea 2 37
+coupling due to link   --- 0.04
+org.apache.ecs.xml org.apache.ecs.xhtml
+XMLDocument tr 1 25
+coupling due to link   --- 0.034482758620689655
+org.apache.ecs.xml org.apache.ecs
+XMLDocument XhtmlFrameSetDocument 1 29
+ 
+classes per packageorg.apache.ecs25
+classes per packageorg.apache.ecs.examples1
+classes per packageorg.apache.ecs.factory1
+classes per packageorg.apache.ecs.filter4
+classes per packageorg.apache.ecs.html66
+classes per packageorg.apache.ecs.html2ecs1
+classes per packageorg.apache.ecs.jsp15
+classes per packageorg.apache.ecs.rtf45
+classes per packageorg.apache.ecs.storage3
+classes per packageorg.apache.ecs.vxml56
+classes per packageorg.apache.ecs.wml63
+classes per packageorg.apache.ecs.xhtml89
+classes per packageorg.apache.ecs.xml2

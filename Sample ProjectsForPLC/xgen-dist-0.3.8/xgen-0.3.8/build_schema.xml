@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<project name="xgen" default="build" basedir=".">
+
+  <!-- ====================================================================== -->
+  <!-- Transitive Example - build xgen schema                                                          -->
+  <!-- ====================================================================== -->
+  
+  <property file="build.properties"/>
+  
+  <path id="classpath">
+    <pathelement path="."/>
+    <fileset dir="${basedir}">
+      <include name="**/*.jar"/>
+    </fileset>  
+  </path>
+  
+  <target name="build">
+    
+    <echo message="+-----------------------------------------------------+"/>
+    <echo message="| Generating project source!                          |"/>
+    <echo message="+-----------------------------------------------------+"/>
+     
+    <taskdef name="xgen" classname="workzen.xgen.ant.XGenTask">
+      <classpath refid="classpath"/>
+    </taskdef>
+     
+    <!-- generate transitive schema -->
+    <xgen
+      loader=""
+      inputFile="${basedir}/etc/input/blog.xml"
+      resourceTemplate="templates/schema/xgen.vm"
+	  templatePath="${basedir}"
+      outputDirectory="${basedir}/work/schema/blog"
+      outputFile="blog.xml"
+      >
+    </xgen>    
+
+   <!-- generate transitive schema -->
+    <xgen
+      loader=""
+      inputFile="${basedir}/etc/input/types.xml"
+      resourceTemplate="templates/schema/xgen.vm"
+	  templatePath="${basedir}"
+      outputDirectory="${basedir}/work/schema/types"
+      outputFile="types.xml"
+      >
+    </xgen>    
+      
+  </target>
+  
+</project>

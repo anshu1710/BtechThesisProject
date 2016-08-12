@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<document>
+
+  <properties>
+    <author email="jon@latchkey.com">Jon S. Stevens</author>
+    <title>Element Construction Set</title>
+  </properties>
+
+<body>
+
+<section name="What is it?">
+<p>
+The <strong>Element Construction Set</strong> is a Java API for generating 
+elements for various markup languages it directly supports HTML 4.0 and XML, but 
+can easily be extended to create tags for any markup language. It is designed 
+and implemented by Stephan Nagy and Jon S. Stevens.
+</p>
+</section>
+
+<section name="What does it do?">
+<p>
+The <b>E</b>lement <b>C</b>onstruction <b>S</b>et allows you to use Java 
+Objects to generate markup code.  Gone is the need for writing code that looks 
+like the following:
+</p>
+
+<source>
+out.println("&lt;HTML&gt;");
+out.println("&lt;HEAD&gt;&lt;TITLE&gt;Demo&lt;TITLE&gt;&lt;HEAD&gt;");
+out.println("&lt;BODY&gt;");
+out.println("&lt;H1&gt;Demo Header&lt;H1&gt;");
+out.println("&lt;H3&gt;Sub Header:&lt;H3&gt;");
+out.println("&lt;FONT SIZE=\"+1\" FACE=\"Times\" COLOR=\"#FFFFFF"&gt;);
+out.println("The big dog &amp;amp; the little cat chased each other.");
+out.println("&lt;FONT&gt;");
+out.println("&lt;BODY&gt;");
+out.println("&lt;HTML&gt;");
+</source>
+
+<p>
+You can do this instead:
+</p>
+
+<source>
+Html html = new Html()
+              .addElement(new Head()
+                  .addElement(new Title("Demo")))
+              .addElement(new Body()
+              .addElement(new H1("Demo Header"))
+              .addElement(new H3("Sub Header:"))
+              .addElement(new Font().setSize("+1")
+                         .setColor(HtmlColor.WHITE)
+                         .setFace("Times")
+                         .addElement("The big dog &amp; the little cat chased each other.")));
+out.println(html.toString()); 
+// or write to the outputstream directly
+output(out);
+</source>
+
+<p>
+This creates the HTML:
+</p>
+
+<source>
+&lt;html&gt;&lt;head&gt;&lt;title&gt;Demo&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;Demo Header&lt;/h1&gt;&lt;h3&gt;Sub Header:&lt;/h3&gt;
+&lt;font size="+1" color="#FFFFFF" face="Times"&gt;The big dog &amp;#38; the little cat chased
+ each other.&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;
+</source>
+
+<p>
+Or even easier, use the Document object:
+</p>
+
+<source>
+Document doc = (Document) new Document()
+              .appendTitle("Demo")
+              .appendBody(new H1("Demo Header"))
+              .appendBody(new H3("Sub Header:"))
+              .appendBody(new Font().setSize("+1")
+                         .setColor(HtmlColor.WHITE)
+                         .setFace("Times")
+                         .addElement("The big dog &amp; the little cat chased each other."));
+out.println(doc.toString()); 
+// or write to the outputstream directly
+output(out);
+</source>
+
+<p>
+This creates the same HTML as above.
+</p>
+
+<p>
+There are some subtleties in the above code that are worth commenting on.
+</p>
+
+<p>
+<ol>
+<li>You don't need to know the Hex value of the color you want.  HtmlColor is an 
+interface that defines more than 200 colors.</li>
+<li>You don't need to replace &amp; ' " with their entity counterparts, it is 
+done for you (this is configurable of course). <B>ECS</B> gives you the 
+ability to define filters that are applied to the element when you call 
+the addElement() methods.</li>
+<li>You can write directly to an elements output stream. output() is a 
+method that can be overridden to provide custom rendering of elements.</li>
+</ol>
+</p>
+
+<p>
+<B>ECS</B> also gives you the ability to create your own elements on the fly 
+using the XML element.  So you can do the following:
+</p>
+
+<source>
+XML my_element = new XML("my_element");
+
+produces:
+
+&lt;my_element&gt;&lt;/my_element&gt;
+</source>
+
+</section>
+
+<section name="Documentation">
+<p>
+The javadoc documentation and a TestBed.java file 
+comes with the distribution download. Both resources combined give example code usage 
+that covers every single element. The TestBed.java file is located in 
+the ecs/example directory.
+</p>
+</section>
+
+<section name="Source">
+<p>
+<strong>ECS</strong> uses the <a href="http://jakarta.apache.org/turbine/common/code-standards.html">Turbine</a> coding conventions. 
+</p>
+</section>
+
+</body>
+</document>
+

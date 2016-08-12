@@ -1,0 +1,9 @@
+workzen.xgen.ant
+workzen.xgen.loader
+workzen.xgen.model.java
+workzen.xgen.model.java.file
+workzen.xgen.model.java.xml
+workzen.xgen.test
+workzen.xgen.test.persistence.bean
+workzen.xgen.test.velocity
+workzen.xgen.util

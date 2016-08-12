@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<project name="xgen" default="build" basedir=".">
+
+  <!-- ====================================================================== -->
+  <!-- Xml2Html build -->
+  <!-- ====================================================================== -->
+   
+  <property file="build.properties"/>
+  
+  <path id="classpath">     
+    <pathelement path="."/>
+    <fileset dir="${basedir}">
+      <include name="**/*.jar"/>
+    </fileset>  
+  </path>
+  
+  <target name="build">
+    
+    <echo message="+-----------------------------------------------------+"/>
+    <echo message="| Generating project source!                          |"/>
+    <echo message="+-----------------------------------------------------+"/>
+     
+    <taskdef name="xgen" classname="workzen.xgen.ant.XGenTask">
+      <classpath refid="classpath"/>
+    </taskdef>
+     
+    <!-- generate blog html schema with custom TextFileLoader -->
+    <xgen
+      loader="workzen.xgen.loader.TextFileLoader"
+      inputFile="${basedir}/etc/input/blog.xml"
+      resourceTemplate="templates/text/htmlEscape.vm"
+	  templatePath="${basedir}"
+      outputDirectory="${basedir}/work/xml2html/"
+      outputFile="blog_schema_1.html"
+      >
+    </xgen>    
+    
+    <!-- generate blog html schema with custom XmlDocLoader -->
+    <xgen
+      loader="workzen.xgen.loader.XmlDocLoader"
+      inputFile="${basedir}/etc/input/blog.xml"
+      resourceTemplate="templates/xml/htmlOutput.vm"
+	  templatePath="${basedir}"
+      outputDirectory="${basedir}/work/xml2html/"
+      outputFile="blog_schema_2.html"
+      >
+    </xgen>    
+      
+  </target>
+  
+</project>

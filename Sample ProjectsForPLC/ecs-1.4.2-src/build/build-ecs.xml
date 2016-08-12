@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+
+<!-- ======================================================================= -->
+<!-- ECS build file                                                      -->
+<!-- ======================================================================= -->
+
+<project name="ECS" default="jar" basedir=".">
+
+    <!-- =================================================================== -->
+    <!-- Initializes some variables                                          -->
+    <!-- =================================================================== -->
+    <property name="Name" value="ECS"/>
+    <property name="year" value="1999-2003"/>
+    <property name="version" value="1.4.2"/>
+    <property name="project" value="ecs"/>
+    <property name="build.compiler" value="classic"/>
+    <property name="build.dir" value="../bin"/>
+    <property name="build.src" value="${build.dir}/src"/>
+    <property name="build.dest" value="${build.dir}/classes"/>
+    <property name="src.java.dir" value="../src/java"/>
+    <property name="javadoc.destdir" value="../docs/apidocs"/>
+    <property name="final.name" value="${project}-${version}"/>
+    <property name="src.final.name" value="${project}-${version}-src"/>
+    <property name="final.dir" value="../${final.name}/"/>
+    <property name="src.final.dir" value="../${src.final.name}/"/>
+    <property name="debug" value="off"/>
+    <property name="optimize" value="on"/>
+    <property name="deprecation" value="off"/>
+    <!-- Anakia -->
+    <property name="docs.src" value="../xdocs"/>
+    <property name="docs.dest" value="../docs"/>
+    
+    <!-- jar files for using Anakia to build the documentation -->
+    <property name="velocity.home" value="../../jakarta-velocity"/>
+    <property name="velocity.jar" value="${velocity.home}/bin/velocity-1.3-dev.jar"/>
+    <property name="commons-collections.jar" value="${velocity.home}/build/lib/commons-collections.jar"/>
+    <property name="jdom.jar" value="${velocity.home}/build/lib/jdom-b7.jar"/>
+    <property name="log4j.jar" value="${velocity.home}/build/lib/log4j-1.1.3.jar"/>
+    <property name="xerces.jar" value="${velocity.home}/build/lib/xerces-1.3.0.jar"/>
+
+    <path id="classpath">
+        <fileset dir="../lib">
+	        <include name="**/*.jar"/>
+        </fileset>
+    </path>
+
+    <!-- ================================================================== -->
+    <!-- Prints useful build environment values                             -->
+    <!-- ================================================================== -->
+    <target name="env">
+        <echo message="build.compiler = ${build.compiler}"/>
+        <echo message="java.home = ${java.home}"/>
+        <echo message="user.home = ${user.home}"/>
+        <echo message="java.class.path = ${java.class.path}"/>
+        <echo message=""/>
+    </target>
+
+    <!-- =================================================================== -->
+    <!-- Copies the source code to the build directory and does filtering    -->
+    <!-- =================================================================== -->
+    <target name="prepare" depends="env">
+        <tstamp/>
+        <filter token="year" value="${year}"/>
+        <filter token="version" value="${version}"/>
+        <filter token="date" value="${TODAY}"/>
+
+        <available classname="org.apache.velocity.anakia.AnakiaTask" 
+            property="AnakiaTask.present">
+            <classpath>	
+                <pathelement location="${velocity.jar}"/>
+            </classpath>
+        </available>
+
+        <mkdir dir="${build.dir}"/>
+        <mkdir dir="${build.dest}"/>
+        <mkdir dir="${build.src}"/>
+
+        <copy todir="${build.src}/org" filtering="yes">
+            <fileset dir="${src.java.dir}/org">
+				<exclude name="**/WebColors.java"/>
+                <include name="**/*.java"/>
+                <include name="**/*.properties"/>
+                <include name="**/package.html"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <!-- =================================================================== -->
+    <!-- Compiles the source directory                                       -->
+    <!-- =================================================================== -->
+    <target name="compile" depends="prepare">
+        <javac srcdir="${build.src}"
+            destdir="${build.dest}"
+            excludes="**/package.html"
+            debug="${debug}"
+            deprecation="${deprecation}"
+            optimize="${optimize}">
+
+            <classpath refid="classpath"/>
+        </javac>
+        <copy todir="${build.dest}/org" filtering="yes">
+            <fileset dir="${build.src}/org">
+                <include name="**/*.properties"/>
+            </fileset>
+        </copy>
+    </target>
+    
+    <!-- =================================================================== -->
+    <!-- Compiles the source directory and creates a .jar file               -->
+    <!-- =================================================================== -->
+    <target name="jar" depends="compile">
+        <jar jarfile="${build.dir}/${final.name}.jar"
+            basedir="${build.dest}"
+            excludes="**/package.html"
+        />
+    </target>
+    
+    <!-- =================================================================== -->
+    <!-- Creates the API documentation                                       -->
+    <!-- =================================================================== -->
+    <target name="javadocs" depends="prepare">
+        <mkdir dir="${javadoc.destdir}"/>
+        <javadoc
+            sourcepath="${build.src}"
+            packagenames="org.apache.ecs.*"
+            destdir="${javadoc.destdir}"
+            author="true"
+            private="true"
+            version="true"
+            use="true"
+            windowtitle="${Name} ${version} API"
+            doctitle="${Name} ${version} API"
+            bottom="Copyright &amp;copy; ${year} Apache Software Foundation. All Rights Reserved."
+        >
+    	</javadoc>
+    </target>
+
+    <!-- =================================================================== -->
+    <!-- Package                                                             -->
+    <!-- =================================================================== -->
+    <target name="binary-package" depends="jar,javadocs">
+        <delete dir="${final.dir}"/>
+        <mkdir dir="${final.dir}"/>
+        
+        <copy todir="${final.dir}/docs">
+            <fileset dir="../docs">
+                <exclude name="**/dist/**"/>
+            </fileset>
+        </copy>
+        <copy file="${build.dir}/${final.name}.jar" tofile="${final.dir}/${final.name}.jar"/>
+
+        <copy file="../AUTHORS" tofile="${final.dir}/AUTHORS"/>       
+        <copy file="../ChangeLog" tofile="${final.dir}/ChangeLog"/>       
+        <copy file="../LICENSE.txt" tofile="${final.dir}/LICENSE.txt"/>       
+        <copy file="../RELEASE_NOTES.txt" tofile="${final.dir}/RELEASE_NOTES.txt"/>  
+        
+        <copy file="${build.dir}/${final.name}.jar" tofile="${final.dir}/${final.name}.jar"/>
+    </target>
+    
+    <target name="source-package" depends="jar,javadocs">
+        <delete dir="${src.final.dir}"/>
+        <mkdir dir="${src.final.dir}"/>
+        <mkdir dir="${src.final.dir}/src/java"/>
+
+        <copy todir="${src.final.dir}/src/java">
+            <fileset dir="${build.dir}/src"/>
+        </copy>
+        <copy todir="${src.final.dir}/docs">
+            <fileset dir="../docs">
+                <exclude name="**/dist/**"/>
+            </fileset>
+        </copy>
+        <copy todir="${src.final.dir}/xdocs">
+            <fileset dir="${docs.src}"/>
+        </copy>
+        <copy todir="${src.final.dir}/build">
+            <fileset dir="../build">
+                <exclude name="velocity.log"/>
+            </fileset>
+        </copy>
+        <copy todir="${src.final.dir}/lib">
+            <fileset dir="../lib"/>
+        </copy>
+        <copy file="${build.dir}/${final.name}.jar" tofile="${src.final.dir}/${final.name}.jar"/>
+
+        <copy file="../AUTHORS" tofile="${src.final.dir}/AUTHORS"/>       
+        <copy file="../ChangeLog" tofile="${src.final.dir}/ChangeLog"/>       
+        <copy file="../LICENSE.txt" tofile="${src.final.dir}/LICENSE.txt"/>  
+        <copy file="../RELEASE_NOTES.txt" tofile="${src.final.dir}/RELEASE_NOTES.txt"/>      
+        <copy file="../INSTALL" tofile="${src.final.dir}/INSTALL"/>       
+        <copy file="../README" tofile="${src.final.dir}/README"/>
+        
+        <copy file="${build.dir}/${final.name}.jar" tofile="${src.final.dir}/${final.name}.jar"/>
+    </target>
+  
+    <!-- =================================================================== -->
+    <!-- Packages the binary distribution with ZIP                           -->
+    <!-- =================================================================== -->
+    <target name="binary-package-zip" depends="binary-package">
+        <delete file="../${final.name}.zip" verbose="false"/>
+        <zip zipfile="../${final.name}.zip" basedir="../${final.name}" includes="**/**"/>
+    </target>
+    
+    <!-- =================================================================== -->
+    <!-- Packages the binary distribution with TAR-GZIP                      -->
+    <!-- =================================================================== -->
+    <target name="binary-package-tgz" depends="binary-package">
+        <delete file="../${final.name}.tar" verbose="false"/>
+        <delete file="../${final.name}.tar.gz" verbose="false"/>
+        <tar tarfile="../${final.name}.tar" basedir="../" includes="**/${final.name}/**"/>
+        <gzip zipfile="../${final.name}.tar.gz" src="../${final.name}.tar"/>
+    </target>
+  
+    <!-- =================================================================== -->
+    <!-- Packages the source distribution with ZIP                           -->
+    <!-- =================================================================== -->
+    <target name="source-package-zip" depends="source-package">
+        <delete file="../${src.final.name}.zip" verbose="false"/>
+        <zip zipfile="../${src.final.name}.zip" basedir="../${src.final.name}" includes="**/**"/>
+    </target>
+    
+    <!-- =================================================================== -->
+    <!-- Packages the source distribution with TAR-GZIP                      -->
+    <!-- =================================================================== -->
+    <target name="source-package-tgz" depends="source-package">
+        <delete file="../${src.final.name}.tar" verbose="false"/>
+        <delete file="../${src.final.name}.tar.gz" verbose="false"/>
+        <tar tarfile="../${src.final.name}.tar" basedir="../" includes="**/${src.final.name}/**"/>
+        <gzip zipfile="../${src.final.name}.tar.gz" src="../${src.final.name}.tar"/>
+    </target>
+    
+    <!-- =================================================================== -->
+    <!-- Packages the distribution with ZIP and TAG-GZIP                     -->
+    <!-- =================================================================== -->
+    <target name="package-source" depends="source-package-zip, source-package-tgz">
+    </target>
+    
+    <target name="package-binaries" depends="binary-package-zip, binary-package-tgz">
+    </target>
+    
+    <target name="package" depends="source-package, binary-package">
+    </target>
+    
+    <target name="package-all" depends="package-source, package-binaries">
+    </target>
+
+    <!-- ================================================================== -->
+    <!-- Cleans up the build directory                                      -->
+    <!-- ================================================================== -->
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+    </target>
+
+    <!-- ================================================================== -->
+    <!-- Anakia Documentation Builder                                       -->
+    <!-- ================================================================== -->
+    <target depends="prepare" name="prepare-error" unless="AnakiaTask.present">
+        <echo>
+            AnakiaTask is not present! Please check to make sure that 
+            velocity.jar is in your classpath.
+        </echo>
+    </target>
+    
+    <target name="docs" depends="prepare-error" if="AnakiaTask.present">
+        <taskdef name="anakia" classname="org.apache.velocity.anakia.AnakiaTask">     
+          <classpath location="${velocity.jar}"/>  
+          <classpath location="${commons-collections.jar}"/>  
+          <classpath location="${jdom.jar}"/>  
+          <classpath location="${log4j.jar}"/>  
+          <classpath location="${xerces.jar}"/>  
+        </taskdef>
+
+        <anakia basedir="${docs.src}" destdir="${docs.dest}/"
+             extension=".html" style="./site.vsl"
+             projectFile="stylesheets/project.xml"
+             excludes="**/stylesheets/** empty.xml"
+             includes="**/*.xml"
+             lastModifiedCheck="true"
+             velocityPropertiesFile="${docs.src}/velocity.properties">
+        </anakia>
+        <copy todir="${docs.dest}/images" filtering="no">
+            <fileset dir="${docs.src}/images">
+                <include name="**/*.gif"/>
+                <include name="**/*.jpeg"/>
+                <include name="**/*.jpg"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="test-ecs" depends="jar">
+        <ant antfile="testcases.xml" target="everything">
+            <property name="ecs.jar" value="${build.dir}/${final.name}.jar"/>
+        </ant>
+    </target>
+</project>

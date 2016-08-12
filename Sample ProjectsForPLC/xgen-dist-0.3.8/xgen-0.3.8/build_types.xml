@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<project name="xgen" default="build" basedir=".">
+
+  <!-- ====================================================================== -->
+  <!-- XGen Types build                                                          -->
+  <!-- ====================================================================== -->
+  
+  <property file="build.properties"/>
+  <property name="input.file" value="${basedir}/etc/input/types.xml"/>
+  <property name="output.dir" value="${basedir}/work/"/>
+  
+  <path id="classpath">     
+    <pathelement path="."/>
+    <fileset dir="${basedir}">
+      <include name="**/*.jar"/>
+    </fileset>  
+  </path>
+  
+  <target name="build">
+    
+    <echo message="+-----------------------------------------------------+"/>
+    <echo message="| Generating project source!                          |"/>
+    <echo message="+-----------------------------------------------------+"/>
+     
+    <taskdef name="xgen" classname="workzen.xgen.ant.XGenTask">
+      <classpath refid="classpath"/>
+    </taskdef>
+     
+    <!-- persistence table and manager -->
+    <xgen
+      loader=""
+      inputFile="${basedir}/etc/input/types.xml"
+      resourceTemplate="templates/persistence/manager/control.vm"
+      templatePath="${basedir}"
+      outputDirectory="${basedir}work"
+      outputFile=""
+      >
+    </xgen>    
+    
+    <!-- persistent beans -->
+    <xgen
+      loader=""
+      inputFile="${basedir}/etc/input/types.xml"
+      resourceTemplate="templates/persistence/bean/control.vm"
+	  templatePath="${basedir}"
+      outputDirectory="${basedir}/work"
+      outputFile=""
+      >
+    </xgen>    
+     
+    <!-- pojo -->
+    <xgen
+      loader=""
+      inputFile="${basedir}/etc/input/types.xml"
+      resourceTemplate="templates/pojo/control.vm"
+	  templatePath="${basedir}"
+      outputDirectory="${basedir}/work"
+      outputFile=""
+      >
+    </xgen>     
+      
+  </target>
+  
+</project>

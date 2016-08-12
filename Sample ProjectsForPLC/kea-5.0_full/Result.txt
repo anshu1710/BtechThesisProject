@@ -1,0 +1,127 @@
+kea.filters		0.6666666666666666		1.0341435185185188
+
+kea.main		1.0		0.41984126984126985
+
+kea.stemmers		0.7222222222222223		0.4988175675675676
+
+kea.stopwords		0.2		0.0
+
+kea.util		NaN		0.0
+
+kea.vocab		NaN		0.5666666666666667
+
+Suggestions to reduce coupling:
+Shift setStopwords from Class Vocabulary to Class KEAModelBuilder
+Shift setStemmer from Class Vocabulary to Class KEAModelBuilder
+Shift getNumPhrases from Class KEAKeyphraseExtractor to Class KEAModelBuilder
+Shift setNumPhrases from Class KEAKeyphraseExtractor to Class KEAModelBuilder
+Shift getDocumentAtt from Class KEAFilter to Class KEAModelBuilder
+Shift setDocumentAtt from Class KEAFilter to Class KEAModelBuilder
+Shift getKeyphrasesAtt from Class KEAFilter to Class KEAModelBuilder
+Shift setKeyphrasesAtt from Class KEAFilter to Class KEAModelBuilder
+Shift setKFused from Class KEAFilter to Class KEAModelBuilder
+Shift setNumFeature from Class KEAFilter to Class KEAModelBuilder
+Shift getKFused from Class KEAFilter to Class KEAModelBuilder
+Shift getDisallowInternalPeriods from Class KEAPhraseFilter to Class KEAModelBuilder
+Shift setDisallowInternalPeriods from Class KEAPhraseFilter to Class KEAModelBuilder
+Shift loadThesaurus from Class KEAFilter to Class KEAKeyphraseExtractor
+Shift setOptions from Class KEAModelBuilder to Class SpanishStemmer
+Shift getOptions from Class KEAModelBuilder to Class SpanishStemmer
+Shift listOptions from Class KEAModelBuilder to Class SpanishStemmer
+Shift setInputFormat from Class NumbersFilter to Class KEAModelBuilder
+Shift input from Class NumbersFilter to Class KEAKeyphraseExtractor
+Shift buildClassifier from Class KEAFilter to Class NumbersFilter
+Shift convertPendingInstances from Class KEAFilter to Class NumbersFilter
+Shift getPhrasesForDictionary from Class KEAFilter to Class KEAKeyphraseExtractor
+Shift tokenize from Class KEAPhraseFilter to Class NumbersFilter
+Shift getInvertSelection from Class KEAPhraseFilter to Class KEAModelBuilder
+Shift setInvertSelection from Class KEAPhraseFilter to Class KEAModelBuilder
+Shift getAttributeIndices from Class KEAPhraseFilter to Class KEAModelBuilder
+Shift setAttributeIndicesArray from Class KEAPhraseFilter to Class NumbersFilter
+Shift getAdditionalInfo from Class KEAKeyphraseExtractor to Class KEAModelBuilder
+Shift setAdditionalInfo from Class KEAKeyphraseExtractor to Class KEAModelBuilder
+Shift getBuildGlobal from Class KEAKeyphraseExtractor to Class KEAModelBuilder
+Shift setBuildGlobal from Class KEAKeyphraseExtractor to Class KEAModelBuilder
+Shift extractKeyphrases from Class KEAKeyphraseExtractor to Class SpanishStemmer
+Shift loadModel from Class KEAKeyphraseExtractor to Class SpanishStemmer
+Shift buildModel from Class KEAModelBuilder to Class SpanishStemmer
+Shift saveModel from Class KEAModelBuilder to Class SpanishStemmer
+Shift stem from Class Stemmer to Class SpanishStemmer
+Shift strstem from Class FrenchStemmer to Class Stemmer
+Shift step3 from Class PorterStemmer to Class FrenchStemmer
+Shift step4 from Class PorterStemmer to Class FrenchStemmer
+Shift deleteFromIfPrecededIn from Class FrenchStemmer to Class PorterStemmer
+Shift isVowel from Class SremovalStemmer to Class FrenchStemmer
+Shift isStemmable from Class GermanStemmer to Class FrenchStemmer
+Shift optimize from Class GermanStemmer to Class Stemmer
+Shift removeParticleDenotion from Class GermanStemmer to Class Stemmer
+Shift substitute from Class GermanStemmer to Class Stemmer
+Shift resubstitute from Class GermanStemmer to Class Stemmer
+Shift recodeEnding from Class LovinsStemmer to Class Stemmer
+Shift step1a from Class SremovalStemmer to Class Stemmer
+Shift step1b from Class PorterStemmer to Class Stemmer
+Shift step1c from Class PorterStemmer to Class Stemmer
+Shift step2 from Class PorterStemmer to Class Stemmer
+Shift step5a from Class PorterStemmer to Class Stemmer
+Shift step5b from Class PorterStemmer to Class Stemmer
+Shift containsVowel from Class SremovalStemmer to Class PorterStemmer
+Shift endsWithDoubleConsonent from Class SremovalStemmer to Class PorterStemmer
+Shift stringMeasure from Class SremovalStemmer to Class PorterStemmer
+Shift endsWithCVC from Class SremovalStemmer to Class PorterStemmer
+Shift removeSpanishAccent from Class SpanishStemmer to Class Stemmer
+Shift r_mark_regions from Class SpanishStemmerSB to Class Stemmer
+Shift r_postlude from Class SpanishStemmerSB to Class Stemmer
+Shift r_attached_pronoun from Class SpanishStemmerSB to Class Stemmer
+Shift r_standard_suffix from Class SpanishStemmerSB to Class Stemmer
+Shift r_y_verb_suffix from Class SpanishStemmerSB to Class Stemmer
+Shift r_verb_suffix from Class SpanishStemmerSB to Class Stemmer
+Shift r_residual_suffix from Class SpanishStemmerSB to Class Stemmer
+Shift stemString from Class Stemmer to Class Vocabulary
+Shift isStopword from Class StopwordsSpanish to Class KEAFilter
+Shift increment from Class Counter to Class KEAFilter
+Shift value from Class Counter to Class NumbersFilter
+Shift toString from Class Counter to Class KEAFilter
+Shift initialize from Class Vocabulary to Class KEAFilter
+Shift remove from Class Vocabulary to Class KEAFilter
+Shift buildUSE from Class Vocabulary to Class KEAFilter
+Shift buildREL from Class Vocabulary to Class KEAFilter
+Shift getID from Class Vocabulary to Class KEAFilter
+Shift getOrig from Class Vocabulary to Class KEAFilter
+Shift getRelated from Class Vocabulary to Class KEAFilter
+Shift setStopwords from Package kea.vocab to Package kea.main
+Shift setStemmer from Package kea.vocab to Package kea.main
+Shift getDocumentAtt from Package kea.filters to Package kea.main
+Shift setDocumentAtt from Package kea.filters to Package kea.main
+Shift getKeyphrasesAtt from Package kea.filters to Package kea.main
+Shift setKeyphrasesAtt from Package kea.filters to Package kea.main
+Shift setKFused from Package kea.filters to Package kea.main
+Shift setNumFeature from Package kea.filters to Package kea.main
+Shift getKFused from Package kea.filters to Package kea.main
+Shift getDisallowInternalPeriods from Package kea.filters to Package kea.main
+Shift setDisallowInternalPeriods from Package kea.filters to Package kea.main
+Shift loadThesaurus from Package kea.filters to Package kea.main
+Shift setOptions from Package kea.main to Package kea.stemmers
+Shift getOptions from Package kea.main to Package kea.stemmers
+Shift listOptions from Package kea.main to Package kea.stemmers
+Shift setInputFormat from Package kea.filters to Package kea.main
+Shift input from Package kea.filters to Package kea.main
+Shift getPhrasesForDictionary from Package kea.filters to Package kea.main
+Shift getInvertSelection from Package kea.filters to Package kea.main
+Shift setInvertSelection from Package kea.filters to Package kea.main
+Shift getAttributeIndices from Package kea.filters to Package kea.main
+Shift extractKeyphrases from Package kea.main to Package kea.stemmers
+Shift loadModel from Package kea.main to Package kea.stemmers
+Shift buildModel from Package kea.main to Package kea.stemmers
+Shift saveModel from Package kea.main to Package kea.stemmers
+Shift stemString from Package kea.stemmers to Package kea.vocab
+Shift isStopword from Package kea.stopwords to Package kea.filters
+Shift increment from Package kea.util to Package kea.filters
+Shift value from Package kea.util to Package kea.filters
+Shift toString from Package kea.util to Package kea.stemmers
+Shift initialize from Package kea.vocab to Package kea.filters
+Shift remove from Package kea.vocab to Package kea.filters
+Shift buildUSE from Package kea.vocab to Package kea.filters
+Shift buildREL from Package kea.vocab to Package kea.filters
+Shift getID from Package kea.vocab to Package kea.filters
+Shift getOrig from Package kea.vocab to Package kea.filters
+Shift getRelated from Package kea.vocab to Package kea.filters

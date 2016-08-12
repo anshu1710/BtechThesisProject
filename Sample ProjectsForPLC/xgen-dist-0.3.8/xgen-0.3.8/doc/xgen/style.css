@@ -1,0 +1,41 @@
+body {
+ /*background: #ffffff url(images/y5.gif) repeat-y fixed;*/
+ margin-left: 0px;
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ font-size: smaller;
+ font-family: verdana,arial,helvetica;
+ color: #595B2D;
+}
+
+div.headerTop {
+ background-color: green;	
+}
+
+div.headerTitle {
+ font-size: 200%;
+ font-weight: bold;
+ padding-top: 5px;
+ padding-bottom: 10px;
+ padding-left: 10px;
+ background-color: #F5F5DC;
+ border-bottom: 0px solid;
+}
+
+a {
+  text-decoration: none;
+  color: navy;
+}
+
+a:hover {
+  /*background-color: #a080d0;*/
+  color: #8060b0;
+}
+
+.menu {
+ float: left;
+ margin-top: 20px;
+ margin-left: 8px;	
+ margin-right: 10px;
+}

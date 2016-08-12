@@ -1,0 +1,236 @@
+coupling due to link   --- 0.1111111111111111
+ca.smu.cs.csci3465.project.stratego ca.smu.cs.csci3465.project.stratego.player
+Board PieceButton 2 18
+coupling due to link   --- 0.42857142857142855
+ca.smu.cs.csci3465.project.stratego ca.smu.cs.csci3465.project.stratego.player
+Board TestingBoard 3 7
+coupling due to link   --- 0.2
+ca.smu.cs.csci3465.project.stratego ca.smu.cs.csci3465.project.stratego.server
+Board ServerController 2 10
+ 
+coupling due to link   --- 0.037037037037037035
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego
+AI Board 1 27
+coupling due to link   --- 0.2
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego
+AI Piece 2 10
+coupling due to link   --- 0.08333333333333333
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego.server
+AI Server 1 12
+coupling due to link   --- 0.3
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego.server
+AI ServerController 3 10
+coupling due to link   --- 0.2
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego.server
+AI ServerEngine 1 5
+coupling due to link   --- 0.25
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego
+AI Spot 1 4
+ 
+coupling due to link   --- 0.08333333333333333
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego.server
+Client Controller 1 12
+ 
+coupling due to link   --- 0.037037037037037035
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego
+CompControls Board 1 27
+coupling due to link   --- 0.4
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego
+CompControls Move 2 5
+coupling due to link   --- 0.1
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego
+CompControls Piece 1 10
+coupling due to link   --- 0.6
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego.server
+CompControls ServerEngine 3 5
+ 
+coupling due to link   --- 0.16666666666666666
+ca.smu.cs.csci3465.project.stratego.player.editor ca.smu.cs.csci3465.project.stratego.player
+Editor Setup 2 12
+coupling due to link   --- 0.03125
+ca.smu.cs.csci3465.project.stratego.player.editor ca.smu.cs.csci3465.project.stratego.player
+Editor View 1 32
+coupling due to link   --- 0.2
+ca.smu.cs.csci3465.project.stratego.player.editor ca.smu.cs.csci3465.project.stratego.server
+Editor ServerEngine 1 5
+coupling due to link   --- 0.25
+ca.smu.cs.csci3465.project.stratego.player.editor ca.smu.cs.csci3465.project.stratego
+Editor Spot 1 4
+ 
+coupling due to link   --- 0.1
+ca.smu.cs.csci3465.project.stratego.player.editor ca.smu.cs.csci3465.project.stratego
+EditorBoard Piece 1 10
+coupling due to link   --- 0.1
+ca.smu.cs.csci3465.project.stratego.player.editor ca.smu.cs.csci3465.project.stratego.server
+EditorBoard ServerController 1 10
+ 
+coupling due to link   --- 0.037037037037037035
+ca.smu.cs.csci3465.project.stratego.player.editor ca.smu.cs.csci3465.project.stratego
+EditorControls Board 1 27
+coupling due to link   --- 0.14285714285714285
+ca.smu.cs.csci3465.project.stratego.player.editor ca.smu.cs.csci3465.project.stratego.player
+EditorControls TestingBoard 1 7
+coupling due to link   --- 0.1
+ca.smu.cs.csci3465.project.stratego.player.editor ca.smu.cs.csci3465.project.stratego.server
+EditorControls ServerController 1 10
+coupling due to link   --- 0.25
+ca.smu.cs.csci3465.project.stratego.player.editor ca.smu.cs.csci3465.project.stratego
+EditorControls Spot 1 4
+ 
+coupling due to link   --- 0.2
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego
+PieceButton Piece 2 10
+coupling due to link   --- 0.75
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego
+PieceButton Spot 3 4
+ 
+coupling due to link   --- 0.14285714285714285
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego.player.editor
+Setup Editor 2 14
+coupling due to link   --- 0.2
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego.player.editor
+Setup EditorControls 1 5
+coupling due to link   --- 0.08333333333333333
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego.server
+Setup Server 1 12
+coupling due to link   --- 0.1
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego.server
+Setup ServerController 1 10
+coupling due to link   --- 0.2
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego.server
+Setup ServerEngine 1 5
+coupling due to link   --- 0.25
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego
+Setup Spot 1 4
+ 
+coupling due to link   --- 0.1111111111111111
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego
+TestingBoard Board 3 27
+coupling due to link   --- 0.4
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego
+TestingBoard Move 2 5
+coupling due to link   --- 0.1
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego
+TestingBoard Piece 1 10
+coupling due to link   --- 0.2
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego.server
+TestingBoard ServerController 2 10
+coupling due to link   --- 0.75
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego
+TestingBoard Spot 3 4
+ 
+coupling due to link   --- 0.1111111111111111
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego
+UserControls Board 3 27
+coupling due to link   --- 0.2
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego.server
+UserControls ServerController 2 10
+coupling due to link   --- 0.2
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego.server
+UserControls ServerEngine 1 5
+ 
+coupling due to link   --- 0.07407407407407407
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego
+View Board 2 27
+coupling due to link   --- 0.4
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego
+View Move 2 5
+coupling due to link   --- 0.1
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego
+View Piece 1 10
+coupling due to link   --- 0.2
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego.player.editor
+View EditorControls 1 5
+coupling due to link   --- 0.18181818181818182
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego.server
+View RemoteServer 2 11
+coupling due to link   --- 0.08333333333333333
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego.server
+View Server 1 12
+coupling due to link   --- 0.1
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego.server
+View ServerController 1 10
+coupling due to link   --- 0.2
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego.server
+View ServerEngine 1 5
+coupling due to link   --- 0.25
+ca.smu.cs.csci3465.project.stratego.player ca.smu.cs.csci3465.project.stratego
+View Spot 1 4
+ 
+coupling due to link   --- 0.125
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego.player
+Game UserControls 1 8
+coupling due to link   --- 0.03125
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego.player
+Game View 1 32
+ 
+coupling due to link   --- 0.09090909090909091
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego.player
+Hash Skin 1 11
+ 
+coupling due to link   --- 0.3333333333333333
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego.server.remote
+RemoteServer RemoteController 1 3
+coupling due to link   --- 0.25
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego
+RemoteServer Spot 1 4
+ 
+coupling due to link   --- 0.125
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego.player
+Server AI 1 8
+coupling due to link   --- 0.3333333333333333
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego.player
+Server CompControls 1 3
+ 
+coupling due to link   --- 0.037037037037037035
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego
+ServerController Board 1 27
+coupling due to link   --- 0.1
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego
+ServerController Piece 1 10
+coupling due to link   --- 0.1111111111111111
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego.player
+ServerController PieceButton 2 18
+coupling due to link   --- 0.2857142857142857
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego.player
+ServerController TestingBoard 2 7
+coupling due to link   --- 0.75
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego
+ServerController Spot 3 4
+ 
+coupling due to link   --- 0.14814814814814814
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego
+ServerEngine Board 4 27
+coupling due to link   --- 0.4
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego
+ServerEngine Move 2 5
+coupling due to link   --- 0.2
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego
+ServerEngine Piece 2 10
+coupling due to link   --- 0.125
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego.player
+ServerEngine AI 1 8
+coupling due to link   --- 0.1111111111111111
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego.player
+ServerEngine AIEngine 1 9
+coupling due to link   --- 0.1111111111111111
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego.player
+ServerEngine PieceButton 2 18
+coupling due to link   --- 0.14285714285714285
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego.player
+ServerEngine TestingBoard 1 7
+coupling due to link   --- 0.5
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego.player
+ServerEngine UserControls 4 8
+coupling due to link   --- 0.09375
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego.player
+ServerEngine View 3 32
+coupling due to link   --- 0.25
+ca.smu.cs.csci3465.project.stratego.server ca.smu.cs.csci3465.project.stratego
+ServerEngine Spot 1 4
+ 
+classes per packageca.smu.cs.csci3465.project.stratego6
+classes per packageca.smu.cs.csci3465.project.stratego.player14
+classes per packageca.smu.cs.csci3465.project.stratego.player.editor4
+classes per packageca.smu.cs.csci3465.project.stratego.server8
+classes per packageca.smu.cs.csci3465.project.stratego.server.remote2

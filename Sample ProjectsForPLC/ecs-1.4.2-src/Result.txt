@@ -1,0 +1,174 @@
+org.apache.ecs		0.02		1.1113911426639622
+
+org.apache.ecs.examples		NaN		0.11887254901960784
+
+org.apache.ecs.factory		NaN		0.5333333333333333
+
+org.apache.ecs.filter		0.0		0.2
+
+org.apache.ecs.html		0.0		2.4683619370931695
+
+org.apache.ecs.html2ecs		NaN		0.17493506493506497
+
+org.apache.ecs.jsp		0.023809523809523805		1.4102743938429423
+
+org.apache.ecs.rtf		0.0		1.320616804487772
+
+org.apache.ecs.storage		0.3333333333333333		0.10309684684684685
+
+org.apache.ecs.vxml		0.018506493506493502		4.138475957617675
+
+org.apache.ecs.wml		0.0035842293906810036		3.034879256324829
+
+org.apache.ecs.xhtml		0.014938712972420838		6.819049699246171
+
+org.apache.ecs.xml		1.0		0.29548324002800963
+
+Suggestions to reduce coupling:
+Shift setAlign from Class tr to Class HR
+Shift addAttribute from Class Filter to Class var
+Shift removeAttribute from Class Filter to Class textarea
+Shift hasAttribute from Class Filter to Class Html2Ecs
+Shift setAttributeQuote from Class Attributes to Class abbr
+Shift setName from Class textarea to Class input
+Shift addElement from Class XMLDocument to Class TestBed1
+Shift getHtml from Class XhtmlFrameSetDocument to Class XMLDocument
+Shift setTitle from Class XhtmlFrameSetDocument to Class br
+Shift toString from Class XMLDocument to Class comment
+Shift clone from Class XMLDocument to Class Array
+Shift setCase from Class GenericElement to Class Doctype
+Shift setElementType from Class GenericElement to Class BorderTop
+Shift getElementType from Class GenericElement to Class comment
+Shift setNeedClosingTag from Class GenericElement to Class ColGroup
+Shift getNeedClosingTag from Class VXMLElement to Class XMLDocument
+Shift setStartTagChar from Class GenericElement to Class comment
+Shift setEndTagChar from Class GenericElement to Class comment
+Shift setBeginEndModifier from Class GenericElement to Class meta
+Shift setEndStartModifier from Class GenericElement to Class comment
+Shift setFilterState from Class GenericElement to Class XMLDocument
+Shift getFilterState from Class GenericElement to Class XMLDocument
+Shift setPrettyPrint from Class GenericElement to Class PRE
+Shift elements from Class Hash to Class XMLDocument
+Shift addElementToRegistry from Class Alignment to Class XMLDocument
+Shift removeElementFromRegistry from Class Alignment to Class PI
+Shift registryHasElement from Class Alignment to Class XMLDocument
+Shift getPath from Class Access to Class XhtmlFrameSetDocument
+Shift getPathResolved from Class HtmlTree to Class Access
+Shift getImg from Class HtmlTree to Class XhtmlFrameSetDocument
+Shift getRequestedNode from Class HtmlTree to Class XhtmlFrameSetDocument
+Shift process from Class Html2Ecs to Class TestBed3
+Shift split from Class StringFilter to Class Html2Ecs
+Shift setFilter from Class GenericElement to Class ClearElement
+Shift getCodeSet from Class GenericElement to Class XMLDocument
+Shift getEndStartModifierDefined from Class GenericElement to Class comment
+Shift getEndEndModifierDefined from Class GenericElement to Class comment
+Shift getBeginStartModifierDefined from Class GenericElement to Class comment
+Shift getBeginEndModifierDefined from Class GenericElement to Class comment
+Shift setTagText from Class GenericElement to Class StringElement
+Shift setArchive from Class object to Class Object
+Shift setWidth from Class thead to Class HR
+Shift setAlt from Class input to Class Img
+Shift setHref from Class link to Class Go
+Shift setTabindex from Class textarea to Class XMLDocument
+Shift setNoHref from Class area to Class link
+Shift setTarget from Class PI to Class Base
+Shift setSize from Class select to Class Font
+Shift setBgColor from Class tr to Class Body
+Shift setValue from Class param to Class Option
+Shift setType from Class style to Class input
+Shift setDisabled from Class textarea to Class OptGroup
+Shift setMaxlength from Class input to Class XMLDocument
+Shift setCharset from Class link to Class jsp_page
+Shift setData from Class object to Class Object
+Shift setId from Class Optgroup to Class tsx_dbquery
+Shift setVersion from Class PI to Class Vxml
+Shift getElement from Class RTFDocument to Class Hash
+Shift get from Class Hash to Class Html2Ecs
+Shift nextElement from Class Array to Class XMLDocument
+Shift hasMoreElements from Class Array to Class VXMLElement
+Shift getCurrentSize from Class Array to Class Hash
+Shift setGrow from Class Hash to Class Array
+Shift add from Class Array to Class HtmlTree
+Shift remove from Class Hash to Class Filter
+Shift location from Class Array to Class Hash
+Shift put from Class Hash to Class Html2Ecs
+Shift size from Class Hash to Class XMLDocument
+Shift append from Class StringElement to Class XMLDocument
+Shift setExpr from Class Var to Class Value
+Shift setCaching from Class Submit to Class Audio
+Shift setFetchint from Class Submit to Class Audio
+Shift setEvent from Class Throw to Class Catch
+Shift setCount from Class Prompt to Class Catch
+Shift setDtmf from Class Option to Class Choice
+Shift setBargein from Class Property to Class Prompt
+Shift setTimeout from Class Property to Class Prompt
+Shift setEnctype from Class Submit to Class Subdialog
+Shift HelloWorldTest from Class TestBed1 to Class TestBed3
+Shift DrinkTest from Class TestBed1 to Class TestBed3
+Shift MetaTest from Class TestBed1 to Class TestBed3
+Shift LinkTest from Class TestBed1 to Class TestBed3
+Shift ExitTest from Class TestBed1 to Class TestBed3
+Shift FilledTest from Class TestBed1 to Class TestBed3
+Shift ReturnTest from Class TestBed1 to Class TestBed3
+Shift setTitleAttr from Class Select to Class Option
+Shift parse from Class WMLOutRenderer to Class DOMFactory
+Shift addInstruction from Class PI to Class XMLDocument
+Shift addAttribute from Package org.apache.ecs to Package org.apache.ecs.xhtml
+Shift removeAttribute from Package org.apache.ecs to Package org.apache.ecs.xhtml
+Shift hasAttribute from Package org.apache.ecs to Package org.apache.ecs.html2ecs
+Shift setAttributeQuote from Package org.apache.ecs to Package org.apache.ecs.xhtml
+Shift addElement from Package org.apache.ecs.xml to Package org.apache.ecs.xhtml
+Shift getHtml from Package org.apache.ecs to Package org.apache.ecs.xml
+Shift setTitle from Package org.apache.ecs to Package org.apache.ecs.xhtml
+Shift setCodeset from Package org.apache.ecs.xml to Package org.apache.ecs
+Shift toString from Package org.apache.ecs.xml to Package org.apache.ecs.xhtml
+Shift clone from Package org.apache.ecs.xml to Package org.apache.ecs.storage
+Shift setCase from Package org.apache.ecs to Package org.apache.ecs.xhtml
+Shift setElementType from Package org.apache.ecs to Package org.apache.ecs.xhtml
+Shift getElementType from Package org.apache.ecs to Package org.apache.ecs.xhtml
+Shift setNeedClosingTag from Package org.apache.ecs to Package org.apache.ecs.html
+Shift getNeedClosingTag from Package org.apache.ecs.vxml to Package org.apache.ecs.xml
+Shift setStartTagChar from Package org.apache.ecs to Package org.apache.ecs.xhtml
+Shift setEndTagChar from Package org.apache.ecs to Package org.apache.ecs.xhtml
+Shift setBeginStartModifier from Package org.apache.ecs to Package org.apache.ecs.jsp
+Shift setBeginEndModifier from Package org.apache.ecs to Package org.apache.ecs.xhtml
+Shift setEndStartModifier from Package org.apache.ecs to Package org.apache.ecs.xhtml
+Shift setFilterState from Package org.apache.ecs to Package org.apache.ecs.xml
+Shift getFilterState from Package org.apache.ecs to Package org.apache.ecs.xml
+Shift setPrettyPrint from Package org.apache.ecs to Package org.apache.ecs.html
+Shift elements from Package org.apache.ecs.storage to Package org.apache.ecs.xml
+Shift addElementToRegistry from Package org.apache.ecs.wml to Package org.apache.ecs.xml
+Shift removeElementFromRegistry from Package org.apache.ecs.wml to Package org.apache.ecs.xml
+Shift registryHasElement from Package org.apache.ecs.wml to Package org.apache.ecs.xml
+Shift getPath from Package org.apache.ecs.wml to Package org.apache.ecs
+Shift getPathResolved from Package org.apache.ecs.examples to Package org.apache.ecs.wml
+Shift getImg from Package org.apache.ecs.examples to Package org.apache.ecs
+Shift getRequestedNode from Package org.apache.ecs.examples to Package org.apache.ecs
+Shift process from Package org.apache.ecs.html2ecs to Package org.apache.ecs.vxml
+Shift split from Package org.apache.ecs.filter to Package org.apache.ecs.html2ecs
+Shift getCodeSet from Package org.apache.ecs to Package org.apache.ecs.xml
+Shift getEndStartModifierDefined from Package org.apache.ecs to Package org.apache.ecs.xhtml
+Shift getEndEndModifierDefined from Package org.apache.ecs to Package org.apache.ecs.xhtml
+Shift getBeginStartModifierDefined from Package org.apache.ecs to Package org.apache.ecs.xhtml
+Shift getBeginEndModifierDefined from Package org.apache.ecs to Package org.apache.ecs.xhtml
+Shift setArchive from Package org.apache.ecs.xhtml to Package org.apache.ecs.vxml
+Shift setAlt from Package org.apache.ecs.xhtml to Package org.apache.ecs.wml
+Shift setHref from Package org.apache.ecs.xhtml to Package org.apache.ecs.wml
+Shift setTabindex from Package org.apache.ecs.xhtml to Package org.apache.ecs.xml
+Shift setTarget from Package org.apache.ecs.xml to Package org.apache.ecs.html
+Shift setMaxlength from Package org.apache.ecs.xhtml to Package org.apache.ecs.xml
+Shift setCharset from Package org.apache.ecs.xhtml to Package org.apache.ecs.jsp
+Shift setData from Package org.apache.ecs.xhtml to Package org.apache.ecs.vxml
+Shift setId from Package org.apache.ecs.wml to Package org.apache.ecs.jsp
+Shift setVersion from Package org.apache.ecs.xml to Package org.apache.ecs.vxml
+Shift getElement from Package org.apache.ecs.rtf to Package org.apache.ecs.storage
+Shift get from Package org.apache.ecs.storage to Package org.apache.ecs.html2ecs
+Shift nextElement from Package org.apache.ecs.storage to Package org.apache.ecs.xml
+Shift hasMoreElements from Package org.apache.ecs.storage to Package org.apache.ecs.vxml
+Shift remove from Package org.apache.ecs.storage to Package org.apache.ecs
+Shift put from Package org.apache.ecs.storage to Package org.apache.ecs.html2ecs
+Shift size from Package org.apache.ecs.storage to Package org.apache.ecs.xml
+Shift append from Package org.apache.ecs to Package org.apache.ecs.xml
+Shift setDtmf from Package org.apache.ecs.wml to Package org.apache.ecs.vxml
+Shift setMode from Package org.apache.ecs.wml to Package org.apache.ecs.vxml
+Shift parse from Package org.apache.ecs.wml to Package org.apache.ecs.factory

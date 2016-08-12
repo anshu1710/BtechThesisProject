@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="Jakarta ECS"
+        href="http://jakarta.apache.org/">
+
+    <title>Jakarta ECS</title>
+    <logo href="./images/ecs-small.jpg">Element Construction Set</logo>
+    
+    <body>
+
+    <menu name="Download">
+        <item name="Binaries"              href="/site/binindex.html"/>
+    </menu>
+
+    <menu name="Get Involved">
+        <item name="Overview"              href="/site/getinvolved.html"/>
+        <item name="CVS Repositories"      href="/site/cvsindex.html"/>
+        <item name="Mailing Lists"         href="/site/mail.html"/>
+    </menu>
+    </body>
+</project>

@@ -1,0 +1,121 @@
+ca.smu.cs.csci3465.project.stratego		0.30000000000000004		0.24656084656084656
+
+ca.smu.cs.csci3465.project.stratego.player		0.6593406593406593		1.8428592806370583
+
+ca.smu.cs.csci3465.project.stratego.player.editor		0.25		0.3944527116402116
+
+ca.smu.cs.csci3465.project.stratego.server		0.875		1.1548376623376622
+
+ca.smu.cs.csci3465.project.stratego.server.remote		0.0		0.0
+
+Suggestions to reduce coupling:
+Shift add from Class ServerController to Class View
+Shift attack from Class Board to Class TestingBoard
+Shift checkWin from Class Board to Class ServerEngine
+Shift clear from Class EditorControls to Class Setup
+Shift getPiece from Class PieceButton to Class Board
+Shift getTrayPiece from Class UserControls to Class AI
+Shift getTraySize from Class UserControls to Class ServerEngine
+Shift showAll from Class Board to Class ServerEngine
+Shift hideAll from Class Board to Class ServerEngine
+Shift setKnown from Class TestingBoard to Class Board
+Shift setPiece from Class PieceButton to Class ServerEngine
+Shift setShown from Class TestingBoard to Class Board
+Shift setTopColor from Class Board to Class EditorControls
+Shift move from Class TestingBoard to Class AI
+Shift remove from Class ServerController to Class Board
+Shift validMove from Class TestingBoard to Class AI
+Shift validScoutMove from Class Board to Class TestingBoard
+Shift getBoardPiece from Class UserControls to Class Game
+Shift play from Class ServerEngine to Class AI
+Shift requestMove from Class ServerEngine to Class CompControls
+Shift setupPlacePiece from Class UserControls to Class ServerEngine
+Shift setupRemovePiece from Class UserControls to Class ServerEngine
+Shift update from Class ServerEngine to Class View
+Shift getFrom from Class Move to Class CompControls
+Shift getTo from Class Move to Class Board
+Shift equals from Class Spot to Class View
+Shift getColor from Class Piece to Class PieceButton
+Shift getRank from Class Piece to Class TestingBoard
+Shift isShown from Class Piece to Class PieceButton
+Shift isKnown from Class Piece to Class AI
+Shift getMove from Class AI to Class AIEngine
+Shift getBoardSetup from Class AI to Class ServerEngine
+Shift getBestMove from Class AI to Class Server
+Shift requestCompMove from Class AIEngine to Class UserControls
+Shift userRequestMove from Class UserControls to Class View
+Shift aiReturnMove from Class CompControls to Class Server
+Shift aiReturnPlace from Class CompControls to Class AI
+Shift init from Class RemoteServer to Class View
+Shift connect from Class Controller to Class ServerController
+Shift listen from Class Game to Class Controller
+Shift disconnect from Class RemoteServer to Class ServerController
+Shift registerEngine from Class Editor to Class EditorBoard
+Shift open from Class Setup to Class Editor
+Shift openAs from Class Editor to Class Setup
+Shift save from Class Setup to Class Editor
+Shift saveAs from Class Editor to Class Setup
+Shift moveAction from Class View to Class PieceButton
+Shift dragAction from Class View to Class PieceButton
+Shift refreshIcon from Class PieceButton to Class View
+Shift paint from Class PieceButton to Class View
+Shift getInstance from Class Skin to Class PieceButton
+Shift loadIcon from Class Skin to Class View
+Shift loadSplash from Class Skin to Class View
+Shift unloadSplash from Class Skin to Class View
+Shift hasBG from Class Skin to Class PieceButton
+Shift defaultPieces from Class Skin to Class View
+Shift scale from Class Skin to Class View
+Shift undo from Class TestingBoard to Class AI
+Shift updateTray from Class View to Class ServerEngine
+Shift logout from Class Controller to Class Server
+Shift getPrivilege from Class Controller to Class ServerController
+Shift print from Class ServerController to Class Server
+Shift getIP from Class RemoteServer to Class ServerController
+Shift readPort from Class Controller to Class Server
+Shift start from Class ServerController to Class Game
+Shift getPlayers from Class Game to Class ServerController
+Shift Sha1 from Class Hash to Class RemoteServer
+Shift authenticate from Class RemoteController to Class RemoteServer
+Shift getPort from Class Server to Class ServerController
+Shift validate from Class RemoteServer to Class ServerController
+Shift close from Class Server to Class RemoteServer
+Shift setServer from Class ServerController to Class Server
+Shift disconnectAll from Class ServerController to Class Server
+Shift exit from Class ServerController to Class Server
+Shift getX from Class Spot to Class Board
+Shift getY from Class Spot to Class Board
+Shift add from Package ca.smu.cs.csci3465.project.stratego.server to Package ca.smu.cs.csci3465.project.stratego.player
+Shift attack from Package ca.smu.cs.csci3465.project.stratego to Package ca.smu.cs.csci3465.project.stratego.player
+Shift checkWin from Package ca.smu.cs.csci3465.project.stratego to Package ca.smu.cs.csci3465.project.stratego.server
+Shift clear from Package ca.smu.cs.csci3465.project.stratego.player.editor to Package ca.smu.cs.csci3465.project.stratego.player
+Shift getTraySize from Package ca.smu.cs.csci3465.project.stratego.player to Package ca.smu.cs.csci3465.project.stratego.server
+Shift showAll from Package ca.smu.cs.csci3465.project.stratego to Package ca.smu.cs.csci3465.project.stratego.player
+Shift hideAll from Package ca.smu.cs.csci3465.project.stratego to Package ca.smu.cs.csci3465.project.stratego.server
+Shift setKnown from Package ca.smu.cs.csci3465.project.stratego.player to Package ca.smu.cs.csci3465.project.stratego
+Shift setPiece from Package ca.smu.cs.csci3465.project.stratego.player to Package ca.smu.cs.csci3465.project.stratego.server
+Shift setShown from Package ca.smu.cs.csci3465.project.stratego.player to Package ca.smu.cs.csci3465.project.stratego
+Shift setTopColor from Package ca.smu.cs.csci3465.project.stratego to Package ca.smu.cs.csci3465.project.stratego.player
+Shift remove from Package ca.smu.cs.csci3465.project.stratego.server to Package ca.smu.cs.csci3465.project.stratego
+Shift validScoutMove from Package ca.smu.cs.csci3465.project.stratego to Package ca.smu.cs.csci3465.project.stratego.player
+Shift getBoardPiece from Package ca.smu.cs.csci3465.project.stratego.player to Package ca.smu.cs.csci3465.project.stratego.server
+Shift newGame from Package ca.smu.cs.csci3465.project.stratego.player to Package ca.smu.cs.csci3465.project.stratego.server
+Shift play from Package ca.smu.cs.csci3465.project.stratego.server to Package ca.smu.cs.csci3465.project.stratego.player
+Shift requestMove from Package ca.smu.cs.csci3465.project.stratego.server to Package ca.smu.cs.csci3465.project.stratego.player
+Shift update from Package ca.smu.cs.csci3465.project.stratego.server to Package ca.smu.cs.csci3465.project.stratego.player
+Shift getFrom from Package ca.smu.cs.csci3465.project.stratego to Package ca.smu.cs.csci3465.project.stratego.player
+Shift getTo from Package ca.smu.cs.csci3465.project.stratego to Package ca.smu.cs.csci3465.project.stratego.player
+Shift equals from Package ca.smu.cs.csci3465.project.stratego to Package ca.smu.cs.csci3465.project.stratego.player
+Shift getColor from Package ca.smu.cs.csci3465.project.stratego to Package ca.smu.cs.csci3465.project.stratego.player
+Shift getRank from Package ca.smu.cs.csci3465.project.stratego to Package ca.smu.cs.csci3465.project.stratego.player
+Shift isShown from Package ca.smu.cs.csci3465.project.stratego to Package ca.smu.cs.csci3465.project.stratego.player
+Shift isKnown from Package ca.smu.cs.csci3465.project.stratego to Package ca.smu.cs.csci3465.project.stratego.player
+Shift getBoardSetup from Package ca.smu.cs.csci3465.project.stratego.player to Package ca.smu.cs.csci3465.project.stratego.server
+Shift getBestMove from Package ca.smu.cs.csci3465.project.stratego.player to Package ca.smu.cs.csci3465.project.stratego.server
+Shift aiReturnMove from Package ca.smu.cs.csci3465.project.stratego.player to Package ca.smu.cs.csci3465.project.stratego.server
+Shift open from Package ca.smu.cs.csci3465.project.stratego.player to Package ca.smu.cs.csci3465.project.stratego.player.editor
+Shift openAs from Package ca.smu.cs.csci3465.project.stratego.player.editor to Package ca.smu.cs.csci3465.project.stratego.player
+Shift save from Package ca.smu.cs.csci3465.project.stratego.player to Package ca.smu.cs.csci3465.project.stratego.player.editor
+Shift saveAs from Package ca.smu.cs.csci3465.project.stratego.player.editor to Package ca.smu.cs.csci3465.project.stratego.player
+Shift updateTray from Package ca.smu.cs.csci3465.project.stratego.player to Package ca.smu.cs.csci3465.project.stratego.server
+Shift authenticate from Package ca.smu.cs.csci3465.project.stratego.server.remote to Package ca.smu.cs.csci3465.project.stratego.server

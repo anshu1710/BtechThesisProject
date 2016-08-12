@@ -1,0 +1,86 @@
+coupling due to link   --- 1.0
+kea.filters kea.stopwords
+KEAFilter StopwordsSpanish 1 1
+coupling due to link   --- 0.6
+kea.filters kea.util
+KEAFilter Counter 3 5
+coupling due to link   --- 0.5555555555555556
+kea.filters kea.vocab
+KEAFilter Vocabulary 10 18
+ 
+coupling due to link   --- 0.2
+kea.filters kea.util
+KEAPhraseFilter Counter 1 5
+ 
+coupling due to link   --- 0.03125
+kea.filters kea.main
+NumbersFilter KEAKeyphraseExtractor 1 32
+coupling due to link   --- 0.2
+kea.filters kea.util
+NumbersFilter Counter 1 5
+ 
+coupling due to link   --- 0.05454545454545454
+kea.main kea.filters
+KEAKeyphraseExtractor KEAFilter 3 55
+coupling due to link   --- 0.14285714285714285
+kea.main kea.filters
+KEAKeyphraseExtractor NumbersFilter 1 7
+coupling due to link   --- 0.4
+kea.main kea.util
+KEAKeyphraseExtractor Counter 2 5
+coupling due to link   --- 0.1111111111111111
+kea.main kea.vocab
+KEAKeyphraseExtractor Vocabulary 2 18
+ 
+coupling due to link   --- 0.14545454545454545
+kea.main kea.filters
+KEAModelBuilder KEAFilter 8 55
+coupling due to link   --- 0.2857142857142857
+kea.main kea.filters
+KEAModelBuilder KEAPhraseFilter 6 21
+coupling due to link   --- 0.42857142857142855
+kea.main kea.filters
+KEAModelBuilder NumbersFilter 3 7
+coupling due to link   --- 0.1111111111111111
+kea.main kea.vocab
+KEAModelBuilder Vocabulary 2 18
+ 
+coupling due to link   --- 0.2
+kea.stemmers kea.util
+FrenchStemmer Counter 1 5
+ 
+coupling due to link   --- 0.0625
+kea.stemmers kea.main
+SpanishStemmer KEAKeyphraseExtractor 2 32
+coupling due to link   --- 0.13513513513513514
+kea.stemmers kea.main
+SpanishStemmer KEAModelBuilder 5 37
+ 
+coupling due to link   --- 0.2
+kea.stemmers kea.util
+Stemmer Counter 1 5
+ 
+coupling due to link   --- 0.5
+kea.vocab kea.stemmers
+Vocabulary Stemmer 1 2
+coupling due to link   --- 1.0
+kea.vocab kea.stopwords
+Vocabulary StopwordsSpanish 1 1
+coupling due to link   --- 0.2
+kea.vocab kea.util
+Vocabulary Counter 1 5
+ 
+classes per packagekea.filters3
+classes per packagekea.main2
+classes per packagekea.stemmers10
+classes per packagekea.stopwords5
+classes per packagekea.util1
+classes per packagekea.vocab1
+
+
+("kea.filters",3),
+("kea.main",2),
+("kea.stemmers",10),
+("kea.stopwords",5),
+("kea.util",1),
+("kea.vocab",1)

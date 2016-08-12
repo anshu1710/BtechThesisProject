@@ -1,0 +1,21 @@
+Element Construction Set (ECS)
+------------------------------
+
++--------------+
+| Installation |
++--------------+
+
+Installation of the default distribution of ECS is simple. All one needs to 
+do is copy the ecs.jar file into the CLASSPATH's where it is used.
+
+
++----------+
+| Building |
++----------+
+
+To build ECS from source code, we depend on the Ant build system. This is 
+documented in build/README.
+
+thanks
+
+-the ECS team

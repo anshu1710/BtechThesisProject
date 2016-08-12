@@ -1,0 +1,9 @@
+#
+# The following jars are needed to build the site documentation.
+# If you have velocity checked out from cvs then it might work anyway
+#
+#velocity.jar = ../../jakarta-velocity/bin/velocity-1.3-dev.jar
+#commons-collections.jar = ../../jakarta-velocity/build/lib/commons-collections.jar
+#jdom.jar = ../../jakarta-velocity/build/lib/jdom-b7.jar
+#log4j.jar = ../../jakarta-velocity/build/lib/log4j-1.1.3.jar
+#xerces.jar = ../../jakarta-velocity/build/lib/xerces-1.3.0.jar

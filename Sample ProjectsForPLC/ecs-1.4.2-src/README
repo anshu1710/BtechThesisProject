@@ -1,0 +1,18 @@
+
+
+                          The Jakarta Project
+                          Element Construction Set
+
+
+To use ECS out of the box, simply add the ecs.jar file located in 
+src/java to your classpath. Please note that ECS is not a serlvet, it is 
+simply a library of code for you to use within your servlet, applet or 
+other Java applications.
+
+If you would like to recompile ECS, please read the document INSTALL
+as well as the build/README document.
+
+Javadoc documentation for ECS is in the docs/apidocs directory.
+
+Latest versions of ECS can be obtained from the Jakarta Project 
+website at <http://jakarta.apache.org/ecs/>

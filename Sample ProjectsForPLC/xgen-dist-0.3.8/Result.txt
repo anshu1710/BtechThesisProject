@@ -1,0 +1,153 @@
+workzen.xgen.ant		0.3333333333333333		0.27825224292615597
+
+workzen.xgen.loader		0.0		0.33554467671009025
+
+workzen.xgen.model.java		0.013888888888888888		0.17184265010351965
+
+workzen.xgen.model.java.file		NaN		0.09420289855072464
+
+workzen.xgen.model.java.xml		NaN		0.125
+
+workzen.xgen.test		0.0		0.22527472527472528
+
+workzen.xgen.test.persistence.bean		0.49999999999999994		0.6002498232761391
+
+workzen.xgen.test.velocity		0.0		0.2770944247264123
+
+workzen.xgen.util		0.0		0.06974637681159421
+
+Suggestions to reduce coupling:
+Shift getInstance from Class VEGenerator to Class VelocityTest
+Shift setTemplatePath from Class VEGenerator to Class VETexenTask
+Shift setOutputPath from Class VEGenerator to Class VelocityTest
+Shift setOutputEncoding from Class VEGenerator to Class VETexenTask
+Shift setInputEncoding from Class VEGenerator to Class VETexenTask
+Shift getWriter from Class VEGenerator to Class VETexenTask
+Shift setVelocityEngine from Class VEGenerator to Class VETexenTask
+Shift getTemplate from Class VEGenerator to Class TextFile
+Shift fillContextDefaults from Class VEGenerator to Class TextFile
+Shift fillContextProperties from Class VEGenerator to Class TextFile
+Shift shutdown from Class VEGenerator to Class VETexenTask
+Shift execute from Class VETexenTask to Class TypeBean
+Shift initControlContext from Class XGenTask to Class VETexenTask
+Shift isNull from Class Column to Class XGenTask
+Shift load from Class TypeBean to Class TypeUnitTest
+Shift loadDocument from Class XmlDocLoader to Class TypeBean
+Shift checkPrimaryKey from Class XGenLoader to Class TypeBean
+Shift loadField from Class XGenLoader to Class TypeBean
+Shift loadReference from Class XGenLoader to Class TypeBean
+Shift loadCollection from Class XGenLoader to Class TypeBean
+Shift getName from Class Type to Class Field
+Shift setClassname from Class Reference to Class XGenLoader
+Shift setName from Class Type to Class XGenLoader
+Shift setTypename from Class Collection to Class XGenLoader
+Shift getDebugInfo from Class Type to Class TypeBean
+Shift toString from Class TypeBean to Class Type
+Shift setReverseKey from Class Collection to Class XGenLoader
+Shift setIsNull from Class Column to Class XGenLoader
+Shift setIsPrimaryKey from Class Column to Class XGenLoader
+Shift setIsForeignKey from Class Column to Class XGenLoader
+Shift setIsAutoincrement from Class Column to Class XGenLoader
+Shift setIsTransactionKey from Class Column to Class XGenLoader
+Shift isPrimaryKey from Class Field to Class XGenLoader
+Shift setPrecision from Class Column to Class XGenLoader
+Shift setScale from Class Column to Class XGenLoader
+Shift setSize from Class Column to Class XGenLoader
+Shift setForeignTable from Class Column to Class XGenLoader
+Shift isTransactionKey from Class Field to Class TypeBean
+Shift setType from Class Field to Class XGenLoader
+Shift getType from Class TypeMap to Class XGenLoader
+Shift setIsPrimitive from Class Field to Class XGenLoader
+Shift setColumn from Class Field to Class XGenLoader
+Shift getFile from Class TextFile to Class TestCase1
+Shift setTableName from Class JavaClass to Class TypeBean
+Shift setTransactionKey from Class JavaClass to Class TypeBean
+Shift setAuthor from Class JavaClass to Class TypeBean
+Shift setDescription from Class JavaClass to Class TypeBean
+Shift getPrimaryKey from Class JavaClass to Class XGenLoader
+Shift setHandleConcurrency from Class JavaClass to Class TypeBean
+Shift setHandleAutoIncrement from Class JavaClass to Class TypeBean
+Shift setImports from Class JavaClass to Class TypeBean
+Shift setSuperclass from Class JavaClass to Class TypeBean
+Shift addField from Class JavaClass to Class TypeBean
+Shift addReference from Class JavaClass to Class TypeBean
+Shift addCollection from Class JavaClass to Class TypeBean
+Shift add from Class Package to Class TypeBean
+Shift getBeans from Class Package to Class VelocityTest
+Shift setKey from Class Reference to Class XGenLoader
+Shift getPrimitiveName from Class Type to Class Field
+Shift init from Class OracleBlobDemo to Class VelocityTest
+Shift printStackTrace from Class XGenException to Class TypeUnitTest
+Shift run from Class LobTest to Class VelocityTest
+Shift getConnection from Class TypeUnitTest to Class VelocityTest
+Shift fetch from Class OracleBlobDemo to Class VelocityTest
+Shift delete from Class TypeBean to Class TypeUnitTest
+Shift disconnect from Class TypeUnitTest to Class LobTest
+Shift setBlobType from Class LobTypeBean to Class TypeBean
+Shift setClobType from Class LobTypeBean to Class TypeBean
+Shift persist from Class TypeBean to Class TypeUnitTest
+Shift setStringType from Class TypeBean to Class TypeUnitTest
+Shift getDate from Class DateUtil to Class TypeBean
+Shift loadBLOB from Class SqlUtil to Class TypeBean
+Shift readBytes from Class SqlUtil to Class OracleBlobDemo
+Shift writeBytes from Class SqlUtil to Class OracleBlobDemo
+Shift print from Class Timer to Class TypeUnitTest
+Shift getInstance from Package workzen.xgen.ant to Package workzen.xgen.test.velocity
+Shift setOutputPath from Package workzen.xgen.ant to Package workzen.xgen.test.velocity
+Shift getTemplate from Package workzen.xgen.ant to Package workzen.xgen.model.java.file
+Shift fillContextDefaults from Package workzen.xgen.ant to Package workzen.xgen.model.java.file
+Shift fillContextProperties from Package workzen.xgen.ant to Package workzen.xgen.model.java.file
+Shift execute from Package workzen.xgen.ant to Package workzen.xgen.test.persistence.bean
+Shift isNull from Package workzen.xgen.model.java to Package workzen.xgen.ant
+Shift loadDocument from Package workzen.xgen.loader to Package workzen.xgen.test.persistence.bean
+Shift checkPrimaryKey from Package workzen.xgen.loader to Package workzen.xgen.test.persistence.bean
+Shift loadField from Package workzen.xgen.loader to Package workzen.xgen.test.persistence.bean
+Shift loadReference from Package workzen.xgen.loader to Package workzen.xgen.test.persistence.bean
+Shift loadCollection from Package workzen.xgen.loader to Package workzen.xgen.test.persistence.bean
+Shift setClassname from Package workzen.xgen.model.java to Package workzen.xgen.loader
+Shift setName from Package workzen.xgen.model.java to Package workzen.xgen.loader
+Shift setTypename from Package workzen.xgen.model.java to Package workzen.xgen.loader
+Shift getDebugInfo from Package workzen.xgen.model.java to Package workzen.xgen.test.persistence.bean
+Shift toString from Package workzen.xgen.test.persistence.bean to Package workzen.xgen.model.java
+Shift setReverseKey from Package workzen.xgen.model.java to Package workzen.xgen.loader
+Shift setIsNull from Package workzen.xgen.model.java to Package workzen.xgen.loader
+Shift setIsPrimaryKey from Package workzen.xgen.model.java to Package workzen.xgen.loader
+Shift setIsForeignKey from Package workzen.xgen.model.java to Package workzen.xgen.loader
+Shift setIsAutoincrement from Package workzen.xgen.model.java to Package workzen.xgen.loader
+Shift setIsTransactionKey from Package workzen.xgen.model.java to Package workzen.xgen.loader
+Shift isPrimaryKey from Package workzen.xgen.model.java to Package workzen.xgen.loader
+Shift setPrecision from Package workzen.xgen.model.java to Package workzen.xgen.loader
+Shift setScale from Package workzen.xgen.model.java to Package workzen.xgen.loader
+Shift setSize from Package workzen.xgen.model.java to Package workzen.xgen.loader
+Shift setForeignTable from Package workzen.xgen.model.java to Package workzen.xgen.loader
+Shift isTransactionKey from Package workzen.xgen.model.java to Package workzen.xgen.test.persistence.bean
+Shift setType from Package workzen.xgen.model.java to Package workzen.xgen.loader
+Shift getType from Package workzen.xgen.model.java to Package workzen.xgen.loader
+Shift setIsPrimitive from Package workzen.xgen.model.java to Package workzen.xgen.loader
+Shift setColumn from Package workzen.xgen.model.java to Package workzen.xgen.loader
+Shift getFile from Package workzen.xgen.model.java.file to Package workzen.xgen.test.velocity
+Shift setTableName from Package workzen.xgen.model.java to Package workzen.xgen.test.persistence.bean
+Shift setTransactionKey from Package workzen.xgen.model.java to Package workzen.xgen.test.persistence.bean
+Shift setAuthor from Package workzen.xgen.model.java to Package workzen.xgen.test.persistence.bean
+Shift setDescription from Package workzen.xgen.model.java to Package workzen.xgen.test.persistence.bean
+Shift getPrimaryKey from Package workzen.xgen.model.java to Package workzen.xgen.loader
+Shift setHandleConcurrency from Package workzen.xgen.model.java to Package workzen.xgen.test.persistence.bean
+Shift setHandleAutoIncrement from Package workzen.xgen.model.java to Package workzen.xgen.test.persistence.bean
+Shift setImports from Package workzen.xgen.model.java to Package workzen.xgen.test.persistence.bean
+Shift setSuperclass from Package workzen.xgen.model.java to Package workzen.xgen.test.persistence.bean
+Shift addField from Package workzen.xgen.model.java to Package workzen.xgen.test.persistence.bean
+Shift addReference from Package workzen.xgen.model.java to Package workzen.xgen.test.persistence.bean
+Shift addCollection from Package workzen.xgen.model.java to Package workzen.xgen.test.persistence.bean
+Shift add from Package workzen.xgen.model.java to Package workzen.xgen.test.persistence.bean
+Shift getBeans from Package workzen.xgen.model.java to Package workzen.xgen.test.velocity
+Shift setKey from Package workzen.xgen.model.java to Package workzen.xgen.loader
+Shift init from Package workzen.xgen.test to Package workzen.xgen.test.velocity
+Shift printStackTrace from Package workzen.xgen.model.java to Package workzen.xgen.test.persistence.bean
+Shift run from Package workzen.xgen.test.persistence.bean to Package workzen.xgen.test.velocity
+Shift getConnection from Package workzen.xgen.test.persistence.bean to Package workzen.xgen.test.velocity
+Shift fetch from Package workzen.xgen.test to Package workzen.xgen.test.velocity
+Shift getDate from Package workzen.xgen.util to Package workzen.xgen.test.persistence.bean
+Shift loadBLOB from Package workzen.xgen.util to Package workzen.xgen.test.persistence.bean
+Shift readBytes from Package workzen.xgen.util to Package workzen.xgen.test
+Shift writeBytes from Package workzen.xgen.util to Package workzen.xgen.test
+Shift print from Package workzen.xgen.util to Package workzen.xgen.test.persistence.bean

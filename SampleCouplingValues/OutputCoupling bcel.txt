@@ -1,0 +1,1843 @@
+coupling due to link   --- 0.024390243902439025
+org.apache.bcel.classfile org.apache.bcel.generic
+Attribute ConstantPoolGen 1 41
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.classfile org.apache.bcel.util
+Attribute ClassPath 1 26
+coupling due to link   --- 0.08333333333333333
+org.apache.bcel.classfile org.apache.bcel.verifier.structurals
+Attribute LocalVariables 1 12
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.classfile org.apache.bcel.verifier.structurals
+Attribute Pass3bVerifier 1 11
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.classfile org.apache.bcel.verifier
+Attribute VerificationResult 1 6
+ 
+coupling due to link   --- 0.2
+org.apache.bcel.classfile org.apache.bcel.util
+ClassParser AttributeHTML 1 5
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.classfile org.apache.bcel.util
+ClassParser ClassPath 1 26
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.classfile org.apache.bcel.verifier.statics
+ClassParser LocalVariableInfo 1 6
+ 
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.classfile org.apache.bcel.generic
+Code InstructionFactory 1 42
+coupling due to link   --- 0.041666666666666664
+org.apache.bcel.classfile org.apache.bcel.generic
+Code InstructionHandle 1 24
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.classfile org.apache.bcel.generic
+Code InstructionList 1 66
+coupling due to link   --- 0.043478260869565216
+org.apache.bcel.classfile org.apache.bcel.generic
+Code MethodGen 3 69
+ 
+coupling due to link   --- 0.2857142857142857
+org.apache.bcel.classfile org.apache.bcel.generic
+CodeException CodeExceptionGen 4 14
+ 
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.classfile org.apache.bcel.verifier
+Constant VerificationResult 1 6
+ 
+coupling due to link   --- 0.125
+org.apache.bcel.classfile org.apache.bcel.verifier.structurals
+ConstantCP InstructionContext 1 8
+ 
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.classfile org.apache.bcel.util
+ConstantDouble ClassPath 1 26
+ 
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.classfile org.apache.bcel.util
+ConstantFloat ClassPath 1 26
+ 
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.classfile org.apache.bcel.util
+ConstantInteger ClassPath 1 26
+ 
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.classfile org.apache.bcel.util
+ConstantLong ClassPath 1 26
+ 
+coupling due to link   --- 0.024390243902439025
+org.apache.bcel.classfile org.apache.bcel.generic
+ConstantPool ConstantPoolGen 1 41
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.classfile org.apache.bcel.generic
+ConstantPool InstructionFactory 1 42
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.classfile org.apache.bcel.generic
+ConstantPool InstructionList 1 66
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.classfile org.apache.bcel.util
+ConstantPool ClassPath 1 26
+coupling due to link   --- 0.017857142857142856
+org.apache.bcel.classfile org.apache.bcel.verifier.exc
+ConstantPool Utility 1 56
+coupling due to link   --- 0.125
+org.apache.bcel.classfile org.apache.bcel.verifier.structurals
+ConstantPool InstructionContext 1 8
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.classfile org.apache.bcel.verifier
+ConstantPool VerificationResult 1 6
+ 
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.classfile org.apache.bcel.util
+ConstantUtf8 ClassPath 1 26
+ 
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.classfile org.apache.bcel.generic
+ConstantValue InstructionFactory 1 42
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.classfile org.apache.bcel.generic
+ConstantValue InstructionList 1 66
+ 
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.classfile org.apache.bcel.generic
+Deprecated InstructionFactory 1 42
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.classfile org.apache.bcel.generic
+Deprecated InstructionList 1 66
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.classfile org.apache.bcel.util
+Deprecated ClassPath 1 26
+ 
+coupling due to link   --- 0.25
+org.apache.bcel.classfile org.apache.bcel.util
+DescendingVisitor ClassVector 1 4
+coupling due to link   --- 0.05263157894736842
+org.apache.bcel.classfile org.apache.bcel.verifier.structurals
+DescendingVisitor OperandStack 1 19
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.classfile org.apache.bcel.verifier.structurals
+DescendingVisitor Pass3bVerifier 1 11
+ 
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.classfile org.apache.bcel.generic
+ExceptionTable InstructionFactory 1 42
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.classfile org.apache.bcel.generic
+ExceptionTable InstructionList 1 66
+coupling due to link   --- 0.017857142857142856
+org.apache.bcel.classfile org.apache.bcel.verifier.exc
+ExceptionTable Utility 1 56
+ 
+coupling due to link   --- 0.024390243902439025
+org.apache.bcel.classfile org.apache.bcel.generic
+Field ConstantPoolGen 1 41
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.classfile org.apache.bcel.util
+Field ClassPath 1 26
+coupling due to link   --- 0.125
+org.apache.bcel.classfile org.apache.bcel.verifier.structurals
+Field InstructionContext 1 8
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.classfile org.apache.bcel.verifier
+Field VerificationResult 2 6
+ 
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.classfile org.apache.bcel.generic
+InnerClasses InstructionFactory 1 42
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.classfile org.apache.bcel.generic
+InnerClasses InstructionList 1 66
+ 
+coupling due to link   --- 0.024390243902439025
+org.apache.bcel.classfile org.apache.bcel.generic
+JavaClass ConstantPoolGen 1 41
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.classfile org.apache.bcel.generic
+JavaClass InstructionFactory 1 42
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.classfile org.apache.bcel.generic
+JavaClass InstructionList 1 66
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.classfile org.apache.bcel.util
+JavaClass ClassPath 1 26
+coupling due to link   --- 0.5
+org.apache.bcel.classfile org.apache.bcel.util
+JavaClass ClassQueue 2 4
+coupling due to link   --- 0.25
+org.apache.bcel.classfile org.apache.bcel.util
+JavaClass ClassStack 1 4
+coupling due to link   --- 0.25
+org.apache.bcel.classfile org.apache.bcel.util
+JavaClass ClassVector 1 4
+coupling due to link   --- 0.03571428571428571
+org.apache.bcel.classfile org.apache.bcel.util
+JavaClass Repository 1 28
+coupling due to link   --- 0.18181818181818182
+org.apache.bcel.classfile org.apache.bcel.util
+JavaClass SyntheticRepository 2 11
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.classfile org.apache.bcel.verifier.structurals
+JavaClass Pass3bVerifier 1 11
+coupling due to link   --- 0.5
+org.apache.bcel.classfile org.apache.bcel.verifier
+JavaClass VerificationResult 3 6
+ 
+coupling due to link   --- 0.07142857142857142
+org.apache.bcel.classfile org.apache.bcel.generic
+LineNumber CodeExceptionGen 1 14
+coupling due to link   --- 0.1111111111111111
+org.apache.bcel.classfile org.apache.bcel.generic
+LineNumber LineNumberGen 1 9
+ 
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.classfile org.apache.bcel.generic
+LineNumberTable InstructionFactory 1 42
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.classfile org.apache.bcel.generic
+LineNumberTable InstructionList 1 66
+coupling due to link   --- 0.014492753623188406
+org.apache.bcel.classfile org.apache.bcel.generic
+LineNumberTable MethodGen 1 69
+ 
+coupling due to link   --- 0.07142857142857142
+org.apache.bcel.classfile org.apache.bcel.generic
+LocalVariable CodeExceptionGen 1 14
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.classfile org.apache.bcel.generic
+LocalVariable InstructionFactory 1 42
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.classfile org.apache.bcel.generic
+LocalVariable InstructionList 1 66
+coupling due to link   --- 0.2
+org.apache.bcel.classfile org.apache.bcel.generic
+LocalVariable TABLESWITCH 1 5
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.classfile org.apache.bcel.util
+LocalVariable ByteSequence 1 6
+coupling due to link   --- 0.1111111111111111
+org.apache.bcel.classfile org.apache.bcel.verifier
+LocalVariable Verifier 1 9
+ 
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.classfile org.apache.bcel.generic
+LocalVariableTable InstructionFactory 1 42
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.classfile org.apache.bcel.generic
+LocalVariableTable InstructionList 1 66
+coupling due to link   --- 0.014492753623188406
+org.apache.bcel.classfile org.apache.bcel.generic
+LocalVariableTable MethodGen 1 69
+ 
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.classfile org.apache.bcel.verifier
+Method VerificationResult 2 6
+ 
+coupling due to link   --- 0.024390243902439025
+org.apache.bcel.classfile org.apache.bcel.generic
+PMGClass ConstantPoolGen 1 41
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.classfile org.apache.bcel.generic
+PMGClass InstructionFactory 1 42
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.classfile org.apache.bcel.generic
+PMGClass InstructionList 1 66
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.classfile org.apache.bcel.util
+PMGClass ClassPath 1 26
+ 
+coupling due to link   --- 0.024390243902439025
+org.apache.bcel.classfile org.apache.bcel.generic
+Signature ConstantPoolGen 1 41
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.classfile org.apache.bcel.generic
+Signature InstructionFactory 1 42
+coupling due to link   --- 0.030303030303030304
+org.apache.bcel.classfile org.apache.bcel.generic
+Signature InstructionList 2 66
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.classfile org.apache.bcel.util
+Signature ClassPath 1 26
+coupling due to link   --- 0.03571428571428571
+org.apache.bcel.classfile org.apache.bcel.verifier.exc
+Signature Utility 2 56
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.classfile org.apache.bcel.verifier.statics
+Signature LocalVariableInfo 1 6
+coupling due to link   --- 0.029411764705882353
+org.apache.bcel.classfile org.apache.bcel.verifier.statics
+Signature StringRepresentation 1 34
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.classfile org.apache.bcel.verifier
+Signature VerificationResult 1 6
+ 
+coupling due to link   --- 0.024390243902439025
+org.apache.bcel.classfile org.apache.bcel.generic
+SourceFile ConstantPoolGen 1 41
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.classfile org.apache.bcel.generic
+SourceFile InstructionFactory 1 42
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.classfile org.apache.bcel.generic
+SourceFile InstructionList 1 66
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.classfile org.apache.bcel.util
+SourceFile ClassPath 1 26
+ 
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.classfile org.apache.bcel.generic
+StackMapType InstructionFactory 1 42
+coupling due to link   --- 0.1
+org.apache.bcel.classfile org.apache.bcel.generic
+StackMapType RET 1 10
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.classfile org.apache.bcel.verifier.statics
+StackMapType LocalVariableInfo 1 6
+ 
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.classfile org.apache.bcel.generic
+Synthetic InstructionFactory 1 42
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.classfile org.apache.bcel.generic
+Synthetic InstructionList 1 66
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.classfile org.apache.bcel.util
+Synthetic ClassPath 1 26
+ 
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.classfile org.apache.bcel.generic
+Unknown InstructionFactory 1 42
+coupling due to link   --- 0.030303030303030304
+org.apache.bcel.classfile org.apache.bcel.generic
+Unknown InstructionList 2 66
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.classfile org.apache.bcel.util
+Unknown ClassPath 1 26
+coupling due to link   --- 0.05263157894736842
+org.apache.bcel.classfile org.apache.bcel.verifier.structurals
+Unknown OperandStack 1 19
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.classfile org.apache.bcel.verifier.structurals
+Unknown Pass3bVerifier 1 11
+ 
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.verifier.statics
+ArrayType LocalVariableInfo 1 6
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.verifier
+ArrayType VerificationResult 1 6
+ 
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.util
+BranchInstruction ByteSequence 1 6
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.verifier
+BranchInstruction VerificationResult 1 6
+ 
+coupling due to link   --- 0.25
+org.apache.bcel.generic org.apache.bcel.util
+ClassGen ClassVector 1 4
+coupling due to link   --- 0.03571428571428571
+org.apache.bcel.generic org.apache.bcel.util
+ClassGen Repository 1 28
+coupling due to link   --- 0.017857142857142856
+org.apache.bcel.generic org.apache.bcel.verifier.exc
+ClassGen Utility 1 56
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+ClassGen LocalVariables 2 12
+coupling due to link   --- 0.05263157894736842
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+ClassGen OperandStack 1 19
+coupling due to link   --- 0.2727272727272727
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+ClassGen Pass3bVerifier 3 11
+coupling due to link   --- 0.047619047619047616
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+ClassGen Subroutines 1 21
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.generic org.apache.bcel.verifier
+ClassGen VerificationResult 2 6
+ 
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.util
+CodeExceptionGen ByteSequence 1 6
+coupling due to link   --- 0.03571428571428571
+org.apache.bcel.generic org.apache.bcel.util
+CodeExceptionGen Repository 1 28
+ 
+coupling due to link   --- 0.2
+org.apache.bcel.generic org.apache.bcel.classfile
+ConstantPoolGen ConstantCP 2 10
+coupling due to link   --- 0.1
+org.apache.bcel.generic org.apache.bcel.classfile
+ConstantPoolGen ConstantString 1 10
+coupling due to link   --- 0.047619047619047616
+org.apache.bcel.generic org.apache.bcel.classfile
+ConstantPoolGen LocalVariable 1 21
+coupling due to link   --- 0.047619047619047616
+org.apache.bcel.generic org.apache.bcel.classfile
+ConstantPoolGen Signature 1 21
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.generic org.apache.bcel.util
+ConstantPoolGen ClassPath 1 26
+coupling due to link   --- 0.07142857142857142
+org.apache.bcel.generic org.apache.bcel.util
+ConstantPoolGen Repository 2 28
+coupling due to link   --- 0.017857142857142856
+org.apache.bcel.generic org.apache.bcel.verifier.exc
+ConstantPoolGen Utility 1 56
+coupling due to link   --- 0.125
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+ConstantPoolGen InstructionContext 1 8
+coupling due to link   --- 0.08333333333333333
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+ConstantPoolGen LocalVariables 1 12
+ 
+coupling due to link   --- 0.02702702702702703
+org.apache.bcel.generic org.apache.bcel.classfile
+FieldGen AccessFlags 1 37
+coupling due to link   --- 0.2
+org.apache.bcel.generic org.apache.bcel.classfile
+FieldGen ConstantCP 2 10
+coupling due to link   --- 0.1
+org.apache.bcel.generic org.apache.bcel.classfile
+FieldGen ConstantString 1 10
+coupling due to link   --- 0.07142857142857142
+org.apache.bcel.generic org.apache.bcel.classfile
+FieldGen Field 1 14
+coupling due to link   --- 0.047619047619047616
+org.apache.bcel.generic org.apache.bcel.classfile
+FieldGen LocalVariable 1 21
+coupling due to link   --- 0.047619047619047616
+org.apache.bcel.generic org.apache.bcel.classfile
+FieldGen Signature 1 21
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.generic org.apache.bcel.util
+FieldGen ClassPath 1 26
+coupling due to link   --- 0.03571428571428571
+org.apache.bcel.generic org.apache.bcel.util
+FieldGen Repository 1 28
+coupling due to link   --- 0.017857142857142856
+org.apache.bcel.generic org.apache.bcel.verifier.exc
+FieldGen Utility 1 56
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.verifier.statics
+FieldGen LocalVariableInfo 1 6
+coupling due to link   --- 0.125
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+FieldGen InstructionContext 1 8
+coupling due to link   --- 0.5
+org.apache.bcel.generic org.apache.bcel.verifier
+FieldGen VerificationResult 3 6
+ 
+coupling due to link   --- 0.05263157894736842
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+FieldGenOrMethodGen OperandStack 1 19
+ 
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.generic org.apache.bcel.verifier.statics
+FieldInstruction LocalVariableInfo 2 6
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.verifier
+FieldInstruction VerifierFactoryListModel 1 6
+ 
+coupling due to link   --- 0.02702702702702703
+org.apache.bcel.generic org.apache.bcel.classfile
+FieldOrMethod AccessFlags 1 37
+coupling due to link   --- 0.047619047619047616
+org.apache.bcel.generic org.apache.bcel.classfile
+FieldOrMethod LocalVariable 1 21
+coupling due to link   --- 0.047619047619047616
+org.apache.bcel.generic org.apache.bcel.classfile
+FieldOrMethod Signature 1 21
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.generic org.apache.bcel.util
+FieldOrMethod ClassPath 1 26
+ 
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.generic org.apache.bcel.verifier
+Instruction VerificationResult 2 6
+ 
+coupling due to link   --- 0.1
+org.apache.bcel.generic org.apache.bcel.classfile
+InstructionFactory ConstantCP 1 10
+coupling due to link   --- 0.0625
+org.apache.bcel.generic org.apache.bcel.classfile
+InstructionFactory ConstantPool 1 16
+coupling due to link   --- 0.016666666666666666
+org.apache.bcel.generic org.apache.bcel.classfile
+InstructionFactory JavaClass 1 60
+coupling due to link   --- 0.03571428571428571
+org.apache.bcel.generic org.apache.bcel.util
+InstructionFactory Repository 1 28
+coupling due to link   --- 0.017857142857142856
+org.apache.bcel.generic org.apache.bcel.verifier.exc
+InstructionFactory Utility 1 56
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.verifier.statics
+InstructionFactory LocalVariableInfo 1 6
+coupling due to link   --- 0.125
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+InstructionFactory InstructionContext 1 8
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.verifier
+InstructionFactory VerificationResult 1 6
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.verifier
+InstructionFactory VerifierFactoryListModel 1 6
+ 
+coupling due to link   --- 0.25
+org.apache.bcel.generic org.apache.bcel.util
+InstructionHandle ClassVector 1 4
+coupling due to link   --- 0.08333333333333333
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+InstructionHandle LocalVariables 1 12
+coupling due to link   --- 0.05263157894736842
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+InstructionHandle OperandStack 1 19
+coupling due to link   --- 0.2727272727272727
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+InstructionHandle Pass3bVerifier 3 11
+ 
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.util
+InstructionList ByteSequence 1 6
+coupling due to link   --- 0.125
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+InstructionList InstructionContext 1 8
+coupling due to link   --- 0.05263157894736842
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+InstructionList OperandStack 1 19
+coupling due to link   --- 0.18181818181818182
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+InstructionList Pass3bVerifier 2 11
+coupling due to link   --- 0.047619047619047616
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+InstructionList Subroutines 1 21
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.verifier
+InstructionList VerificationResult 1 6
+ 
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.verifier.statics
+InvokeInstruction LocalVariableInfo 1 6
+ 
+coupling due to link   --- 0.125
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+JsrInstruction InstructionContext 1 8
+ 
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.util
+LineNumberGen ByteSequence 1 6
+ 
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.generic org.apache.bcel.util
+LocalVariableGen ByteSequence 2 6
+ 
+coupling due to link   --- 0.13513513513513514
+org.apache.bcel.generic org.apache.bcel.classfile
+MethodGen AccessFlags 5 37
+coupling due to link   --- 0.05263157894736842
+org.apache.bcel.generic org.apache.bcel.classfile
+MethodGen Method 1 19
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.util
+MethodGen ByteSequence 1 6
+coupling due to link   --- 0.25
+org.apache.bcel.generic org.apache.bcel.util
+MethodGen ClassVector 1 4
+coupling due to link   --- 0.03571428571428571
+org.apache.bcel.generic org.apache.bcel.util
+MethodGen Repository 1 28
+coupling due to link   --- 0.017857142857142856
+org.apache.bcel.generic org.apache.bcel.verifier.exc
+MethodGen Utility 1 56
+coupling due to link   --- 0.5
+org.apache.bcel.generic org.apache.bcel.verifier.statics
+MethodGen LocalVariableInfo 3 6
+coupling due to link   --- 0.125
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+MethodGen InstructionContext 1 8
+coupling due to link   --- 0.08333333333333333
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+MethodGen LocalVariables 1 12
+coupling due to link   --- 0.21052631578947367
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+MethodGen OperandStack 4 19
+coupling due to link   --- 0.2727272727272727
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+MethodGen Pass3bVerifier 3 11
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.generic org.apache.bcel.verifier
+MethodGen VerificationResult 2 6
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.verifier
+MethodGen VerifierFactoryListModel 1 6
+ 
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.verifier.statics
+NEW LocalVariableInfo 1 6
+coupling due to link   --- 0.05263157894736842
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+NEW OperandStack 1 19
+ 
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.verifier.statics
+NEWARRAY LocalVariableInfo 1 6
+ 
+coupling due to link   --- 0.02702702702702703
+org.apache.bcel.generic org.apache.bcel.classfile
+ObjectType AccessFlags 1 37
+coupling due to link   --- 0.016666666666666666
+org.apache.bcel.generic org.apache.bcel.classfile
+ObjectType JavaClass 1 60
+coupling due to link   --- 0.07142857142857142
+org.apache.bcel.generic org.apache.bcel.util
+ObjectType Repository 2 28
+coupling due to link   --- 0.017857142857142856
+org.apache.bcel.generic org.apache.bcel.verifier.exc
+ObjectType Utility 1 56
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.verifier
+ObjectType VerificationResult 1 6
+ 
+coupling due to link   --- 0.14285714285714285
+org.apache.bcel.generic org.apache.bcel.util
+ReferenceType Repository 4 28
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.verifier
+ReferenceType VerificationResult 1 6
+coupling due to link   --- 0.1111111111111111
+org.apache.bcel.generic org.apache.bcel.verifier
+ReferenceType Verifier 1 9
+ 
+coupling due to link   --- 0.03571428571428571
+org.apache.bcel.generic org.apache.bcel.util
+ReturnInstruction Repository 1 28
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+ReturnInstruction Pass3bVerifier 1 11
+ 
+coupling due to link   --- 0.05263157894736842
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+Select OperandStack 1 19
+ 
+coupling due to link   --- 0.1
+org.apache.bcel.generic org.apache.bcel.classfile
+SIPUSH ConstantString 1 10
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.generic org.apache.bcel.util
+SIPUSH ClassPath 1 26
+coupling due to link   --- 0.125
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+SIPUSH InstructionContext 1 8
+ 
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.verifier
+StackConsumer VerifierFactoryListModel 1 6
+ 
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.verifier
+StackProducer VerifierFactoryListModel 1 6
+ 
+coupling due to link   --- 0.25
+org.apache.bcel.generic org.apache.bcel.util
+SWITCH ClassVector 1 4
+coupling due to link   --- 0.05263157894736842
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+SWITCH OperandStack 1 19
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+SWITCH Pass3bVerifier 1 11
+ 
+coupling due to link   --- 0.07692307692307693
+org.apache.bcel.generic org.apache.bcel.classfile
+TABLESWITCH StackMapType 1 13
+coupling due to link   --- 0.2
+org.apache.bcel.generic org.apache.bcel.util
+TABLESWITCH AttributeHTML 1 5
+coupling due to link   --- 0.21052631578947367
+org.apache.bcel.generic org.apache.bcel.util
+TABLESWITCH BCELFactory 4 19
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.util
+TABLESWITCH ByteSequence 1 6
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.generic org.apache.bcel.util
+TABLESWITCH ClassPath 1 26
+coupling due to link   --- 0.017857142857142856
+org.apache.bcel.generic org.apache.bcel.verifier.exc
+TABLESWITCH Utility 1 56
+coupling due to link   --- 0.8823529411764706
+org.apache.bcel.generic org.apache.bcel.verifier.statics
+TABLESWITCH StringRepresentation 30 34
+coupling due to link   --- 0.9261363636363636
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+TABLESWITCH InstConstraintVisitor 163 176
+coupling due to link   --- 0.1111111111111111
+org.apache.bcel.generic org.apache.bcel.verifier
+TABLESWITCH Verifier 1 9
+ 
+coupling due to link   --- 0.0625
+org.apache.bcel.generic org.apache.bcel.classfile
+Type ConstantPool 1 16
+coupling due to link   --- 0.047619047619047616
+org.apache.bcel.generic org.apache.bcel.classfile
+Type LocalVariable 1 21
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.generic org.apache.bcel.util
+Type ClassPath 1 26
+coupling due to link   --- 0.25
+org.apache.bcel.generic org.apache.bcel.util
+Type ClassVector 1 4
+coupling due to link   --- 0.017857142857142856
+org.apache.bcel.generic org.apache.bcel.verifier.exc
+Type Utility 1 56
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.generic org.apache.bcel.verifier.statics
+Type LocalVariableInfo 1 6
+coupling due to link   --- 0.08333333333333333
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+Type LocalVariables 1 12
+coupling due to link   --- 0.18181818181818182
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+Type Pass3bVerifier 2 11
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.generic org.apache.bcel.verifier
+Type VerificationResult 2 6
+ 
+coupling due to link   --- 0.10526315789473684
+org.apache.bcel.generic org.apache.bcel.verifier.structurals
+Visitor OperandStack 2 19
+ 
+coupling due to link   --- 0.1111111111111111
+org.apache.bcel.util org.apache.bcel.classfile
+AttributeHTML ConstantValue 1 9
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.util org.apache.bcel.classfile
+AttributeHTML ExceptionTable 1 11
+coupling due to link   --- 0.0625
+org.apache.bcel.util org.apache.bcel.classfile
+AttributeHTML InnerClass 1 16
+coupling due to link   --- 0.1111111111111111
+org.apache.bcel.util org.apache.bcel.classfile
+AttributeHTML InnerClasses 1 9
+coupling due to link   --- 0.047619047619047616
+org.apache.bcel.util org.apache.bcel.classfile
+AttributeHTML Signature 1 21
+coupling due to link   --- 0.1
+org.apache.bcel.util org.apache.bcel.classfile
+AttributeHTML SourceFile 1 10
+coupling due to link   --- 0.14285714285714285
+org.apache.bcel.util org.apache.bcel.generic
+AttributeHTML CodeExceptionGen 2 14
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.util org.apache.bcel.generic
+AttributeHTML InstructionList 1 66
+coupling due to link   --- 0.043478260869565216
+org.apache.bcel.util org.apache.bcel.generic
+AttributeHTML MethodGen 3 69
+coupling due to link   --- 0.03571428571428571
+org.apache.bcel.util org.apache.bcel.verifier.exc
+AttributeHTML Utility 2 56
+coupling due to link   --- 0.125
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+AttributeHTML InstructionContext 1 8
+coupling due to link   --- 0.1111111111111111
+org.apache.bcel.util org.apache.bcel.verifier
+AttributeHTML Verifier 1 9
+ 
+coupling due to link   --- 0.125
+org.apache.bcel.util org.apache.bcel.generic
+BCELFactory ArrayType 1 8
+coupling due to link   --- 0.07142857142857142
+org.apache.bcel.util org.apache.bcel.generic
+BCELFactory CodeExceptionGen 1 14
+coupling due to link   --- 0.047619047619047616
+org.apache.bcel.util org.apache.bcel.generic
+BCELFactory Instruction 1 21
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.util org.apache.bcel.generic
+BCELFactory InstructionFactory 1 42
+coupling due to link   --- 0.041666666666666664
+org.apache.bcel.util org.apache.bcel.generic
+BCELFactory InstructionHandle 1 24
+coupling due to link   --- 0.030303030303030304
+org.apache.bcel.util org.apache.bcel.generic
+BCELFactory InstructionList 2 66
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.util org.apache.bcel.generic
+BCELFactory MULTIANEWARRAY 1 11
+coupling due to link   --- 0.07142857142857142
+org.apache.bcel.util org.apache.bcel.generic
+BCELFactory Select 1 14
+coupling due to link   --- 0.5
+org.apache.bcel.util org.apache.bcel.generic
+BCELFactory TargetLostException 1 2
+coupling due to link   --- 0.03571428571428571
+org.apache.bcel.util org.apache.bcel.verifier.exc
+BCELFactory Utility 2 56
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.util org.apache.bcel.verifier.statics
+BCELFactory LocalVariableInfo 2 6
+coupling due to link   --- 0.125
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+BCELFactory InstructionContext 1 8
+coupling due to link   --- 0.08333333333333333
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+BCELFactory LocalVariables 1 12
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+BCELFactory Pass3bVerifier 1 11
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.util org.apache.bcel.verifier
+BCELFactory VerificationResult 1 6
+ 
+coupling due to link   --- 0.05405405405405406
+org.apache.bcel.util org.apache.bcel.classfile
+BCELifier AccessFlags 2 37
+coupling due to link   --- 0.0392156862745098
+org.apache.bcel.util org.apache.bcel.generic
+BCELifier ClassGen 2 51
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.util org.apache.bcel.generic
+BCELifier InstructionFactory 1 42
+coupling due to link   --- 0.08333333333333333
+org.apache.bcel.util org.apache.bcel.generic
+BCELifier InstructionHandle 2 24
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.util org.apache.bcel.generic
+BCELifier InstructionList 1 66
+coupling due to link   --- 0.05555555555555555
+org.apache.bcel.util org.apache.bcel.generic
+BCELifier LocalVariableGen 1 18
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.util org.apache.bcel.generic
+BCELifier MULTIANEWARRAY 1 11
+coupling due to link   --- 0.2
+org.apache.bcel.util org.apache.bcel.generic
+BCELifier TABLESWITCH 1 5
+coupling due to link   --- 0.017857142857142856
+org.apache.bcel.util org.apache.bcel.verifier.exc
+BCELifier Utility 1 56
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.util org.apache.bcel.verifier.statics
+BCELifier LocalVariableInfo 1 6
+coupling due to link   --- 0.029411764705882353
+org.apache.bcel.util org.apache.bcel.verifier.statics
+BCELifier StringRepresentation 1 34
+coupling due to link   --- 0.125
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+BCELifier InstructionContext 1 8
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.util org.apache.bcel.verifier
+BCELifier VerificationResult 2 6
+coupling due to link   --- 0.2222222222222222
+org.apache.bcel.util org.apache.bcel.verifier
+BCELifier Verifier 2 9
+ 
+coupling due to link   --- 0.0625
+org.apache.bcel.util org.apache.bcel.classfile
+Class2HTML ConstantPool 1 16
+coupling due to link   --- 0.0392156862745098
+org.apache.bcel.util org.apache.bcel.generic
+Class2HTML ClassGen 2 51
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.util org.apache.bcel.generic
+Class2HTML InstructionFactory 1 42
+coupling due to link   --- 0.041666666666666664
+org.apache.bcel.util org.apache.bcel.generic
+Class2HTML InstructionHandle 1 24
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.util org.apache.bcel.generic
+Class2HTML InstructionList 1 66
+coupling due to link   --- 0.017857142857142856
+org.apache.bcel.util org.apache.bcel.verifier.exc
+Class2HTML Utility 1 56
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.util org.apache.bcel.verifier
+Class2HTML VerificationResult 2 6
+coupling due to link   --- 0.1111111111111111
+org.apache.bcel.util org.apache.bcel.verifier
+Class2HTML Verifier 1 9
+ 
+coupling due to link   --- 0.08333333333333333
+org.apache.bcel.util org.apache.bcel.classfile
+ClassLoader ClassParser 1 12
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.util org.apache.bcel.classfile
+ClassLoader Unknown 1 11
+coupling due to link   --- 0.024390243902439025
+org.apache.bcel.util org.apache.bcel.generic
+ClassLoader ConstantPoolGen 1 41
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.util org.apache.bcel.generic
+ClassLoader InstructionFactory 1 42
+coupling due to link   --- 0.017857142857142856
+org.apache.bcel.util org.apache.bcel.verifier.exc
+ClassLoader Utility 1 56
+ 
+coupling due to link   --- 0.07142857142857142
+org.apache.bcel.util org.apache.bcel.classfile
+ClassPath Field 1 14
+coupling due to link   --- 0.2
+org.apache.bcel.util org.apache.bcel.generic
+ClassPath TABLESWITCH 1 5
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.util org.apache.bcel.verifier.statics
+ClassPath LocalVariableInfo 1 6
+coupling due to link   --- 0.18181818181818182
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+ClassPath Pass3bVerifier 2 11
+coupling due to link   --- 0.5
+org.apache.bcel.util org.apache.bcel.verifier
+ClassPath VerificationResult 3 6
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.util org.apache.bcel.verifier
+ClassPath VerifierFactoryListModel 1 6
+ 
+coupling due to link   --- 0.05263157894736842
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+ClassStack OperandStack 1 19
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+ClassStack Pass3bVerifier 1 11
+ 
+coupling due to link   --- 0.08333333333333333
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+ClassVector LocalVariables 1 12
+coupling due to link   --- 0.2727272727272727
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+ClassVector Pass3bVerifier 3 11
+ 
+coupling due to link   --- 0.2
+org.apache.bcel.util org.apache.bcel.classfile
+CodeHTML ConstantCP 2 10
+coupling due to link   --- 0.125
+org.apache.bcel.util org.apache.bcel.classfile
+CodeHTML ConstantPool 2 16
+coupling due to link   --- 0.07142857142857142
+org.apache.bcel.util org.apache.bcel.generic
+CodeHTML CodeExceptionGen 1 14
+coupling due to link   --- 0.024390243902439025
+org.apache.bcel.util org.apache.bcel.generic
+CodeHTML ConstantPoolGen 1 41
+coupling due to link   --- 0.041666666666666664
+org.apache.bcel.util org.apache.bcel.generic
+CodeHTML InstructionHandle 1 24
+coupling due to link   --- 0.030303030303030304
+org.apache.bcel.util org.apache.bcel.generic
+CodeHTML InstructionList 2 66
+coupling due to link   --- 0.028985507246376812
+org.apache.bcel.util org.apache.bcel.generic
+CodeHTML MethodGen 2 69
+coupling due to link   --- 0.05357142857142857
+org.apache.bcel.util org.apache.bcel.verifier.exc
+CodeHTML Utility 3 56
+coupling due to link   --- 0.125
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+CodeHTML InstructionContext 1 8
+coupling due to link   --- 0.08333333333333333
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+CodeHTML LocalVariables 1 12
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.util org.apache.bcel.verifier
+CodeHTML VerificationResult 2 6
+ 
+coupling due to link   --- 0.2
+org.apache.bcel.util org.apache.bcel.classfile
+ConstantHTML ConstantCP 2 10
+coupling due to link   --- 0.0625
+org.apache.bcel.util org.apache.bcel.classfile
+ConstantHTML ConstantPool 1 16
+coupling due to link   --- 0.1
+org.apache.bcel.util org.apache.bcel.classfile
+ConstantHTML ConstantString 1 10
+coupling due to link   --- 0.047619047619047616
+org.apache.bcel.util org.apache.bcel.classfile
+ConstantHTML LocalVariable 1 21
+coupling due to link   --- 0.047619047619047616
+org.apache.bcel.util org.apache.bcel.classfile
+ConstantHTML Signature 1 21
+coupling due to link   --- 0.024390243902439025
+org.apache.bcel.util org.apache.bcel.generic
+ConstantHTML ConstantPoolGen 1 41
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.util org.apache.bcel.generic
+ConstantHTML InstructionFactory 1 42
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.util org.apache.bcel.generic
+ConstantHTML InstructionList 1 66
+coupling due to link   --- 0.058823529411764705
+org.apache.bcel.util org.apache.bcel.generic
+ConstantHTML Type 1 17
+coupling due to link   --- 0.05357142857142857
+org.apache.bcel.util org.apache.bcel.verifier.exc
+ConstantHTML Utility 3 56
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.util org.apache.bcel.verifier.statics
+ConstantHTML LocalVariableInfo 1 6
+coupling due to link   --- 0.125
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+ConstantHTML InstructionContext 1 8
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.util org.apache.bcel.verifier
+ConstantHTML VerificationResult 2 6
+ 
+coupling due to link   --- 0.06060606060606061
+org.apache.bcel.util org.apache.bcel.generic
+InstructionFinder InstructionList 4 66
+coupling due to link   --- 0.08333333333333333
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+InstructionFinder LocalVariables 1 12
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+InstructionFinder Pass3bVerifier 1 11
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.util org.apache.bcel.verifier
+InstructionFinder VerificationResult 2 6
+ 
+coupling due to link   --- 0.10810810810810811
+org.apache.bcel.util org.apache.bcel.classfile
+JavaWrapper AccessFlags 4 37
+coupling due to link   --- 0.014492753623188406
+org.apache.bcel.util org.apache.bcel.generic
+JavaWrapper MethodGen 1 69
+coupling due to link   --- 0.058823529411764705
+org.apache.bcel.util org.apache.bcel.generic
+JavaWrapper Type 1 17
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.util org.apache.bcel.verifier
+JavaWrapper VerificationResult 2 6
+ 
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.util org.apache.bcel.classfile
+MethodHTML ExceptionTable 1 11
+coupling due to link   --- 0.05263157894736842
+org.apache.bcel.util org.apache.bcel.classfile
+MethodHTML Method 1 19
+coupling due to link   --- 0.09523809523809523
+org.apache.bcel.util org.apache.bcel.classfile
+MethodHTML Signature 2 21
+coupling due to link   --- 0.041666666666666664
+org.apache.bcel.util org.apache.bcel.generic
+MethodHTML InstructionHandle 1 24
+coupling due to link   --- 0.058823529411764705
+org.apache.bcel.util org.apache.bcel.generic
+MethodHTML Type 1 17
+coupling due to link   --- 0.08928571428571429
+org.apache.bcel.util org.apache.bcel.verifier.exc
+MethodHTML Utility 5 56
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.util org.apache.bcel.verifier.statics
+MethodHTML LocalVariableInfo 1 6
+coupling due to link   --- 0.125
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+MethodHTML InstructionContext 1 8
+coupling due to link   --- 0.08333333333333333
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+MethodHTML LocalVariables 1 12
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.util org.apache.bcel.verifier
+MethodHTML VerificationResult 1 6
+ 
+coupling due to link   --- 0.02702702702702703
+org.apache.bcel.util org.apache.bcel.classfile
+Repository AccessFlags 1 37
+coupling due to link   --- 0.03333333333333333
+org.apache.bcel.util org.apache.bcel.classfile
+Repository JavaClass 2 60
+coupling due to link   --- 0.0196078431372549
+org.apache.bcel.util org.apache.bcel.generic
+Repository ClassGen 1 51
+coupling due to link   --- 0.024390243902439025
+org.apache.bcel.util org.apache.bcel.generic
+Repository ConstantPoolGen 1 41
+coupling due to link   --- 0.08333333333333333
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+Repository LocalVariables 1 12
+coupling due to link   --- 0.05263157894736842
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+Repository OperandStack 1 19
+coupling due to link   --- 0.18181818181818182
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+Repository Pass3bVerifier 2 11
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.util org.apache.bcel.verifier
+Repository VerificationResult 1 6
+coupling due to link   --- 0.1111111111111111
+org.apache.bcel.util org.apache.bcel.verifier
+Repository Verifier 1 9
+ 
+coupling due to link   --- 0.08333333333333333
+org.apache.bcel.util org.apache.bcel.classfile
+SyntheticRepository ClassParser 1 12
+coupling due to link   --- 0.017857142857142856
+org.apache.bcel.util org.apache.bcel.verifier.exc
+SyntheticRepository Utility 1 56
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.util org.apache.bcel.verifier.statics
+SyntheticRepository LocalVariableInfo 1 6
+coupling due to link   --- 0.08333333333333333
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+SyntheticRepository LocalVariables 1 12
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.util org.apache.bcel.verifier.structurals
+SyntheticRepository Pass3bVerifier 1 11
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.util org.apache.bcel.verifier
+SyntheticRepository VerificationResult 2 6
+ 
+coupling due to link   --- 0.047619047619047616
+org.apache.bcel.verifier.exc org.apache.bcel.classfile
+Utility LocalVariable 1 21
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.verifier.exc org.apache.bcel.generic
+Utility InstructionList 1 66
+coupling due to link   --- 0.05555555555555555
+org.apache.bcel.verifier.exc org.apache.bcel.generic
+Utility LocalVariableGen 1 18
+coupling due to link   --- 0.14285714285714285
+org.apache.bcel.verifier.exc org.apache.bcel.generic
+Utility SWITCH 1 7
+coupling due to link   --- 0.17647058823529413
+org.apache.bcel.verifier.exc org.apache.bcel.generic
+Utility Type 3 17
+coupling due to link   --- 0.2
+org.apache.bcel.verifier.exc org.apache.bcel.util
+Utility AttributeHTML 1 5
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.verifier.exc org.apache.bcel.util
+Utility ByteSequence 1 6
+coupling due to link   --- 0.25
+org.apache.bcel.verifier.exc org.apache.bcel.util
+Utility ClassVector 1 4
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.verifier.exc org.apache.bcel.verifier.structurals
+Utility Pass3bVerifier 1 11
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.verifier.exc org.apache.bcel.verifier
+Utility VerificationResult 2 6
+ 
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.verifier org.apache.bcel.verifier.structurals
+PassVerifier Pass3bVerifier 1 11
+ 
+coupling due to link   --- 0.125
+org.apache.bcel.verifier.statics org.apache.bcel.classfile
+LocalVariableInfo ConstantPool 2 16
+coupling due to link   --- 0.024390243902439025
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+LocalVariableInfo ConstantPoolGen 1 41
+coupling due to link   --- 0.14285714285714285
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+LocalVariableInfo FieldInstruction 1 7
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+LocalVariableInfo InstructionFactory 1 42
+coupling due to link   --- 0.25
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+LocalVariableInfo JsrInstruction 1 4
+coupling due to link   --- 0.17647058823529413
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+LocalVariableInfo Type 3 17
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.verifier.statics org.apache.bcel.util
+LocalVariableInfo ClassPath 1 26
+coupling due to link   --- 0.03571428571428571
+org.apache.bcel.verifier.statics org.apache.bcel.verifier.exc
+LocalVariableInfo Utility 2 56
+coupling due to link   --- 0.125
+org.apache.bcel.verifier.statics org.apache.bcel.verifier.structurals
+LocalVariableInfo InstructionContext 1 8
+coupling due to link   --- 0.08333333333333333
+org.apache.bcel.verifier.statics org.apache.bcel.verifier.structurals
+LocalVariableInfo LocalVariables 1 12
+ 
+coupling due to link   --- 0.0392156862745098
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+Pass1Verifier ClassGen 2 51
+coupling due to link   --- 0.024390243902439025
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+Pass1Verifier ConstantPoolGen 1 41
+coupling due to link   --- 0.041666666666666664
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+Pass1Verifier InstructionHandle 1 24
+coupling due to link   --- 0.07142857142857142
+org.apache.bcel.verifier.statics org.apache.bcel.util
+Pass1Verifier Repository 2 28
+ 
+coupling due to link   --- 0.08108108108108109
+org.apache.bcel.verifier.statics org.apache.bcel.classfile
+Pass2Verifier AccessFlags 3 37
+coupling due to link   --- 0.2
+org.apache.bcel.verifier.statics org.apache.bcel.classfile
+Pass2Verifier ConstantCP 2 10
+coupling due to link   --- 0.058823529411764705
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+Pass2Verifier ClassGen 3 51
+coupling due to link   --- 0.024390243902439025
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+Pass2Verifier ConstantPoolGen 1 41
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+Pass2Verifier InstructionFactory 1 42
+coupling due to link   --- 0.041666666666666664
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+Pass2Verifier InstructionHandle 1 24
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+Pass2Verifier InstructionList 1 66
+coupling due to link   --- 0.014492753623188406
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+Pass2Verifier MethodGen 1 69
+coupling due to link   --- 0.058823529411764705
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+Pass2Verifier Type 1 17
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.verifier.statics org.apache.bcel.util
+Pass2Verifier ClassPath 1 26
+coupling due to link   --- 0.03571428571428571
+org.apache.bcel.verifier.statics org.apache.bcel.util
+Pass2Verifier Repository 1 28
+coupling due to link   --- 0.017857142857142856
+org.apache.bcel.verifier.statics org.apache.bcel.verifier.exc
+Pass2Verifier Utility 1 56
+coupling due to link   --- 0.25
+org.apache.bcel.verifier.statics org.apache.bcel.verifier
+Pass2Verifier PassVerifier 1 4
+coupling due to link   --- 0.125
+org.apache.bcel.verifier.statics org.apache.bcel.verifier.structurals
+Pass2Verifier InstructionContext 1 8
+coupling due to link   --- 0.08333333333333333
+org.apache.bcel.verifier.statics org.apache.bcel.verifier.structurals
+Pass2Verifier LocalVariables 1 12
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.verifier.statics org.apache.bcel.verifier.structurals
+Pass2Verifier Pass3bVerifier 1 11
+coupling due to link   --- 0.5
+org.apache.bcel.verifier.statics org.apache.bcel.verifier
+Pass2Verifier VerificationResult 3 6
+coupling due to link   --- 0.2222222222222222
+org.apache.bcel.verifier.statics org.apache.bcel.verifier
+Pass2Verifier Verifier 2 9
+coupling due to link   --- 0.1
+org.apache.bcel.verifier.statics org.apache.bcel.verifier
+Pass2Verifier VerifierAppFrame 1 10
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.verifier.statics org.apache.bcel.verifier
+Pass2Verifier VerifierFactory 1 6
+ 
+coupling due to link   --- 0.05405405405405406
+org.apache.bcel.verifier.statics org.apache.bcel.classfile
+Pass3aVerifier AccessFlags 2 37
+coupling due to link   --- 0.05263157894736842
+org.apache.bcel.verifier.statics org.apache.bcel.classfile
+Pass3aVerifier Method 1 19
+coupling due to link   --- 0.0196078431372549
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+Pass3aVerifier ClassGen 1 51
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+Pass3aVerifier InstructionFactory 1 42
+coupling due to link   --- 0.041666666666666664
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+Pass3aVerifier InstructionHandle 1 24
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+Pass3aVerifier InstructionList 1 66
+coupling due to link   --- 0.05555555555555555
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+Pass3aVerifier LocalVariableGen 1 18
+coupling due to link   --- 0.014492753623188406
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+Pass3aVerifier MethodGen 1 69
+coupling due to link   --- 0.2
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+Pass3aVerifier ReturnaddressType 1 5
+coupling due to link   --- 0.2
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+Pass3aVerifier TABLESWITCH 1 5
+coupling due to link   --- 0.03571428571428571
+org.apache.bcel.verifier.statics org.apache.bcel.util
+Pass3aVerifier Repository 1 28
+coupling due to link   --- 0.005681818181818182
+org.apache.bcel.verifier.statics org.apache.bcel.verifier.structurals
+Pass3aVerifier InstConstraintVisitor 1 176
+coupling due to link   --- 0.125
+org.apache.bcel.verifier.statics org.apache.bcel.verifier.structurals
+Pass3aVerifier InstructionContext 1 8
+coupling due to link   --- 0.5
+org.apache.bcel.verifier.statics org.apache.bcel.verifier
+Pass3aVerifier VerificationResult 3 6
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.verifier.statics org.apache.bcel.verifier
+Pass3aVerifier VerifierFactoryListModel 1 6
+ 
+coupling due to link   --- 0.2972972972972973
+org.apache.bcel.verifier.statics org.apache.bcel.classfile
+StringRepresentation AccessFlags 11 37
+coupling due to link   --- 0.2
+org.apache.bcel.verifier.statics org.apache.bcel.classfile
+StringRepresentation ConstantCP 2 10
+coupling due to link   --- 0.1111111111111111
+org.apache.bcel.verifier.statics org.apache.bcel.classfile
+StringRepresentation ConstantValue 1 9
+coupling due to link   --- 0.02702702702702703
+org.apache.bcel.verifier.statics org.apache.bcel.classfile
+StringRepresentation DescendingVisitor 1 37
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.verifier.statics org.apache.bcel.classfile
+StringRepresentation ExceptionTable 1 11
+coupling due to link   --- 0.07142857142857142
+org.apache.bcel.verifier.statics org.apache.bcel.classfile
+StringRepresentation Field 1 14
+coupling due to link   --- 0.1875
+org.apache.bcel.verifier.statics org.apache.bcel.classfile
+StringRepresentation InnerClass 3 16
+coupling due to link   --- 0.1111111111111111
+org.apache.bcel.verifier.statics org.apache.bcel.classfile
+StringRepresentation InnerClasses 1 9
+coupling due to link   --- 0.03333333333333333
+org.apache.bcel.verifier.statics org.apache.bcel.classfile
+StringRepresentation JavaClass 2 60
+coupling due to link   --- 0.05263157894736842
+org.apache.bcel.verifier.statics org.apache.bcel.classfile
+StringRepresentation Method 1 19
+coupling due to link   --- 0.1111111111111111
+org.apache.bcel.verifier.statics org.apache.bcel.classfile
+StringRepresentation StackMap 1 9
+coupling due to link   --- 0.125
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+StringRepresentation ArrayType 1 8
+coupling due to link   --- 0.058823529411764705
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+StringRepresentation ClassGen 3 51
+coupling due to link   --- 0.07142857142857142
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+StringRepresentation CodeExceptionGen 1 14
+coupling due to link   --- 0.024390243902439025
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+StringRepresentation ConstantPoolGen 1 41
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+StringRepresentation InstructionFactory 1 42
+coupling due to link   --- 0.041666666666666664
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+StringRepresentation InstructionHandle 1 24
+coupling due to link   --- 0.07246376811594203
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+StringRepresentation MethodGen 5 69
+coupling due to link   --- 0.2
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+StringRepresentation TABLESWITCH 1 5
+coupling due to link   --- 0.11764705882352941
+org.apache.bcel.verifier.statics org.apache.bcel.generic
+StringRepresentation Type 2 17
+coupling due to link   --- 0.23076923076923078
+org.apache.bcel.verifier.statics org.apache.bcel.util
+StringRepresentation BCELifier 3 13
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.verifier.statics org.apache.bcel.util
+StringRepresentation ByteSequence 1 6
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.verifier.statics org.apache.bcel.util
+StringRepresentation ClassPath 1 26
+coupling due to link   --- 0.03571428571428571
+org.apache.bcel.verifier.statics org.apache.bcel.util
+StringRepresentation Repository 1 28
+coupling due to link   --- 0.03571428571428571
+org.apache.bcel.verifier.statics org.apache.bcel.verifier.exc
+StringRepresentation Utility 2 56
+coupling due to link   --- 0.25
+org.apache.bcel.verifier.statics org.apache.bcel.verifier
+StringRepresentation PassVerifier 1 4
+coupling due to link   --- 0.125
+org.apache.bcel.verifier.statics org.apache.bcel.verifier.structurals
+StringRepresentation InstructionContext 1 8
+coupling due to link   --- 0.10526315789473684
+org.apache.bcel.verifier.statics org.apache.bcel.verifier.structurals
+StringRepresentation OperandStack 2 19
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.verifier.statics org.apache.bcel.verifier.structurals
+StringRepresentation Pass3bVerifier 1 11
+coupling due to link   --- 0.047619047619047616
+org.apache.bcel.verifier.statics org.apache.bcel.verifier.structurals
+StringRepresentation Subroutines 1 21
+coupling due to link   --- 0.5
+org.apache.bcel.verifier.statics org.apache.bcel.verifier
+StringRepresentation VerificationResult 3 6
+coupling due to link   --- 0.2222222222222222
+org.apache.bcel.verifier.statics org.apache.bcel.verifier
+StringRepresentation Verifier 2 9
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.verifier.statics org.apache.bcel.verifier
+StringRepresentation VerifierFactory 1 6
+ 
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+ControlFlowGraph InstructionList 1 66
+coupling due to link   --- 0.25
+org.apache.bcel.verifier.structurals org.apache.bcel.util
+ControlFlowGraph ClassVector 1 4
+coupling due to link   --- 0.25
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier.exc
+ControlFlowGraph VerifierConstraintViolatedException 1 4
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier
+ControlFlowGraph VerificationResult 1 6
+ 
+coupling due to link   --- 0.21428571428571427
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+ExceptionHandlers CodeExceptionGen 3 14
+coupling due to link   --- 0.041666666666666664
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+ExceptionHandlers InstructionHandle 1 24
+ 
+coupling due to link   --- 0.10810810810810811
+org.apache.bcel.verifier.structurals org.apache.bcel.classfile
+InstConstraintVisitor AccessFlags 4 37
+coupling due to link   --- 0.03333333333333333
+org.apache.bcel.verifier.structurals org.apache.bcel.classfile
+InstConstraintVisitor JavaClass 2 60
+coupling due to link   --- 0.25
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+InstConstraintVisitor ArrayType 2 8
+coupling due to link   --- 0.058823529411764705
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+InstConstraintVisitor ClassGen 3 51
+coupling due to link   --- 0.024390243902439025
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+InstConstraintVisitor ConstantPoolGen 1 41
+coupling due to link   --- 0.2857142857142857
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+InstConstraintVisitor FieldInstruction 2 7
+coupling due to link   --- 0.041666666666666664
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+InstConstraintVisitor FieldOrMethod 1 24
+coupling due to link   --- 0.047619047619047616
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+InstConstraintVisitor Instruction 1 21
+coupling due to link   --- 0.1111111111111111
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+InstConstraintVisitor InvokeInstruction 1 9
+coupling due to link   --- 0.1111111111111111
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+InstConstraintVisitor INVOKEINTERFACE 1 9
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+InstConstraintVisitor MULTIANEWARRAY 1 11
+coupling due to link   --- 0.2
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+InstConstraintVisitor NEW 1 5
+coupling due to link   --- 0.1
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+InstConstraintVisitor NEWARRAY 1 10
+coupling due to link   --- 0.2
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+InstConstraintVisitor ObjectType 2 10
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+InstConstraintVisitor ReferenceType 1 6
+coupling due to link   --- 0.07142857142857142
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+InstConstraintVisitor Select 1 14
+coupling due to link   --- 1.0
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+InstConstraintVisitor StackConsumer 1 1
+coupling due to link   --- 1.0
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+InstConstraintVisitor StackProducer 1 1
+coupling due to link   --- 0.11764705882352941
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+InstConstraintVisitor Type 2 17
+coupling due to link   --- 0.05263157894736842
+org.apache.bcel.verifier.structurals org.apache.bcel.util
+InstConstraintVisitor BCELFactory 1 19
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.verifier.structurals org.apache.bcel.util
+InstConstraintVisitor ByteSequence 1 6
+coupling due to link   --- 0.038461538461538464
+org.apache.bcel.verifier.structurals org.apache.bcel.util
+InstConstraintVisitor ClassPath 1 26
+coupling due to link   --- 0.10714285714285714
+org.apache.bcel.verifier.structurals org.apache.bcel.util
+InstConstraintVisitor Repository 3 28
+coupling due to link   --- 0.25
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier
+InstConstraintVisitor PassVerifier 1 4
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier.statics
+InstConstraintVisitor LocalVariableInfo 2 6
+coupling due to link   --- 0.06976744186046512
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier.statics
+InstConstraintVisitor Pass3aVerifier 3 43
+coupling due to link   --- 0.5
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier
+InstConstraintVisitor VerificationResult 3 6
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier
+InstConstraintVisitor Verifier 3 9
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier
+InstConstraintVisitor VerifierFactory 1 6
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier
+InstConstraintVisitor VerifierFactoryListModel 1 6
+ 
+coupling due to link   --- 0.1
+org.apache.bcel.verifier.structurals org.apache.bcel.classfile
+InstructionContext ConstantCP 1 10
+coupling due to link   --- 0.07142857142857142
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+InstructionContext CodeExceptionGen 1 14
+coupling due to link   --- 0.07142857142857142
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+InstructionContext Select 1 14
+coupling due to link   --- 0.2
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+InstructionContext TABLESWITCH 1 5
+coupling due to link   --- 0.25
+org.apache.bcel.verifier.structurals org.apache.bcel.util
+InstructionContext ClassVector 1 4
+coupling due to link   --- 0.25
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier.exc
+InstructionContext VerifierConstraintViolatedException 1 4
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier
+InstructionContext VerificationResult 2 6
+ 
+coupling due to link   --- 0.014492753623188406
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+OperandStack MethodGen 1 69
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+OperandStack ReferenceType 1 6
+coupling due to link   --- 0.25
+org.apache.bcel.verifier.structurals org.apache.bcel.util
+OperandStack ClassStack 1 4
+coupling due to link   --- 0.03571428571428571
+org.apache.bcel.verifier.structurals org.apache.bcel.util
+OperandStack Repository 1 28
+coupling due to link   --- 0.3333333333333333
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier
+OperandStack VerificationResult 2 6
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier
+OperandStack VerifierFactoryListModel 1 6
+ 
+coupling due to link   --- 0.08108108108108109
+org.apache.bcel.verifier.structurals org.apache.bcel.classfile
+Pass3bVerifier AccessFlags 3 37
+coupling due to link   --- 0.05263157894736842
+org.apache.bcel.verifier.structurals org.apache.bcel.classfile
+Pass3bVerifier Method 1 19
+coupling due to link   --- 0.0196078431372549
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+Pass3bVerifier ClassGen 1 51
+coupling due to link   --- 0.21428571428571427
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+Pass3bVerifier CodeExceptionGen 3 14
+coupling due to link   --- 0.023809523809523808
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+Pass3bVerifier InstructionFactory 1 42
+coupling due to link   --- 0.125
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+Pass3bVerifier InstructionHandle 3 24
+coupling due to link   --- 0.045454545454545456
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+Pass3bVerifier InstructionList 3 66
+coupling due to link   --- 0.07246376811594203
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+Pass3bVerifier MethodGen 5 69
+coupling due to link   --- 0.07142857142857142
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+Pass3bVerifier Select 1 14
+coupling due to link   --- 0.058823529411764705
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+Pass3bVerifier Type 1 17
+coupling due to link   --- 0.25
+org.apache.bcel.verifier.structurals org.apache.bcel.util
+Pass3bVerifier ClassVector 1 4
+coupling due to link   --- 0.03571428571428571
+org.apache.bcel.verifier.structurals org.apache.bcel.util
+Pass3bVerifier Repository 1 28
+coupling due to link   --- 0.017857142857142856
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier.exc
+Pass3bVerifier Utility 1 56
+coupling due to link   --- 0.25
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier.exc
+Pass3bVerifier VerifierConstraintViolatedException 1 4
+coupling due to link   --- 0.25
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier
+Pass3bVerifier PassVerifier 1 4
+coupling due to link   --- 0.6666666666666666
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier.statics
+Pass3bVerifier LocalVariableInfo 4 6
+coupling due to link   --- 0.25
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier.statics
+Pass3bVerifier Pass1Verifier 1 4
+coupling due to link   --- 0.5
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier
+Pass3bVerifier VerificationResult 3 6
+coupling due to link   --- 0.1111111111111111
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier
+Pass3bVerifier Verifier 1 9
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier
+Pass3bVerifier VerifierFactoryListModel 1 6
+ 
+coupling due to link   --- 0.07142857142857142
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+Subroutines CodeExceptionGen 1 14
+coupling due to link   --- 0.041666666666666664
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+Subroutines InstructionHandle 1 24
+coupling due to link   --- 0.06060606060606061
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+Subroutines InstructionList 4 66
+coupling due to link   --- 0.2
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+Subroutines ReturnaddressType 1 5
+coupling due to link   --- 0.5
+org.apache.bcel.verifier.structurals org.apache.bcel.generic
+Subroutines TargetLostException 1 2
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.verifier.structurals org.apache.bcel.util
+Subroutines ByteSequence 1 6
+coupling due to link   --- 0.25
+org.apache.bcel.verifier.structurals org.apache.bcel.util
+Subroutines ClassVector 1 4
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier
+Subroutines VerificationResult 1 6
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier
+Subroutines VerifierFactoryListModel 1 6
+ 
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier
+UninitializedObjectType VerificationResult 1 6
+coupling due to link   --- 0.1111111111111111
+org.apache.bcel.verifier.structurals org.apache.bcel.verifier
+UninitializedObjectType Verifier 1 9
+ 
+coupling due to link   --- 0.05405405405405406
+org.apache.bcel.verifier org.apache.bcel.classfile
+VerificationResult AccessFlags 2 37
+coupling due to link   --- 0.1
+org.apache.bcel.verifier org.apache.bcel.classfile
+VerificationResult ConstantCP 1 10
+coupling due to link   --- 0.125
+org.apache.bcel.verifier org.apache.bcel.classfile
+VerificationResult ConstantPool 2 16
+coupling due to link   --- 0.1
+org.apache.bcel.verifier org.apache.bcel.classfile
+VerificationResult ConstantString 1 10
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.verifier org.apache.bcel.classfile
+VerificationResult ExceptionTable 1 11
+coupling due to link   --- 0.07142857142857142
+org.apache.bcel.verifier org.apache.bcel.classfile
+VerificationResult Field 1 14
+coupling due to link   --- 0.047619047619047616
+org.apache.bcel.verifier org.apache.bcel.classfile
+VerificationResult LocalVariable 1 21
+coupling due to link   --- 0.05263157894736842
+org.apache.bcel.verifier org.apache.bcel.classfile
+VerificationResult Method 1 19
+coupling due to link   --- 0.15384615384615385
+org.apache.bcel.verifier org.apache.bcel.classfile
+VerificationResult PMGClass 2 13
+coupling due to link   --- 0.1
+org.apache.bcel.verifier org.apache.bcel.classfile
+VerificationResult SourceFile 1 10
+coupling due to link   --- 0.07692307692307693
+org.apache.bcel.verifier org.apache.bcel.classfile
+VerificationResult StackMapType 1 13
+coupling due to link   --- 0.06666666666666667
+org.apache.bcel.verifier org.apache.bcel.generic
+VerificationResult BranchInstruction 1 15
+coupling due to link   --- 0.21568627450980393
+org.apache.bcel.verifier org.apache.bcel.generic
+VerificationResult ClassGen 11 51
+coupling due to link   --- 0.14285714285714285
+org.apache.bcel.verifier org.apache.bcel.generic
+VerificationResult CodeExceptionGen 2 14
+coupling due to link   --- 0.024390243902439025
+org.apache.bcel.verifier org.apache.bcel.generic
+VerificationResult ConstantPoolGen 1 41
+coupling due to link   --- 0.06896551724137931
+org.apache.bcel.verifier org.apache.bcel.generic
+VerificationResult FieldGen 2 29
+coupling due to link   --- 0.047619047619047616
+org.apache.bcel.verifier org.apache.bcel.generic
+VerificationResult InstructionFactory 2 42
+coupling due to link   --- 0.125
+org.apache.bcel.verifier org.apache.bcel.generic
+VerificationResult InstructionHandle 3 24
+coupling due to link   --- 0.045454545454545456
+org.apache.bcel.verifier org.apache.bcel.generic
+VerificationResult InstructionList 3 66
+coupling due to link   --- 0.1111111111111111
+org.apache.bcel.verifier org.apache.bcel.generic
+VerificationResult LocalVariableGen 2 18
+coupling due to link   --- 0.15942028985507245
+org.apache.bcel.verifier org.apache.bcel.generic
+VerificationResult MethodGen 11 69
+coupling due to link   --- 0.1
+org.apache.bcel.verifier org.apache.bcel.generic
+VerificationResult NEWARRAY 1 10
+coupling due to link   --- 0.5
+org.apache.bcel.verifier org.apache.bcel.generic
+VerificationResult TargetLostException 1 2
+coupling due to link   --- 0.23529411764705882
+org.apache.bcel.verifier org.apache.bcel.generic
+VerificationResult Type 4 17
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.verifier org.apache.bcel.util
+VerificationResult ByteSequence 1 6
+coupling due to link   --- 0.07692307692307693
+org.apache.bcel.verifier org.apache.bcel.util
+VerificationResult ClassPath 2 26
+coupling due to link   --- 0.25
+org.apache.bcel.verifier org.apache.bcel.util
+VerificationResult ClassVector 1 4
+coupling due to link   --- 0.14285714285714285
+org.apache.bcel.verifier org.apache.bcel.verifier.exc
+VerificationResult Utility 8 56
+coupling due to link   --- 0.6666666666666666
+org.apache.bcel.verifier org.apache.bcel.verifier.statics
+VerificationResult LocalVariableInfo 4 6
+coupling due to link   --- 0.05
+org.apache.bcel.verifier org.apache.bcel.verifier.structurals
+VerificationResult ControlFlowGraph 1 20
+coupling due to link   --- 0.25
+org.apache.bcel.verifier org.apache.bcel.verifier.structurals
+VerificationResult InstructionContext 2 8
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.verifier org.apache.bcel.verifier.structurals
+VerificationResult LocalVariables 2 12
+coupling due to link   --- 0.10526315789473684
+org.apache.bcel.verifier org.apache.bcel.verifier.structurals
+VerificationResult OperandStack 2 19
+coupling due to link   --- 0.18181818181818182
+org.apache.bcel.verifier org.apache.bcel.verifier.structurals
+VerificationResult Pass3bVerifier 2 11
+ 
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.verifier org.apache.bcel.generic
+Verifier InstructionList 1 66
+coupling due to link   --- 0.25
+org.apache.bcel.verifier org.apache.bcel.util
+Verifier ClassVector 1 4
+coupling due to link   --- 0.08333333333333333
+org.apache.bcel.verifier org.apache.bcel.verifier.structurals
+Verifier LocalVariables 1 12
+coupling due to link   --- 0.05263157894736842
+org.apache.bcel.verifier org.apache.bcel.verifier.structurals
+Verifier OperandStack 1 19
+coupling due to link   --- 0.2727272727272727
+org.apache.bcel.verifier org.apache.bcel.verifier.structurals
+Verifier Pass3bVerifier 3 11
+ 
+coupling due to link   --- 0.0196078431372549
+org.apache.bcel.verifier org.apache.bcel.generic
+VerifierAppFrame ClassGen 1 51
+coupling due to link   --- 0.1
+org.apache.bcel.verifier org.apache.bcel.generic
+VerifierAppFrame LDC 1 10
+coupling due to link   --- 0.03571428571428571
+org.apache.bcel.verifier org.apache.bcel.util
+VerifierAppFrame Repository 1 28
+coupling due to link   --- 0.017857142857142856
+org.apache.bcel.verifier org.apache.bcel.verifier.exc
+VerifierAppFrame Utility 1 56
+coupling due to link   --- 0.18181818181818182
+org.apache.bcel.verifier org.apache.bcel.verifier.structurals
+VerifierAppFrame Pass3bVerifier 2 11
+ 
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.verifier org.apache.bcel.generic
+VerifierFactory InstructionList 1 66
+coupling due to link   --- 0.25
+org.apache.bcel.verifier org.apache.bcel.util
+VerifierFactory ClassVector 1 4
+coupling due to link   --- 0.08333333333333333
+org.apache.bcel.verifier org.apache.bcel.verifier.structurals
+VerifierFactory LocalVariables 1 12
+coupling due to link   --- 0.2727272727272727
+org.apache.bcel.verifier org.apache.bcel.verifier.structurals
+VerifierFactory Pass3bVerifier 3 11
+ 
+coupling due to link   --- 0.25
+org.apache.bcel.verifier org.apache.bcel.util
+VerifierFactoryListModel ClassVector 1 4
+coupling due to link   --- 0.017857142857142856
+org.apache.bcel.verifier org.apache.bcel.verifier.exc
+VerifierFactoryListModel Utility 1 56
+coupling due to link   --- 0.2727272727272727
+org.apache.bcel.verifier org.apache.bcel.verifier.structurals
+VerifierFactoryListModel Pass3bVerifier 3 11
+ 
+coupling due to link   --- 0.0196078431372549
+org.apache.bcel.verifier org.apache.bcel.generic
+VerifierFactoryObserver ClassGen 1 51
+coupling due to link   --- 0.015151515151515152
+org.apache.bcel.verifier org.apache.bcel.generic
+VerifierFactoryObserver InstructionList 1 66
+coupling due to link   --- 0.03571428571428571
+org.apache.bcel.verifier org.apache.bcel.util
+VerifierFactoryObserver Repository 1 28
+coupling due to link   --- 0.05263157894736842
+org.apache.bcel.verifier org.apache.bcel.verifier.structurals
+VerifierFactoryObserver OperandStack 1 19
+coupling due to link   --- 0.18181818181818182
+org.apache.bcel.verifier org.apache.bcel.verifier.structurals
+VerifierFactoryObserver Pass3bVerifier 2 11
+ 
+coupling due to link   --- 0.08333333333333333
+org.apache.bcel.verifier org.apache.bcel.classfile
+VerifyDialog ClassParser 1 12
+coupling due to link   --- 0.016666666666666666
+org.apache.bcel.verifier org.apache.bcel.classfile
+VerifyDialog JavaClass 1 60
+coupling due to link   --- 0.0196078431372549
+org.apache.bcel.verifier org.apache.bcel.generic
+VerifyDialog ClassGen 1 51
+coupling due to link   --- 0.1
+org.apache.bcel.verifier org.apache.bcel.generic
+VerifyDialog LDC 1 10
+coupling due to link   --- 0.07692307692307693
+org.apache.bcel.verifier org.apache.bcel.util
+VerifyDialog BCELifier 1 13
+coupling due to link   --- 0.2
+org.apache.bcel.verifier org.apache.bcel.util
+VerifyDialog JavaWrapper 1 5
+coupling due to link   --- 0.07142857142857142
+org.apache.bcel.verifier org.apache.bcel.util
+VerifyDialog Repository 2 28
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.verifier org.apache.bcel.util
+VerifyDialog SyntheticRepository 1 11
+coupling due to link   --- 0.017857142857142856
+org.apache.bcel.verifier org.apache.bcel.verifier.exc
+VerifyDialog Utility 1 56
+coupling due to link   --- 0.25
+org.apache.bcel.verifier org.apache.bcel.verifier.exc
+VerifyDialog VerifierConstraintViolatedException 1 4
+coupling due to link   --- 0.16666666666666666
+org.apache.bcel.verifier org.apache.bcel.verifier.statics
+VerifyDialog LocalVariableInfo 1 6
+coupling due to link   --- 0.09090909090909091
+org.apache.bcel.verifier org.apache.bcel.verifier.structurals
+VerifyDialog Pass3bVerifier 1 11
+ 
+classes per packageorg.apache.bcel.classfile44
+classes per packageorg.apache.bcel2
+classes per packageorg.apache.bcel.generic219
+classes per packageorg.apache.bcel.util21
+classes per packageorg.apache.bcel.verifier.exc15
+classes per packageorg.apache.bcel.verifier11
+classes per packageorg.apache.bcel.verifier.statics9
+classes per packageorg.apache.bcel.verifier.structurals14

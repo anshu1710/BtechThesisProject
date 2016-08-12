@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!-- Testcases for ECS -->
+<!-- The basic ecs-build does not build test classes -->
+<!-- So we must build these before running our tests -->
+<project name="test-ecs" default="everything">
+
+    <!-- Calling scripts should overide this -->
+    <property name="ecs.jar" value="ecs.jar"/>
+
+    <!-- Calling scripts might like to overide -->
+    <property name="build.compiler" value="classic"/>
+    <property name="build.dir" value="../bin"/>
+    <property name="debug" value="off"/>
+    <property name="optimize" value="on"/>
+    <property name="deprecation" value="off"/>
+    
+    
+    <!-- Calling script probably shouldn't be overriding these -->
+    <property name="test.base" value="../test/java"/>
+    <property name="test.build.dir" value="${build.dir}/test"/>
+    <property name="test.build.jar" value="${build.dir}/ecs-test.jar"/>
+    <property name="test.build.src" value="${test.build.dir}/src" />
+    <property name="test.build.dest" value="${test.build.dir}/classes" />
+
+
+    <path id="classpath">
+        <fileset dir="../lib">
+            <include name="**/*.jar"/>
+        </fileset>
+        <pathelement location="${test.build.jar}"/>
+        <pathelement location="${ecs.jar}"/>
+    </path>
+    
+
+    <!-- Copy java files over -->
+    <target name="copy-test">
+        <mkdir dir="${test.build.src}"/>
+        <mkdir dir="${test.build.dest}"/>
+        <copy toDir="${test.build.src}">
+             <fileset dir="${test.base}"/>
+        </copy>
+    </target >
+    
+     <!-- Compile test classes -->
+    <target name="compile-test" depends="copy-test">
+        <javac srcdir="${test.build.src}"
+            destdir="${test.build.dest}"
+            excludes="**/package.html"
+            debug="${debug}"
+            deprecation="${deprecation}"
+            optimize="${optimize}">
+
+            <classpath refid="classpath"/>
+        </javac>
+        
+        <copy todir="${test.build.dest}/org" filtering="yes">
+            <fileset dir="${test.build.src}/org">
+                <include name="**/*.txt"/>
+            </fileset>
+        </copy>
+    </target>  
+    
+    <!-- Create ecs-test jar -->
+    <target name="jar-test" depends="compile-test">
+        <jar jarfile="${test.build.jar}"
+            basedir="${test.build.dest}"
+            excludes="**/package.html"
+        />    
+    </target>
+    
+    <target name="test-int-chars" depends="jar-test">
+        <echo message="testing international characters"/>
+        <junit printsummary="no" haltonfailure="yes" fork="false">
+            <classpath refid="classpath"/>
+            <formatter type="plain" usefile="false" />
+            <test name="org.apache.ecs.InternationalCharTest" />
+        </junit>
+    </target>
+
+    <target name="test-all" depends="
+                                jar-test,
+                                test-int-chars">
+        <echo message="Completed tests"/>
+    </target>
+
+    <target name="everything" depends="test-all"/>
+
+</project>

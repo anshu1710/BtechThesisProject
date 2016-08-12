@@ -1,0 +1,178 @@
+coupling due to link   --- 0.125
+workzen.xgen.ant workzen.xgen.model.java
+VEGenerator XGenException 1 8
+coupling due to link   --- 0.028985507246376812
+workzen.xgen.ant workzen.xgen.test.persistence.bean
+VEGenerator TypeBean 2 69
+ 
+coupling due to link   --- 0.14285714285714285
+workzen.xgen.ant workzen.xgen.test
+VETexenTask OracleBlobDemo 1 7
+ 
+coupling due to link   --- 0.03571428571428571
+workzen.xgen.ant workzen.xgen.model.java
+XGenTask Column 1 28
+coupling due to link   --- 0.125
+workzen.xgen.ant workzen.xgen.model.java
+XGenTask XGenException 1 8
+coupling due to link   --- 0.014492753623188406
+workzen.xgen.ant workzen.xgen.test.persistence.bean
+XGenTask TypeBean 1 69
+ 
+coupling due to link   --- 0.15384615384615385
+workzen.xgen.loader workzen.xgen.model.java
+XGenLoader Collection 2 13
+coupling due to link   --- 0.32142857142857145
+workzen.xgen.loader workzen.xgen.model.java
+XGenLoader Column 9 28
+coupling due to link   --- 0.16666666666666666
+workzen.xgen.loader workzen.xgen.model.java
+XGenLoader Field 4 24
+coupling due to link   --- 0.02631578947368421
+workzen.xgen.loader workzen.xgen.model.java
+XGenLoader JavaClass 1 38
+coupling due to link   --- 0.2222222222222222
+workzen.xgen.loader workzen.xgen.model.java
+XGenLoader Reference 2 9
+coupling due to link   --- 0.08333333333333333
+workzen.xgen.loader workzen.xgen.model.java
+XGenLoader Type 1 12
+coupling due to link   --- 0.5
+workzen.xgen.loader workzen.xgen.model.java
+XGenLoader TypeMap 1 2
+ 
+coupling due to link   --- 0.125
+workzen.xgen.loader workzen.xgen.model.java
+XmlDocLoader XGenException 1 8
+ 
+coupling due to link   --- 0.17391304347826086
+workzen.xgen.model.java.file workzen.xgen.ant
+TextFile VEGenerator 4 23
+coupling due to link   --- 0.014492753623188406
+workzen.xgen.model.java.file workzen.xgen.test.persistence.bean
+TextFile TypeBean 1 69
+ 
+coupling due to link   --- 0.014492753623188406
+workzen.xgen.model.java workzen.xgen.test.persistence.bean
+JavaClass TypeBean 1 69
+ 
+coupling due to link   --- 0.014492753623188406
+workzen.xgen.model.java workzen.xgen.test.persistence.bean
+Type TypeBean 1 69
+ 
+coupling due to link   --- 0.14285714285714285
+workzen.xgen.model.java workzen.xgen.test
+TypeMap OracleBlobDemo 1 7
+ 
+coupling due to link   --- 0.125
+workzen.xgen.model.java.xml workzen.xgen.model.java
+XmlDoc XGenException 1 8
+ 
+coupling due to link   --- 0.07142857142857142
+workzen.xgen.test workzen.xgen.test.persistence.bean
+LoaderTest LobTest 1 14
+ 
+coupling due to link   --- 0.15384615384615385
+workzen.xgen.test workzen.xgen.util
+OracleBlobDemo SqlUtil 2 13
+ 
+coupling due to link   --- 0.125
+workzen.xgen.test.persistence.bean workzen.xgen.model.java
+LobTest XGenException 1 8
+ 
+coupling due to link   --- 0.5
+workzen.xgen.test.persistence.bean workzen.xgen.ant
+TypeBean VETexenTask 1 2
+coupling due to link   --- 0.5714285714285714
+workzen.xgen.test.persistence.bean workzen.xgen.loader
+TypeBean XGenLoader 4 7
+coupling due to link   --- 0.5
+workzen.xgen.test.persistence.bean workzen.xgen.loader
+TypeBean XmlDocLoader 1 2
+coupling due to link   --- 0.08333333333333333
+workzen.xgen.test.persistence.bean workzen.xgen.model.java
+TypeBean Field 2 24
+coupling due to link   --- 0.2894736842105263
+workzen.xgen.test.persistence.bean workzen.xgen.model.java
+TypeBean JavaClass 11 38
+coupling due to link   --- 0.125
+workzen.xgen.test.persistence.bean workzen.xgen.model.java
+TypeBean Package 1 8
+coupling due to link   --- 0.16666666666666666
+workzen.xgen.test.persistence.bean workzen.xgen.model.java
+TypeBean Type 2 12
+coupling due to link   --- 0.2
+workzen.xgen.test.persistence.bean workzen.xgen.util
+TypeBean DateUtil 1 5
+coupling due to link   --- 0.15384615384615385
+workzen.xgen.test.persistence.bean workzen.xgen.util
+TypeBean SqlUtil 2 13
+ 
+coupling due to link   --- 0.125
+workzen.xgen.test.persistence.bean workzen.xgen.model.java
+TypeUnitTest XGenException 1 8
+coupling due to link   --- 0.25
+workzen.xgen.test.persistence.bean workzen.xgen.util
+TypeUnitTest Timer 1 4
+ 
+coupling due to link   --- 0.043478260869565216
+workzen.xgen.test.velocity workzen.xgen.ant
+TestCase1 VEGenerator 1 23
+coupling due to link   --- 0.2
+workzen.xgen.test.velocity workzen.xgen.model.java.file
+TestCase1 TextFile 1 5
+coupling due to link   --- 0.125
+workzen.xgen.test.velocity workzen.xgen.model.java
+TestCase1 XGenException 1 8
+coupling due to link   --- 0.14285714285714285
+workzen.xgen.test.velocity workzen.xgen.test
+TestCase1 OracleBlobDemo 1 7
+ 
+coupling due to link   --- 0.2608695652173913
+workzen.xgen.test.velocity workzen.xgen.ant
+VelocityTest VEGenerator 6 23
+coupling due to link   --- 0.125
+workzen.xgen.test.velocity workzen.xgen.model.java
+VelocityTest Package 1 8
+coupling due to link   --- 0.125
+workzen.xgen.test.velocity workzen.xgen.model.java
+VelocityTest XGenException 1 8
+coupling due to link   --- 0.2857142857142857
+workzen.xgen.test.velocity workzen.xgen.test
+VelocityTest OracleBlobDemo 2 7
+coupling due to link   --- 0.07142857142857142
+workzen.xgen.test.velocity workzen.xgen.test.persistence.bean
+VelocityTest LobTest 1 14
+coupling due to link   --- 0.043478260869565216
+workzen.xgen.test.velocity workzen.xgen.test.persistence.bean
+VelocityTest TypeBean 3 69
+coupling due to link   --- 0.13333333333333333
+workzen.xgen.test.velocity workzen.xgen.test.persistence.bean
+VelocityTest TypeUnitTest 2 15
+ 
+coupling due to link   --- 0.125
+workzen.xgen.util workzen.xgen.model.java
+SqlUtil XGenException 1 8
+coupling due to link   --- 0.014492753623188406
+workzen.xgen.util workzen.xgen.test.persistence.bean
+SqlUtil TypeBean 1 69
+ 
+classes per packageworkzen.xgen.ant3
+classes per packageworkzen.xgen.loader4
+classes per packageworkzen.xgen.model.java9
+classes per packageworkzen.xgen.model.java.file1
+classes per packageworkzen.xgen.model.java.xml1
+classes per packageworkzen.xgen.test2
+classes per packageworkzen.xgen.test.persistence.bean4
+classes per packageworkzen.xgen.test.velocity3
+classes per packageworkzen.xgen.util3
+
+,("workzen.xgen.ant",3)
+,("workzen.xgen.loader",4)
+,("workzen.xgen.model.java",9)
+,("workzen.xgen.model.java.file",1)
+,("workzen.xgen.model.java.xml",1)
+,("workzen.xgen.test",2)
+,("workzen.xgen.test.persistence.bean",4)
+,("workzen.xgen.test.velocity",3)
+,("workzen.xgen.util",3)
